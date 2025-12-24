@@ -1,0 +1,516 @@
+[
+    {
+        "id": 1,
+        "name": "Pulau Pramuka",
+        "slug": "pulau-pramuka",
+        "description": "Island dengan pantai pasir putih dan aktivitas snorkeling terbaik",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+        "packages": [
+            {
+                "id": "pramuka-1day",
+                "duration": "1 Day Trip",
+                "durationCode": "1day",
+                "durationInDays": 1,
+                "price": 350000,
+                "description": "Jelajahi keindahan Pulau Pramuka dalam sehari penuh",
+                "facilities": [
+                    "Transportasi kapal",
+                    "Snorkeling equipment",
+                    "Makan siang",
+                    "Pemandu wisata berpengalaman",
+                    "Asuransi perjalanan",
+                    "Dokumentasi foto"
+                ],
+                "destinations": [
+                    "Pantai pasir putih",
+                    "Spot snorkeling",
+                    "Pulau burung",
+                    "Hutan mangrove"
+                ],
+                "meals": ["Dengan makan siang", "Tanpa makan siang"],
+                "highlights": [
+                    "Snorkeling di spot terbaik",
+                    "Melihat terumbu karang",
+                    "Pantai pribadi"
+                ]
+            },
+            {
+                "id": "pramuka-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 650000,
+                "description": "Nikmati petualangan island hopping dan menginap di resort",
+                "facilities": [
+                    "Transportasi kapal",
+                    "Snorkeling equipment",
+                    "Penginapan resort (1 malam)",
+                    "Makan pagi, siang, dan malam",
+                    "Pemandu wisata berpengalaman",
+                    "Asuransi perjalanan",
+                    "Dokumentasi foto"
+                ],
+                "destinations": [
+                    "Pantai pasir putih",
+                    "Spot snorkeling utama",
+                    "Pulau burung",
+                    "Hutan mangrove",
+                    "Sunset cruise"
+                ],
+                "meals": ["All meals included", "Vegetarian option"],
+                "highlights": [
+                    "Snorkeling di area premium",
+                    "Melihat sunset dari pantai",
+                    "Menginap di resort eksklusif"
+                ]
+            },
+            {
+                "id": "pramuka-3d2n",
+                "duration": "3 Days 2 Nights",
+                "durationCode": "3d2n",
+                "durationInDays": 3,
+                "price": 950000,
+                "description": "Pengalaman lengkap dengan island hopping dan aktivitas petualangan",
+                "facilities": [
+                    "Transportasi kapal private",
+                    "Snorkeling equipment",
+                    "Penginapan resort deluxe (2 malam)",
+                    "Semua meals included",
+                    "Pemandu wisata berpengalaman dan berlisensi",
+                    "Asuransi perjalanan extended",
+                    "Dokumentasi profesional",
+                    "Welcome drink & towel"
+                ],
+                "destinations": [
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
+                    "Pulau burung",
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
+                ],
+                "meals": [
+                    "All meals with local specialties",
+                    "Vegetarian & vegan options available"
+                ],
+                "highlights": [
+                    "Snorkeling di 3 lokasi berbeda",
+                    "Island hopping adventure",
+                    "Water sports unlimited",
+                    "Menginap di resort bintang"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Pulau Untung Jawa",
+        "slug": "pulau-untung-jawa",
+        "description": "Destinasi populer dengan fasilitas lengkap dan pemandangan indah",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+        "packages": [
+            {
+                "id": "untungjawa-1day",
+                "duration": "1 Day Trip",
+                "durationCode": "1day",
+                "durationInDays": 1,
+                "price": 300000,
+                "description": "Wisata satu hari ke Pulau Untung Jawa",
+                "facilities": [
+                    "Transportasi kapal",
+                    "Makan siang",
+                    "Pemandu wisata",
+                    "Asuransi perjalanan",
+                    "Dokumentasi foto"
+                ],
+                "destinations": [
+                    "Resort area",
+                    "Pantai pasir putih",
+                    "Spot foto Instagram",
+                    "Taman laut"
+                ],
+                "meals": ["Dengan makan siang", "Tanpa makan siang"],
+                "highlights": [
+                    "Resort eksklusif",
+                    "Pantai yang nyaman",
+                    "Fasilitas lengkap"
+                ]
+            },
+            {
+                "id": "untungjawa-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 600000,
+                "description": "Paket 2 hari 1 malam dengan menginap di resort premium",
+                "facilities": [
+                    "Transportasi kapal",
+                    "Penginapan resort (1 malam)",
+                    "Makan pagi, siang, dan malam",
+                    "Pemandu wisata",
+                    "Asuransi perjalanan",
+                    "Dokumentasi foto",
+                    "Pool dan beach access"
+                ],
+                "destinations": [
+                    "Resort area",
+                    "Pantai pasir putih",
+                    "Spot foto Instagram",
+                    "Taman laut",
+                    "Bar dan lounge area"
+                ],
+                "meals": ["All meals included", "Vegetarian option"],
+                "highlights": [
+                    "Menginap di resort premium",
+                    "Akses pool unlimited",
+                    "Area pantai yang luas"
+                ]
+            },
+            {
+                "id": "untungjawa-3d2n",
+                "duration": "3 Days 2 Nights",
+                "durationCode": "3d2n",
+                "durationInDays": 3,
+                "price": 900000,
+                "description": "Paket ultimate dengan aktivitas lengkap di resort eksklusif",
+                "facilities": [
+                    "Transportasi kapal private",
+                    "Penginapan deluxe (2 malam)",
+                    "Semua meals included",
+                    "Pemandu wisata berpengalaman",
+                    "Asuransi perjalanan extended",
+                    "Dokumentasi profesional",
+                    "Water sports semua jenis",
+                    "Spa treatment 1x sesi"
+                ],
+                "destinations": [
+                    "Resort area deluxe",
+                    "Pantai pasir putih eksklusif",
+                    "Spot foto Instagram premium",
+                    "Taman laut dengan coral garden",
+                    "Bar dan lounge area VIP",
+                    "Water sports zone"
+                ],
+                "meals": [
+                    "All meals dengan menu spesial",
+                    "Vegetarian & vegan options"
+                ],
+                "highlights": [
+                    "Menginap di resort bintang",
+                    "Water sports unlimited",
+                    "Spa treatment included",
+                    "VIP lounge access"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Pulau Seribu",
+        "slug": "pulau-seribu",
+        "description": "Pulau dengan koleksi karang terlengkap dan kehidupan laut yang kaya",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+        "packages": [
+            {
+                "id": "seribu-1day",
+                "duration": "1 Day Trip",
+                "durationCode": "1day",
+                "durationInDays": 1,
+                "price": 280000,
+                "description": "Jelajahi kekayaan laut Pulau Seribu dalam sehari",
+                "facilities": [
+                    "Transportasi kapal",
+                    "Snorkeling equipment",
+                    "Makan siang sederhana",
+                    "Pemandu wisata",
+                    "Asuransi perjalanan"
+                ],
+                "destinations": [
+                    "Coral reef terbaik",
+                    "Spot snorkeling",
+                    "Pantai pasir putih"
+                ],
+                "meals": ["Dengan makan siang", "Tanpa makan siang"],
+                "highlights": [
+                    "Snorkeling di spot coral terbaik",
+                    "Melihat ikan-ikan tropis"
+                ]
+            },
+            {
+                "id": "seribu-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 550000,
+                "description": "Pengalaman diving dan snorkeling intensif",
+                "facilities": [
+                    "Transportasi kapal",
+                    "Snorkeling & diving equipment",
+                    "Penginapan sederhana (1 malam)",
+                    "Makan pagi, siang, dan malam",
+                    "Pemandu wisata & diving instructor",
+                    "Asuransi perjalanan"
+                ],
+                "destinations": [
+                    "Coral reef premium",
+                    "Spot snorkeling & diving",
+                    "Underwater garden",
+                    "Pantai pasir putih"
+                ],
+                "meals": ["All meals included", "Vegetarian option"],
+                "highlights": [
+                    "Diving di reef terbaik",
+                    "Melihat biodiversity laut",
+                    "Instruktur berpengalaman"
+                ]
+            },
+            {
+                "id": "seribu-3d2n",
+                "duration": "3 Days 2 Nights",
+                "durationCode": "3d2n",
+                "durationInDays": 3,
+                "price": 850000,
+                "description": "Paket diving comprehensive dengan training untuk pemula",
+                "facilities": [
+                    "Transportasi kapal private",
+                    "Professional diving equipment",
+                    "Penginapan dengan private room (2 malam)",
+                    "Semua meals included",
+                    "Instruktur diving tersertifikasi PADI",
+                    "Open water diving course option",
+                    "Dokumentasi underwater",
+                    "Marine guide dan biologist"
+                ],
+                "destinations": [
+                    "Coral reef terlengkap",
+                    "Spot diving deep water",
+                    "Underwater garden paradise",
+                    "Biodiversity hotspot",
+                    "Sunset dive experience"
+                ],
+                "meals": [
+                    "All meals dengan seafood spesial",
+                    "Vegetarian & vegan options"
+                ],
+                "highlights": [
+                    "PADI certification course",
+                    "Diving di 5+ lokasi berbeda",
+                    "Marine life photography",
+                    "Expert guide included"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Pulau Ayer",
+        "slug": "pulau-ayer",
+        "description": "Pulau tradisional dengan kehidupan nelayan lokal yang autentik",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+        "packages": [
+            {
+                "id": "ayer-1day",
+                "duration": "1 Day Trip",
+                "durationCode": "1day",
+                "durationInDays": 1,
+                "price": 250000,
+                "description": "Kunjungi Pulau Ayer dan rasakan kehidupan lokal",
+                "facilities": [
+                    "Transportasi kapal",
+                    "Makan siang lokal",
+                    "Pemandu wisata lokal",
+                    "Asuransi perjalanan"
+                ],
+                "destinations": [
+                    "Kampung nelayan",
+                    "Pantai alami",
+                    "Sekolah lokal (interaksi)"
+                ],
+                "meals": ["Dengan makan siang", "Tanpa makan siang"],
+                "highlights": [
+                    "Pengalaman budaya lokal",
+                    "Interaksi dengan masyarakat",
+                    "Makanan tradisional lezat"
+                ]
+            },
+            {
+                "id": "ayer-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 500000,
+                "description": "Immersive experience di kehidupan lokal dengan menginap",
+                "facilities": [
+                    "Transportasi kapal",
+                    "Penginapan rumah lokal yang nyaman (1 malam)",
+                    "Makan pagi, siang, dan malam tradisional",
+                    "Pemandu wisata lokal berpengalaman",
+                    "Asuransi perjalanan",
+                    "Fishing trip experience"
+                ],
+                "destinations": [
+                    "Kampung nelayan autentik",
+                    "Pantai alami",
+                    "Sekolah lokal & interaksi budaya",
+                    "Fishing village sunset",
+                    "Pasar lokal pagi"
+                ],
+                "meals": [
+                    "Authentic local meals",
+                    "Vegetarian option available"
+                ],
+                "highlights": [
+                    "Menginap dengan keluarga lokal",
+                    "Fishing experience",
+                    "Budaya & tradisi asli",
+                    "Makan makanan lokal"
+                ]
+            },
+            {
+                "id": "ayer-3d2n",
+                "duration": "3 Days 2 Nights",
+                "durationCode": "3d2n",
+                "durationInDays": 3,
+                "price": 750000,
+                "description": "Petualangan immersive dengan workshop budaya lokal",
+                "facilities": [
+                    "Transportasi kapal private",
+                    "Penginapan rumah lokal plus homestay modern (2 malam)",
+                    "Semua meals dari resep lokal",
+                    "Pemandu wisata & cultural expert",
+                    "Workshop tradisional (membuat jaring, kerajinan)",
+                    "Asuransi perjalanan extended",
+                    "Dokumentasi penting",
+                    "Market tour dan cooking class"
+                ],
+                "destinations": [
+                    "Kampung nelayan komprehensif",
+                    "Pantai alami pristine",
+                    "Sekolah lokal & interaksi mendalam",
+                    "Fishing village full experience",
+                    "Pasar tradisional pagi",
+                    "Kelapa processing center",
+                    "Sunset fishing experience"
+                ],
+                "meals": [
+                    "All meals authentic & homemade",
+                    "Cooking class included",
+                    "Vegetarian & vegan options"
+                ],
+                "highlights": [
+                    "Immersive cultural experience",
+                    "Fishing & workshop hands-on",
+                    "Cooking class dengan ibu lokal",
+                    "Interaksi mendalam dengan komunitas"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Pulau Onrust",
+        "slug": "pulau-onrust",
+        "description": "Pulau bersejarah dengan situs warisan budaya dan pemandangan laut yang menakjubkan",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+        "packages": [
+            {
+                "id": "onrust-1day",
+                "duration": "1 Day Trip",
+                "durationCode": "1day",
+                "durationInDays": 1,
+                "price": 320000,
+                "description": "Jelajahi sejarah Pulau Onrust dalam satu hari",
+                "facilities": [
+                    "Transportasi kapal",
+                    "Makan siang",
+                    "Pemandu wisata sejarah",
+                    "Asuransi perjalanan",
+                    "Dokumentasi foto"
+                ],
+                "destinations": [
+                    "Benteng bersejarah",
+                    "Lokasi arkeologi",
+                    "Pantai bersejarah",
+                    "Monument area"
+                ],
+                "meals": ["Dengan makan siang", "Tanpa makan siang"],
+                "highlights": [
+                    "Jelajahi situs warisan budaya",
+                    "Pembelajaran sejarah Indonesia",
+                    "Foto di spot historis"
+                ]
+            },
+            {
+                "id": "onrust-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 620000,
+                "description": "Paket sejarah dengan menginap dan tour mendalam",
+                "facilities": [
+                    "Transportasi kapal",
+                    "Penginapan dengan historical view (1 malam)",
+                    "Makan pagi, siang, dan malam",
+                    "Pemandu wisata sejarah profesional",
+                    "Asuransi perjalanan",
+                    "Museum & heritage site access",
+                    "Dokumentasi profesional"
+                ],
+                "destinations": [
+                    "Benteng bersejarah komprehensif",
+                    "Museum lokal",
+                    "Lokasi arkeologi berbagai era",
+                    "Sunset di benteng",
+                    "Monument & heritage sites"
+                ],
+                "meals": [
+                    "All meals with historical venues",
+                    "Vegetarian option"
+                ],
+                "highlights": [
+                    "Tour sejarah mendalam",
+                    "Museum & artifact viewing",
+                    "Sunset di benteng bersejarah"
+                ]
+            },
+            {
+                "id": "onrust-3d2n",
+                "duration": "3 Days 2 Nights",
+                "durationCode": "3d2n",
+                "durationInDays": 3,
+                "price": 920000,
+                "description": "Pengalaman arkeologi dan sejarah lengkap dengan expert historian",
+                "facilities": [
+                    "Transportasi kapal private",
+                    "Penginapan heritage resort (2 malam)",
+                    "Semua meals termasuk heritage meals",
+                    "Expert historian & archaeologist guide",
+                    "Asuransi perjalanan extended",
+                    "Dokumentasi profesional lengkap",
+                    "Private museum tours",
+                    "Artefak & koleksi access"
+                ],
+                "destinations": [
+                    "Benteng & forifikasi lengkap",
+                    "Museum & archive center",
+                    "Situs arkeologi primer & sekunder",
+                    "Heritage walking tour",
+                    "Monument & historical sites",
+                    "Sunset ceremony di benteng",
+                    "Koleksi artefak private viewing"
+                ],
+                "meals": [
+                    "Heritage meals dengan expert insight",
+                    "Vegetarian & vegan options"
+                ],
+                "highlights": [
+                    "Expert-led archaeological tour",
+                    "Private museum access",
+                    "Heritage dining experience",
+                    "Comprehensive historical immersion"
+                ]
+            }
+        ]
+    }
+]
