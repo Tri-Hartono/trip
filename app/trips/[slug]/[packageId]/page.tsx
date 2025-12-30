@@ -90,12 +90,12 @@ export default function TripDetailPage({ params }: DetailPageProps) {
 
                 {/* Breadcrumb */}
                 <div className='absolute top-6 left-6 text-white'>
-                    <Link
+                    {/* <Link
                         href='/trips'
                         className='hover:text-blue-300 transition-colors'
                     >
                         ← Kembali ke Paket Wisata
-                    </Link>
+                    </Link> */}
                 </div>
 
                 {/* Title Overlay */}

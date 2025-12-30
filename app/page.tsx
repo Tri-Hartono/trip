@@ -66,17 +66,17 @@ export default function Home() {
                         </span>
                     </div>
 
-                    <h1 className='text-white text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6'>
-                        Open Trip{' '}
-                        <span className='text-cyan-400'>Pulau Pramuka</span>
+                    <h1 className='text-white text-3xl md:text-5xl  font-bold leading-tight mb-6'>
+                        Open Trip Seru Bareng{' '}
+                        <span className='text-cyan-400'>Jelana Explore</span>
                         <br />
-                        Liburan Seru ke Kepulauan Seribu
+                        Jelajah Alam, Nikmati Perjalanan
                     </h1>
 
                     <p className='max-w-2xl text-base md:text-lg text-white/90 leading-relaxed mb-8'>
-                        Snorkeling, Island Hopping, dan Pengalaman Tak
-                        Terlupakan. Nikmati keindahan bawah laut Jakarta hanya
-                        dalam waktu 2 jam perjalanan.
+                        Liburan santai ke laut, gunung, dan alam Indonesia
+                        bareng temen seperjalanan. Semua kami siapkan dengan
+                        rapi, kamu tinggal berangkat dan menikmati momen.
                     </p>
 
                     {/* Rating and Price */}
