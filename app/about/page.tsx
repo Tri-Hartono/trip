@@ -1,4 +1,11 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Tentang Kami - Seribu Island Tours',
+    description:
+        'Menciptakan pengalaman wisata tak terlupakan ke Kepulauan Seribu sejak 2010.',
+};
 
 export default function AboutPage() {
     return (

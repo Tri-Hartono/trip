@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import {
     getAllIslands,
     getUniqueIslandNames,
@@ -15,6 +15,10 @@ import TripCard from '../components/TripCard';
 type SortOption = 'default' | 'price-asc' | 'price-desc';
 
 export default function TripsPage() {
+    useEffect(() => {
+        document.title = 'Semua Paket Wisata - Seribu Island Tours';
+    }, []);
+
     const islands = getAllIslands();
     const islandNames = getUniqueIslandNames();
     const maxPrice = getMaxPrice();

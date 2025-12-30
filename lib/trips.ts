@@ -9,6 +9,28 @@ export interface Island {
     packages: Package[];
 }
 
+export interface ScheduleActivity {
+    time: string;
+    activity: string;
+    location: string;
+}
+
+export interface ScheduleDay {
+    day: number;
+    activities: ScheduleActivity[];
+}
+
+export interface AddOn {
+    name: string;
+    capacity: string;
+    price: string;
+}
+
+export interface SnorkingSpot {
+    island: string;
+    time: string;
+}
+
 export interface Package {
     id: string;
     duration: string;
@@ -20,6 +42,10 @@ export interface Package {
     destinations: string[];
     meals: string[];
     highlights: string[];
+    schedule?: ScheduleDay[];
+    addons?: AddOn[];
+    snorkingSpots?: SnorkingSpot[];
+    galleryImages?: string[];
 }
 
 export interface FlattenedTrip extends Package {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getPackageBySlugAndId } from '@/lib/trips';
@@ -19,8 +19,21 @@ export default function TripDetailPage({ params }: DetailPageProps) {
     } | null>(null);
     const [selectedMeal, setSelectedMeal] = useState<string>('');
 
-    // Resolve params
-    Promise.resolve(params).then(setResolvedParams);
+    // Resolve params and update document title
+    useEffect(() => {
+        Promise.resolve(params).then((resolved) => {
+            setResolvedParams(resolved);
+            const trip = getPackageBySlugAndId(
+                resolved.slug,
+                resolved.packageId
+            );
+            if (trip) {
+                document.title = `${trip.islandName} ${trip.duration} - Seribu Island Tours`;
+            } else {
+                document.title = 'Paket Tidak Ditemukan - Seribu Island Tours';
+            }
+        });
+    }, [params]);
 
     if (!resolvedParams) {
         return (
@@ -200,6 +213,120 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                                 {meal}
                                             </span>
                                         </label>
+                                    ))}
+                                </div>
+                            </section>
+                        )}
+
+                        {/* Schedule */}
+                        {trip.schedule && trip.schedule.length > 0 && (
+                            <section className='mb-12'>
+                                <h2 className='text-2xl font-bold text-gray-800 mb-6'>
+                                    Jadwal Perjalanan
+                                </h2>
+                                <div className='space-y-6'>
+                                    {trip.schedule.map((day, dayIdx) => (
+                                        <div
+                                            key={dayIdx}
+                                            className='border-l-4 border-blue-600 pl-6'
+                                        >
+                                            <h3 className='text-xl font-bold text-blue-600 mb-4'>
+                                                Hari {day.day}
+                                            </h3>
+                                            <div className='space-y-3'>
+                                                {day.activities.map(
+                                                    (activity, actIdx) => (
+                                                        <div
+                                                            key={actIdx}
+                                                            className='bg-blue-50 p-4 rounded-lg border border-blue-200'
+                                                        >
+                                                            <div className='flex items-start gap-4'>
+                                                                <div className='flex-shrink-0'>
+                                                                    <p className='text-sm font-bold text-blue-600 bg-blue-100 px-3 py-1 rounded'>
+                                                                        {
+                                                                            activity.time
+                                                                        }
+                                                                    </p>
+                                                                </div>
+                                                                <div className='flex-grow'>
+                                                                    <p className='font-semibold text-gray-800'>
+                                                                        {
+                                                                            activity.activity
+                                                                        }
+                                                                    </p>
+                                                                    <p className='text-sm text-gray-600 mt-1'>
+                                                                        📍{' '}
+                                                                        {
+                                                                            activity.location
+                                                                        }
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    )
+                                                )}
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </section>
+                        )}
+
+                        {/* Gallery */}
+                        {trip.galleryImages &&
+                            trip.galleryImages.length > 0 && (
+                                <section className='mb-12'>
+                                    <h2 className='text-2xl font-bold text-gray-800 mb-6'>
+                                        Galeri Foto
+                                    </h2>
+                                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+                                        {trip.galleryImages.map(
+                                            (image, idx) => (
+                                                <div
+                                                    key={idx}
+                                                    className='group overflow-hidden rounded-lg shadow-lg cursor-pointer'
+                                                >
+                                                    <div className='relative h-48 overflow-hidden bg-gray-200'>
+                                                        <img
+                                                            src={image}
+                                                            alt={`Gallery ${
+                                                                idx + 1
+                                                            }`}
+                                                            className='w-full h-full object-cover group-hover:scale-110 transition-transform duration-300'
+                                                        />
+                                                    </div>
+                                                </div>
+                                            )
+                                        )}
+                                    </div>
+                                </section>
+                            )}
+
+                        {/* Add-ons */}
+                        {trip.addons && trip.addons.length > 0 && (
+                            <section className='mb-12'>
+                                <h2 className='text-2xl font-bold text-gray-800 mb-6'>
+                                    Aktivitas Tambahan
+                                </h2>
+                                <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                                    {trip.addons.map((addon, idx) => (
+                                        <div
+                                            key={idx}
+                                            className='p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg border border-purple-200'
+                                        >
+                                            <h3 className='text-lg font-bold text-gray-800 mb-2'>
+                                                {addon.name}
+                                            </h3>
+                                            <p className='text-gray-600 mb-2'>
+                                                <span className='font-semibold'>
+                                                    Kapasitas:
+                                                </span>{' '}
+                                                {addon.capacity}
+                                            </p>
+                                            <p className='text-lg font-bold text-purple-600'>
+                                                {addon.price}
+                                            </p>
+                                        </div>
                                     ))}
                                 </div>
                             </section>

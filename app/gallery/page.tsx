@@ -1,4 +1,11 @@
 import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Galeri - Seribu Island Tours',
+    description:
+        'Jelajahi keindahan Kepulauan Seribu melalui koleksi foto dan video kami.',
+};
 
 export default function page() {
     return (

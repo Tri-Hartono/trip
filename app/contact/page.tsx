@@ -1,8 +1,12 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function ContactPage() {
+    useEffect(() => {
+        document.title = 'Hubungi Kami - Seribu Island Tours';
+    }, []);
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',

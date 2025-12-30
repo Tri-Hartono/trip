@@ -36,32 +36,169 @@
             },
             {
                 "id": "pramuka-2d1n",
-                "duration": "2 Days 1 Night",
+                "duration": "2 Days 1 Nights",
                 "durationCode": "2d1n",
                 "durationInDays": 2,
                 "price": 650000,
-                "description": "Nikmati petualangan island hopping dan menginap di resort",
+                "description": "Pengalaman lengkap dengan island hopping dan aktivitas petualangan",
                 "facilities": [
-                    "Transportasi kapal",
+                    "Transportasi kapal private",
                     "Snorkeling equipment",
-                    "Penginapan resort (1 malam)",
-                    "Makan pagi, siang, dan malam",
-                    "Pemandu wisata berpengalaman",
-                    "Asuransi perjalanan",
-                    "Dokumentasi foto"
+                    "Penginapan resort deluxe (2 malam)",
+                    "Semua meals included",
+                    "Pemandu wisata berpengalaman dan berlisensi",
+                    "Asuransi perjalanan extended",
+                    "Dokumentasi profesional",
+                    "Welcome drink & towel"
                 ],
                 "destinations": [
-                    "Pantai pasir putih",
-                    "Spot snorkeling utama",
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
                     "Pulau burung",
-                    "Hutan mangrove",
-                    "Sunset cruise"
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
                 ],
-                "meals": ["All meals included", "Vegetarian option"],
+                "meals": [
+                    "Ayam (dengan air, sayur, sambal, nasi)",
+                    "Ikan (dengan air, sayur, sambal, nasi)",
+                    "Telur (dengan air, sayur, sambal, nasi)"
+                ],
                 "highlights": [
-                    "Snorkeling di area premium",
-                    "Melihat sunset dari pantai",
-                    "Menginap di resort eksklusif"
+                    "Snorkeling di 3 lokasi berbeda",
+                    "Island hopping adventure",
+                    "Water sports unlimited",
+                    "Menginap di resort bintang"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "20.000 - 25.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
                 ]
             },
             {
@@ -91,14 +228,144 @@
                     "Water sports activities"
                 ],
                 "meals": [
-                    "All meals with local specialties",
-                    "Vegetarian & vegan options available"
+                    "Ayam (dengan air, sayur, sambal, nasi)",
+                    "Ikan (dengan air, sayur, sambal, nasi)",
+                    "Telur (dengan air, sayur, sambal, nasi)"
                 ],
                 "highlights": [
                     "Snorkeling di 3 lokasi berbeda",
                     "Island hopping adventure",
                     "Water sports unlimited",
                     "Menginap di resort bintang"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "20.000 - 25.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
                 ]
             }
         ]

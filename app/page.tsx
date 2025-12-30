@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import {
     getAllIslands,
@@ -12,6 +12,10 @@ import SearchBar from './components/SearchBar';
 import TripCard from './components/TripCard';
 import WhatsAppButtons from './components/WhatsAppButtons';
 export default function Home() {
+    useEffect(() => {
+        document.title = 'Beranda - Seribu Island Tours';
+    }, []);
+
     const islands = getAllIslands();
     const islandNames = getUniqueIslandNames();
     const maxPrice = getMaxPrice();
