@@ -166,6 +166,30 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                             </div>
                         </section>
 
+                        {/* Facilities Exclude */}
+                        {trip.facilitiesExclude && trip.facilitiesExclude.length > 0 && (
+                            <section className='mb-12'>
+                                <h2 className='text-2xl font-bold text-gray-800 mb-6'>
+                                    Tidak Termasuk
+                                </h2>
+                                <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                                    {trip.facilitiesExclude.map((facility, idx) => (
+                                        <div
+                                            key={idx}
+                                            className='flex items-center gap-3 py-2'
+                                        >
+                                            <span className='text-red-600 text-xl'>
+                                                ✗
+                                            </span>
+                                            <p className='text-gray-700'>
+                                                {facility}
+                                            </p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </section>
+                        )}
+
                         {/* Destinations */}
                         <section className='mb-12'>
                             <h2 className='text-2xl font-bold text-gray-800 mb-6'>
@@ -379,7 +403,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                             {/* CTA Buttons */}
                             <div className='space-y-3'>
                                 <a
-                                    href={`https://wa.me/62812345678?text=${whatsappMessage}`}
+                                    href={`https://wa.me/62851213799822?text=${whatsappMessage}`}
                                     target='_blank'
                                     rel='noopener noreferrer'
                                     className='block w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-4 rounded-lg text-center transition-all transform hover:scale-105 shadow-lg'

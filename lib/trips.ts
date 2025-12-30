@@ -39,6 +39,7 @@ export interface Package {
     price: number;
     description: string;
     facilities: string[];
+    facilitiesExclude: string[];
     destinations: string[];
     meals: string[];
     highlights: string[];
