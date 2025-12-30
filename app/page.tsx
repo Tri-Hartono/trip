@@ -59,7 +59,7 @@ export default function Home() {
                 <div className='absolute inset-0 bg-gradient-to-b from-black/50 to-black/30'></div>
 
                 {/* Content */}
-                <main className='relative z-10 flex flex-col items-center justify-center px-4 py-32 text-center max-w-5xl'>
+                <main className='relative z-10 flex flex-col items-center justify-center px-4 py-10 text-center max-w-5xl'>
                     {/* <div className='inline-flex items-center gap-2 rounded-full bg-white/20 backdrop-blur-sm px-4 py-1 mb-6'>
                         <span className='text-xs font-semibold uppercase tracking-wide text-white'>
                             OPEN TRIP + MOST SELLER
