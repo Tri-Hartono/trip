@@ -60,11 +60,11 @@ export default function Home() {
 
                 {/* Content */}
                 <main className='relative z-10 flex flex-col items-center justify-center px-4 py-20 text-center max-w-5xl'>
-                    <div className='inline-flex items-center gap-2 rounded-full bg-white/20 backdrop-blur-sm px-4 py-1 mb-6'>
+                    {/* <div className='inline-flex items-center gap-2 rounded-full bg-white/20 backdrop-blur-sm px-4 py-1 mb-6'>
                         <span className='text-xs font-semibold uppercase tracking-wide text-white'>
                             OPEN TRIP + MOST SELLER
                         </span>
-                    </div>
+                    </div> */}
 
                     <h1 className='text-white text-3xl md:text-5xl  font-bold leading-tight mb-6'>
                         Open Trip Seru Bareng{' '}
