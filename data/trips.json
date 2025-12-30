@@ -11,7 +11,7 @@
                 "duration": "1 Day Trip",
                 "durationCode": "1day",
                 "durationInDays": 1,
-                "price": 350000,
+                "price": 250000,
                 "description": "Jelajahi keindahan Pulau Pramuka dalam sehari penuh",
                 "facilities": [
                     "Transportasi kapal",
@@ -39,7 +39,7 @@
                 "duration": "2 Days 1 Nights",
                 "durationCode": "2d1n",
                 "durationInDays": 2,
-                "price": 650000,
+                "price": 45000,
                 "description": "Pengalaman lengkap dengan island hopping dan aktivitas petualangan",
                 "facilities": [
                     "Transportasi kapal private",
@@ -206,7 +206,7 @@
                 "duration": "3 Days 2 Nights",
                 "durationCode": "3d2n",
                 "durationInDays": 3,
-                "price": 950000,
+                "price": 600000,
                 "description": "Pengalaman lengkap dengan island hopping dan aktivitas petualangan",
                 "facilities": [
                     "Transportasi kapal private",
@@ -382,7 +382,7 @@
                 "duration": "1 Day Trip",
                 "durationCode": "1day",
                 "durationInDays": 1,
-                "price": 300000,
+                "price": 250000,
                 "description": "Wisata satu hari ke Pulau Untung Jawa",
                 "facilities": [
                     "Transportasi kapal",
@@ -409,7 +409,7 @@
                 "duration": "2 Days 1 Night",
                 "durationCode": "2d1n",
                 "durationInDays": 2,
-                "price": 600000,
+                "price": 450000,
                 "description": "Paket 2 hari 1 malam dengan menginap di resort premium",
                 "facilities": [
                     "Transportasi kapal",
@@ -439,7 +439,7 @@
                 "duration": "3 Days 2 Nights",
                 "durationCode": "3d2n",
                 "durationInDays": 3,
-                "price": 900000,
+                "price": 600000,
                 "description": "Paket ultimate dengan aktivitas lengkap di resort eksklusif",
                 "facilities": [
                     "Transportasi kapal private",
@@ -484,7 +484,7 @@
                 "duration": "1 Day Trip",
                 "durationCode": "1day",
                 "durationInDays": 1,
-                "price": 280000,
+                "price": 250000,
                 "description": "Jelajahi kekayaan laut Pulau Seribu dalam sehari",
                 "facilities": [
                     "Transportasi kapal",
@@ -537,7 +537,7 @@
                 "duration": "3 Days 2 Nights",
                 "durationCode": "3d2n",
                 "durationInDays": 3,
-                "price": 850000,
+                "price": 600000,
                 "description": "Paket diving comprehensive dengan training untuk pemula",
                 "facilities": [
                     "Transportasi kapal private",
