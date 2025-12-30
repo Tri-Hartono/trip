@@ -7,10 +7,15 @@ export default function Footer() {
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
                     {/* Company Info */}
                     <div>
-                        <h3 className='font-bold text-lg mb-4'>Pramuka Trip</h3>
+                        <h3 className='font-bold text-lg mb-4'>
+                            Jelana Explore
+                        </h3>
                         <p className='text-gray-400 text-sm leading-relaxed'>
-                            Operator wisata terpercaya untuk pengalaman tak
-                            terlupakan di Kepulauan Seribu.
+                            Jelana Explore adalah penyedia paket trip terpercaya
+                            yang menawarkan pengalaman liburan tak terlupakan ke
+                            destinasi-destinasi eksotis di Indonesia.
+                            Bergabunglah dengan kami untuk petualangan seru dan
+                            kenangan indah bersama teman-teman baru!
                         </p>
                     </div>
 
@@ -59,26 +64,26 @@ export default function Footer() {
                         <ul className='space-y-2 text-sm text-gray-400'>
                             <li>
                                 <a
+                                    href='https://wa.me/6285121379822'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    className='hover:text-white transition-colors'
+                                >
+                                    Admin 1: +62 851-2137-9822
+                                </a>
+                            </li>
+                            <li>
+                                <a
                                     href='https://wa.me/6287780598981'
                                     target='_blank'
                                     rel='noopener noreferrer'
                                     className='hover:text-white transition-colors'
                                 >
-                                    Admin 1: +62 877-8059-8981
+                                    Admin 2: +62 877-8059-8981
                                 </a>
                             </li>
-                            <li>
-                                <a
-                                    href='https://wa.me/6282211110898'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                    className='hover:text-white transition-colors'
-                                >
-                                    Admin 2: +62 822-1111-0898
-                                </a>
-                            </li>
-                            <li>Email: info@pramukatrip.com</li>
-                            <li>Instagram: @pramukatrip</li>
+                            <li>Email: info@jelanaexplore.com</li>
+                            <li>Instagram: @jelanaexplore</li>
                             <li>Jam Operasional: 08:00 - 20:00 WIB</li>
                         </ul>
                     </div>
