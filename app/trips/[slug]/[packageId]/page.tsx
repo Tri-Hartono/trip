@@ -167,28 +167,31 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                         </section>
 
                         {/* Facilities Exclude */}
-                        {trip.facilitiesExclude && trip.facilitiesExclude.length > 0 && (
-                            <section className='mb-12'>
-                                <h2 className='text-2xl font-bold text-gray-800 mb-6'>
-                                    Tidak Termasuk
-                                </h2>
-                                <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-                                    {trip.facilitiesExclude.map((facility, idx) => (
-                                        <div
-                                            key={idx}
-                                            className='flex items-center gap-3 py-2'
-                                        >
-                                            <span className='text-red-600 text-xl'>
-                                                ✗
-                                            </span>
-                                            <p className='text-gray-700'>
-                                                {facility}
-                                            </p>
-                                        </div>
-                                    ))}
-                                </div>
-                            </section>
-                        )}
+                        {trip.facilitiesExclude &&
+                            trip.facilitiesExclude.length > 0 && (
+                                <section className='mb-12'>
+                                    <h2 className='text-2xl font-bold text-gray-800 mb-6'>
+                                        Tidak Termasuk
+                                    </h2>
+                                    <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                                        {trip.facilitiesExclude.map(
+                                            (facility, idx) => (
+                                                <div
+                                                    key={idx}
+                                                    className='flex items-center gap-3 py-2'
+                                                >
+                                                    <span className='text-red-600 text-xl'>
+                                                        ✗
+                                                    </span>
+                                                    <p className='text-gray-700'>
+                                                        {facility}
+                                                    </p>
+                                                </div>
+                                            )
+                                        )}
+                                    </div>
+                                </section>
+                            )}
 
                         {/* Destinations */}
                         <section className='mb-12'>
