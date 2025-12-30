@@ -406,7 +406,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                             {/* CTA Buttons */}
                             <div className='space-y-3'>
                                 <a
-                                    href={`https://wa.me/62851213799822?text=${whatsappMessage}`}
+                                    href={`https://wa.me/6285121379822?text=${whatsappMessage}`}
                                     target='_blank'
                                     rel='noopener noreferrer'
                                     className='block w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-4 rounded-lg text-center transition-all transform hover:scale-105 shadow-lg'

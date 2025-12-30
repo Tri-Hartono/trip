@@ -6,7 +6,7 @@ export default function WhatsAppButtons() {
     const [showAdmins, setShowAdmins] = useState(false);
 
     const admins = [
-        { name: 'Admin 1', phone: '62851213799822' },
+        { name: 'Admin 1', phone: '6285121379822' },
         { name: 'Admin 2', phone: '62877805988981' },
     ];
 

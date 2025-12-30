@@ -51,7 +51,7 @@ ${formData.message}
 Terima kasih!
     `.trim();
 
-        const whatsappUrl = `https://wa.me/62851213799822?text=${encodeURIComponent(
+        const whatsappUrl = `https://wa.me/6285121379822?text=${encodeURIComponent(
             message
         )}`;
         window.open(whatsappUrl, '_blank');
@@ -138,7 +138,7 @@ Terima kasih!
                                     +62 851-2137-9822 / +62 877-8059-8981
                                 </p>
                                 <a
-                                    href='https://wa.me/62851213799822'
+                                    href='https://wa.me/6285121379822'
                                     target='_blank'
                                     rel='noopener noreferrer'
                                     className='text-green-600 hover:text-green-700 font-semibold mt-2 inline-block'
@@ -186,7 +186,7 @@ Terima kasih!
                         {/* Quick Contact Buttons */}
                         <div className='mt-12 space-y-3'>
                             <a
-                                href='https://wa.me/62851213799822'
+                                href='https://wa.me/6285121379822'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 className='block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
