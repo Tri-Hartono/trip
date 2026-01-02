@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 export interface TripCardProps {
     id: string;
@@ -32,7 +33,14 @@ export default function TripCard({
 
     return (
         <Link href={`/trips/${slug}/${id}`}>
-            <div className='group cursor-pointer h-full'>
+            <motion.div
+                className='group cursor-pointer h-full'
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, ease: 'easeOut' }}
+                viewport={{ once: true, amount: 0.3 }}
+                whileHover={{ y: -8, transition: { duration: 0.3 } }}
+            >
                 <div className='bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-full flex flex-col'>
                     {/* Image Container */}
                     <div className='relative h-56 w-full overflow-hidden bg-gray-200'>
@@ -45,40 +53,71 @@ export default function TripCard({
                         />
                         <div className='absolute inset-0 bg-gradient-to-b from-transparent to-black/20 group-hover:to-black/30 transition-all duration-300'></div>
                         {/* Duration Badge */}
-                        <div className='absolute top-4 right-4 bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg'>
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            transition={{ delay: 0.2, duration: 0.4 }}
+                            viewport={{ once: true }}
+                            className='absolute top-4 right-4 bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg'
+                        >
                             {duration}
-                        </div>
+                        </motion.div>
                     </div>
 
                     {/* Content Container */}
                     <div className='p-6 flex flex-col flex-grow'>
                         {/* Island Name */}
-                        <h3 className='text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300'>
+                        <motion.h3
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ delay: 0.1, duration: 0.4 }}
+                            viewport={{ once: true }}
+                            className='text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300'
+                        >
                             {name}
-                        </h3>
+                        </motion.h3>
 
                         {/* Description */}
-                        <p className='text-sm text-gray-600 mb-4 line-clamp-2 flex-grow leading-relaxed'>
+                        <motion.p
+                            initial={{ opacity: 0 }}
+                            whileInView={{ opacity: 1 }}
+                            transition={{ delay: 0.15, duration: 0.4 }}
+                            viewport={{ once: true }}
+                            className='text-sm text-gray-600 mb-4 line-clamp-2 flex-grow leading-relaxed'
+                        >
                             {description}
-                        </p>
+                        </motion.p>
 
                         {/* Price and CTA */}
                         <div className='flex items-center justify-between mt-auto pt-5 border-t border-gray-100'>
-                            <div>
+                            <motion.div
+                                initial={{ opacity: 0 }}
+                                whileInView={{ opacity: 1 }}
+                                transition={{ delay: 0.2, duration: 0.4 }}
+                                viewport={{ once: true }}
+                            >
                                 <p className='text-xs text-gray-500 font-medium'>
                                     Mulai dari
                                 </p>
                                 <p className='text-2xl font-bold text-blue-600'>
                                     {formattedPrice}
                                 </p>
-                            </div>
-                            <button className='bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white px-5 py-2 rounded-lg font-semibold text-sm transition-all duration-300'>
+                            </motion.div>
+                            <motion.button
+                                initial={{ opacity: 0, scale: 0.8 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                transition={{ delay: 0.25, duration: 0.4 }}
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.95 }}
+                                viewport={{ once: true }}
+                                className='bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white px-5 py-2 rounded-lg font-semibold text-sm transition-all duration-300'
+                            >
                                 Detail
-                            </button>
+                            </motion.button>
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </Link>
     );
 }

@@ -1,4 +1,10 @@
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faInstagram,
+    faFacebook,
+    faWhatsapp,
+} from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
     return (
@@ -98,7 +104,10 @@ export default function Footer() {
                                 rel='noopener noreferrer'
                                 className='w-10 h-10 bg-gray-800 hover:bg-cyan-500 rounded-full flex items-center justify-center transition-colors'
                             >
-                                <span className='text-sm'>IG</span>
+                                <FontAwesomeIcon
+                                    icon={faInstagram}
+                                    className='w-5 h-5'
+                                />
                             </a>
                             <a
                                 href='https://facebook.com'
@@ -106,15 +115,21 @@ export default function Footer() {
                                 rel='noopener noreferrer'
                                 className='w-10 h-10 bg-gray-800 hover:bg-cyan-500 rounded-full flex items-center justify-center transition-colors'
                             >
-                                <span className='text-sm'>FB</span>
+                                <FontAwesomeIcon
+                                    icon={faFacebook}
+                                    className='w-5 h-5'
+                                />
                             </a>
                             <a
-                                href='https://wa.me/62812345678'
+                                href='https://wa.me/6285121379822'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 className='w-10 h-10 bg-gray-800 hover:bg-cyan-500 rounded-full flex items-center justify-center transition-colors'
                             >
-                                <span className='text-sm'>WA</span>
+                                <FontAwesomeIcon
+                                    icon={faWhatsapp}
+                                    className='w-5 h-5'
+                                />
                             </a>
                         </div>
                     </div>
@@ -122,7 +137,7 @@ export default function Footer() {
 
                 {/* Bottom Bar */}
                 <div className='border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400'>
-                    <p>&copy; 2024 Pramuka Trip. All rights reserved.</p>
+                    <p>&copy; 2026 Jelana Explore. All rights reserved.</p>
                 </div>
             </div>
         </footer>

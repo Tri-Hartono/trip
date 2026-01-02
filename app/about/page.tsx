@@ -228,7 +228,7 @@ export default function AboutPage() {
             </section>
 
             {/* Statistics Section */}
-            <section className='bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-16'>
+            <section className='bg-blue-600 text-white py-16'>
                 <div className='max-w-6xl mx-auto px-4'>
                     <div className='grid grid-cols-1 md:grid-cols-4 gap-8 text-center'>
                         {[
@@ -261,7 +261,7 @@ export default function AboutPage() {
                     <div className='flex flex-col sm:flex-row gap-4 justify-center'>
                         <Link
                             href='/trips'
-                            className='inline-block bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold py-4 px-8 rounded-lg hover:from-blue-700 hover:to-cyan-600 transition-all'
+                            className='inline-block bg-blue-600 text-white font-bold py-4 px-8 rounded-lg hover:from-blue-700 hover:to-cyan-600 transition-all'
                         >
                             Lihat Paket Wisata
                         </Link>

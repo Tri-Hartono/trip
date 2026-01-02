@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo, useCallback, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import {
     getAllIslands,
     getUniqueIslandNames,
@@ -42,9 +43,8 @@ export default function TripsPage() {
     const filteredTrips = useMemo(() => {
         let trips = flattenedTrips;
 
-        // Search
-        const query = (searchQuery + duration).toLowerCase();
-        if (query) {
+        // Search by query
+        if (searchQuery) {
             trips = trips.filter(
                 (trip) =>
                     trip.islandName
@@ -53,8 +53,15 @@ export default function TripsPage() {
                     trip.description
                         .toLowerCase()
                         .includes(searchQuery.toLowerCase()) ||
-                    (duration && trip.durationCode === duration)
+                    trip.duration
+                        .toLowerCase()
+                        .includes(searchQuery.toLowerCase())
             );
+        }
+
+        // Filter by duration from SearchBar
+        if (duration) {
+            trips = trips.filter((trip) => trip.durationCode === duration);
         }
 
         // Island filter
@@ -70,7 +77,7 @@ export default function TripsPage() {
                 trip.price >= filters.minPrice && trip.price <= filters.maxPrice
         );
 
-        // Duration filter
+        // Duration filter from FilterPanel
         if (filters.durations.length > 0) {
             trips = trips.filter((trip) =>
                 filters.durations.includes(trip.durationCode)
@@ -114,13 +121,23 @@ export default function TripsPage() {
                     <div className='absolute bottom-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl'></div>
                 </div>
                 <div className='max-w-7xl mx-auto px-4 relative z-10'>
-                    <h1 className='text-4xl md:text-6xl font-black mb-4 drop-shadow-2xl'>
+                    <motion.h1
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8 }}
+                        className='text-4xl md:text-6xl font-black mb-4 drop-shadow-2xl'
+                    >
                         Paket Wisata Kami
-                    </h1>
-                    <p className='text-lg md:text-xl text-blue-100 font-semibold'>
+                    </motion.h1>
+                    <motion.p
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.2 }}
+                        className='text-lg md:text-xl text-blue-100 font-semibold'
+                    >
                         Jelajahi semua paket wisata ke Kepulauan Seribu pilihan
                         kami
-                    </p>
+                    </motion.p>
                 </div>
             </div>
 

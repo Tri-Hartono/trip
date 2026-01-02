@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
 export default function ContactPage() {
     useEffect(() => {
@@ -99,37 +100,63 @@ Terima kasih!
                     <div className='absolute bottom-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl'></div>
                 </div>
                 <div className='max-w-7xl mx-auto px-4 relative z-10'>
-                    <h1 className='text-4xl md:text-6xl font-black mb-4 drop-shadow-2xl'>
+                    <motion.h1
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8 }}
+                        className='text-4xl md:text-6xl font-black mb-4 drop-shadow-2xl'
+                    >
                         Hubungi Kami
-                    </h1>
-                    <p className='text-lg md:text-xl text-blue-100 font-semibold'>
+                    </motion.h1>
+                    <motion.p
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.2 }}
+                        className='text-lg md:text-xl text-blue-100 font-semibold'
+                    >
                         Kami siap membantu Anda melakukan booking dan menjawab
                         pertanyaan apapun
-                    </p>
+                    </motion.p>
                 </div>
             </div>
 
             <div className='max-w-7xl mx-auto px-4 py-16'>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-12'>
                     {/* Contact Information */}
-                    <div className='lg:col-span-1'>
+                    <motion.div
+                        initial={{ opacity: 0, x: -30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.6 }}
+                        viewport={{ once: true }}
+                        className='lg:col-span-1'
+                    >
                         <h2 className='text-3xl font-bold text-gray-800 mb-8'>
                             Informasi Kontak
                         </h2>
 
                         <div className='space-y-8'>
                             {/* Phone */}
-                            <div>
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.1, duration: 0.5 }}
+                                viewport={{ once: true }}
+                            >
                                 <h3 className='font-bold text-gray-800 mb-2 flex items-center gap-2'>
                                     <span className='text-2xl'>📞</span> Telepon
                                 </h3>
                                 <p className='text-gray-600'>
-                                    +62 812 3456 7890
+                                    +62 851-2137-9822
                                 </p>
-                            </div>
+                            </motion.div>
 
                             {/* WhatsApp */}
-                            <div>
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.2, duration: 0.5 }}
+                                viewport={{ once: true }}
+                            >
                                 <h3 className='font-bold text-gray-800 mb-2 flex items-center gap-2'>
                                     <span className='text-2xl'>💬</span>{' '}
                                     WhatsApp
@@ -137,40 +164,58 @@ Terima kasih!
                                 <p className='text-gray-600'>
                                     +62 851-2137-9822 / +62 877-8059-8981
                                 </p>
-                                <a
+                                <motion.a
+                                    whileHover={{ scale: 1.05 }}
+                                    whileTap={{ scale: 0.95 }}
                                     href='https://wa.me/6285121379822'
                                     target='_blank'
                                     rel='noopener noreferrer'
                                     className='text-green-600 hover:text-green-700 font-semibold mt-2 inline-block'
                                 >
                                     Chat dengan kami →
-                                </a>
-                            </div>
+                                </motion.a>
+                            </motion.div>
 
                             {/* Email */}
-                            <div>
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.3, duration: 0.5 }}
+                                viewport={{ once: true }}
+                            >
                                 <h3 className='font-bold text-gray-800 mb-2 flex items-center gap-2'>
                                     <span className='text-2xl'>📧</span> Email
                                 </h3>
                                 <p className='text-gray-600'>
-                                    info@seribuislandtours.com
+                                    jelanaexplore@gmail.com
                                 </p>
-                            </div>
+                            </motion.div>
 
                             {/* Office */}
-                            <div>
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.4, duration: 0.5 }}
+                                viewport={{ once: true }}
+                            >
                                 <h3 className='font-bold text-gray-800 mb-2 flex items-center gap-2'>
                                     <span className='text-2xl'>🏢</span> Kantor
                                 </h3>
                                 <p className='text-gray-600'>
-                                    Jl. Marina Ancol No. 123
+                                    Jl M Kahfi II, Gg Bek Misar, RT 006 RW 003,
+                                    No.33
                                     <br />
-                                    Jakarta Utara, 14430
+                                    Kel. Cipedak, Kec.Jagakarsa, Jakarta Selatan
                                 </p>
-                            </div>
+                            </motion.div>
 
                             {/* Hours */}
-                            <div>
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.5, duration: 0.5 }}
+                                viewport={{ once: true }}
+                            >
                                 <h3 className='font-bold text-gray-800 mb-2 flex items-center gap-2'>
                                     <span className='text-2xl'>🕐</span> Jam
                                     Operasional
@@ -180,39 +225,59 @@ Terima kasih!
                                     <br />
                                     06:00 - 18:00 WIB
                                 </p>
-                            </div>
+                            </motion.div>
                         </div>
 
                         {/* Quick Contact Buttons */}
-                        <div className='mt-12 space-y-3'>
-                            <a
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.6, duration: 0.5 }}
+                            viewport={{ once: true }}
+                            className='mt-12 space-y-3'
+                        >
+                            <motion.a
+                                whileHover={{ scale: 1.02 }}
+                                whileTap={{ scale: 0.98 }}
                                 href='https://wa.me/6285121379822'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 className='block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
                             >
                                 💬 WhatsApp Chat
-                            </a>
-                            <a
+                            </motion.a>
+                            <motion.a
+                                whileHover={{ scale: 1.02 }}
+                                whileTap={{ scale: 0.98 }}
                                 href='tel:+6281234567890'
                                 className='block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
                             >
                                 📞 Call Us
-                            </a>
-                        </div>
-                    </div>
+                            </motion.a>
+                        </motion.div>
+                    </motion.div>
 
                     {/* Booking Form */}
-                    <div className='lg:col-span-2'>
+                    <motion.div
+                        initial={{ opacity: 0, x: 30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.6 }}
+                        viewport={{ once: true }}
+                        className='lg:col-span-2'
+                    >
                         <h2 className='text-3xl font-bold text-gray-800 mb-8'>
                             Form Booking
                         </h2>
 
                         {submitted && (
-                            <div className='mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg'>
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                className='mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg'
+                            >
                                 ✓ Terima kasih! Anda akan diarahkan ke WhatsApp.
                                 Silakan kirim pesan booking Anda.
-                            </div>
+                            </motion.div>
                         )}
 
                         <form
@@ -377,12 +442,14 @@ Terima kasih!
                             </div>
 
                             {/* Submit Button */}
-                            <button
+                            <motion.button
                                 type='submit'
-                                className='w-full bg-linear-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white font-bold py-4 rounded-lg transition-all transform hover:scale-105 text-lg'
+                                whileHover={{ scale: 1.02 }}
+                                whileTap={{ scale: 0.98 }}
+                                className='w-full bg-linear-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white font-bold py-4 rounded-lg transition-all text-lg'
                             >
                                 📨 Kirim Booking ke WhatsApp
-                            </button>
+                            </motion.button>
 
                             <p className='text-sm text-gray-600 text-center'>
                                 Dengan mengklik tombol di atas, Anda akan
@@ -390,16 +457,22 @@ Terima kasih!
                                 booking
                             </p>
                         </form>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
 
             {/* FAQ Section */}
             <section className='bg-linear-to-r from-blue-50 to-cyan-50 py-16'>
                 <div className='max-w-6xl mx-auto px-4'>
-                    <h2 className='text-4xl font-bold text-gray-800 text-center mb-12'>
+                    <motion.h2
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6 }}
+                        viewport={{ once: true }}
+                        className='text-4xl font-bold text-gray-800 text-center mb-12'
+                    >
                         Pertanyaan Umum
-                    </h2>
+                    </motion.h2>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                         {[
@@ -434,15 +507,19 @@ Terima kasih!
                                 answer: 'Kami menerima transfer bank, e-wallet, dan kartu kredit. Down payment 30%, sisanya 3 hari sebelum trip.',
                             },
                         ].map((faq, idx) => (
-                            <div
+                            <motion.div
                                 key={idx}
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: idx * 0.1, duration: 0.5 }}
+                                viewport={{ once: true }}
                                 className='bg-white rounded-xl shadow-md p-6'
                             >
                                 <h3 className='font-bold text-gray-800 mb-3 text-lg'>
                                     {faq.question}
                                 </h3>
                                 <p className='text-gray-600'>{faq.answer}</p>
-                            </div>
+                            </motion.div>
                         ))}
                     </div>
                 </div>
