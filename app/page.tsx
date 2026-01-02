@@ -205,7 +205,7 @@ export default function Home() {
             </div>
 
             {/* Featured Trips Section */}
-            <section className='max-w-7xl mx-auto px-4 py-20'>
+            <section className='max-w-7xl mx-auto px-4 py-10 md:py-20'>
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -471,7 +471,7 @@ export default function Home() {
             </section>
 
             {/* CTA Section */}
-            <section className='bg-gradient-to-r from-blue-600 to-cyan-400 py-16 text-white'>
+            <section className='bg-gradient-to-r from-blue-600 to-cyan-400 py-10 md:py-16 text-white'>
                 <div className='max-w-4xl mx-auto px-4 text-center'>
                     <h2 className='text-3xl md:text-4xl font-bold mb-4'>
                         Siap untuk Petualangan?
