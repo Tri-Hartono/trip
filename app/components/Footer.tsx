@@ -8,74 +8,58 @@ import {
 
 export default function Footer() {
     return (
-        <footer className='bg-gray-900 text-white'>
-            <div className='max-w-7xl mx-auto px-4 py-12'>
-                <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
+        <footer className='bg-teal-950 text-white font-sans border-t border-teal-900'>
+            <div className='max-w-7xl mx-auto px-4 py-16'>
+                <div className='grid grid-cols-1 md:grid-cols-4 gap-12'>
                     {/* Company Info */}
-                    <div>
-                        <h3 className='font-bold text-lg mb-4'>
+                    <div className='space-y-4'>
+                        <h3 className='font-heading font-bold text-2xl text-white'>
                             Jelana Explore
                         </h3>
-                        <p className='text-gray-400 text-sm leading-relaxed'>
-                            Jelana Explore adalah penyedia paket trip terpercaya
-                            yang menawarkan pengalaman liburan tak terlupakan ke
-                            destinasi-destinasi eksotis di Indonesia.
-                            Bergabunglah dengan kami untuk petualangan seru dan
-                            kenangan indah bersama teman-teman baru!
+                        <p className='text-teal-100/80 text-sm leading-relaxed max-w-xs'>
+                            Jelajahi keindahan Indonesia dengan paket wisata
+                            premium. Aman, nyaman, dan tak terlupakan.
                         </p>
                     </div>
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className='font-semibold mb-4'>Menu</h4>
-                        <ul className='space-y-2 text-sm'>
-                            <li>
-                                <Link
-                                    href='/'
-                                    className='text-gray-400 hover:text-white transition-colors'
-                                >
-                                    Beranda
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href='/trips'
-                                    className='text-gray-400 hover:text-white transition-colors'
-                                >
-                                    Paket Trip
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href='/gallery'
-                                    className='text-gray-400 hover:text-white transition-colors'
-                                >
-                                    Galeri
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href='/contact'
-                                    className='text-gray-400 hover:text-white transition-colors'
-                                >
-                                    Kontak
-                                </Link>
-                            </li>
+                        <h4 className='font-bold text-white mb-6'>Menu</h4>
+                        <ul className='space-y-3 text-sm font-medium'>
+                            {['Beranda', 'Paket Trip', 'Galeri', 'Kontak'].map(
+                                (item) => (
+                                    <li key={item}>
+                                        <Link
+                                            href={
+                                                item === 'Beranda'
+                                                    ? '/'
+                                                    : `/${item.toLowerCase().replace(' ', '-')}`
+                                            }
+                                            className='text-teal-100/70 hover:text-white transition-colors'
+                                        >
+                                            {item}
+                                        </Link>
+                                    </li>
+                                ),
+                            )}
                         </ul>
                     </div>
 
                     {/* Contact Info */}
                     <div>
-                        <h4 className='font-semibold mb-4'>Kontak</h4>
-                        <ul className='space-y-2 text-sm text-gray-400'>
+                        <h4 className='font-bold text-white mb-6'>Kontak</h4>
+                        <ul className='space-y-3 text-sm text-teal-100/70'>
                             <li>
                                 <a
                                     href='https://wa.me/6285121379822'
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    className='hover:text-white transition-colors'
+                                    className='hover:text-white transition-colors flex items-center gap-2'
                                 >
-                                    Admin 1: +62 851-2137-9822
+                                    <span>Support 1:</span>
+                                    <span className='font-semibold text-white'>
+                                        +62 851-2137-9822
+                                    </span>
                                 </a>
                             </li>
                             <li>
@@ -83,61 +67,78 @@ export default function Footer() {
                                     href='https://wa.me/6287780598981'
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    className='hover:text-white transition-colors'
+                                    className='hover:text-white transition-colors flex items-center gap-2'
                                 >
-                                    Admin 2: +62 877-8059-8981
+                                    <span>Support 2:</span>
+                                    <span className='font-semibold text-white'>
+                                        +62 877-8059-8981
+                                    </span>
                                 </a>
                             </li>
-                            <li>Email: info@jelanaexplore.com</li>
-                            <li>Instagram: @jelanaexplore</li>
-                            <li>Jam Operasional: 08:00 - 20:00 WIB</li>
+                            <li className='pt-2'>jelanaexplore@gmail.com</li>
+                            <li>Jakarta, Indonesia</li>
                         </ul>
                     </div>
 
                     {/* Social Media */}
                     <div>
-                        <h4 className='font-semibold mb-4'>Ikuti Kami</h4>
+                        <h4 className='font-bold text-white mb-6'>
+                            Ikuti Kami
+                        </h4>
                         <div className='flex gap-4'>
-                            <a
-                                href='https://instagram.com'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                className='w-10 h-10 bg-gray-800 hover:bg-cyan-500 rounded-full flex items-center justify-center transition-colors'
-                            >
-                                <FontAwesomeIcon
-                                    icon={faInstagram}
-                                    className='w-5 h-5'
-                                />
-                            </a>
-                            <a
-                                href='https://facebook.com'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                className='w-10 h-10 bg-gray-800 hover:bg-cyan-500 rounded-full flex items-center justify-center transition-colors'
-                            >
-                                <FontAwesomeIcon
-                                    icon={faFacebook}
-                                    className='w-5 h-5'
-                                />
-                            </a>
-                            <a
-                                href='https://wa.me/6285121379822'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                className='w-10 h-10 bg-gray-800 hover:bg-cyan-500 rounded-full flex items-center justify-center transition-colors'
-                            >
-                                <FontAwesomeIcon
-                                    icon={faWhatsapp}
-                                    className='w-5 h-5'
-                                />
-                            </a>
+                            {[
+                                {
+                                    icon: faInstagram,
+                                    href: 'https://instagram.com/jelanaexplore',
+                                },
+                                {
+                                    icon: faFacebook,
+                                    href: 'https://facebook.com/jelanaexplore',
+                                },
+                                {
+                                    icon: faWhatsapp,
+                                    href: 'https://wa.me/6285121379822',
+                                },
+                            ].map((social, idx) => (
+                                <a
+                                    key={idx}
+                                    href={social.href}
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    className='w-10 h-10 bg-teal-900 border border-teal-800 hover:border-white hover:bg-white hover:text-teal-950 text-teal-100 rounded-full flex items-center justify-center transition-all duration-300'
+                                >
+                                    <FontAwesomeIcon
+                                        icon={social.icon}
+                                        className='w-5 h-5'
+                                    />
+                                </a>
+                            ))}
                         </div>
                     </div>
                 </div>
 
                 {/* Bottom Bar */}
-                <div className='border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400'>
-                    <p>&copy; 2026 Jelana Explore. All rights reserved.</p>
+                <div className='border-t border-teal-900 mt-16 pt-8 text-center text-sm text-teal-100/50'>
+                    <div className='flex flex-col md:flex-row justify-between items-center gap-4'>
+                        <p>
+                            &copy; {new Date().getFullYear()} Jelana Explore.
+                            All rights reserved.
+                        </p>
+                        <div className='flex gap-6'>
+                            <Link
+                                href='#'
+                                className='hover:text-white transition-colors'
+                            >
+                                Privacy Policy
+                            </Link>
+                            <Link
+                                href='#'
+                                className='hover:text-white transition-colors'
+                            >
+                                Terms of Service
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>

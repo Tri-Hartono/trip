@@ -55,7 +55,7 @@ export default function TripsPage() {
                         .includes(searchQuery.toLowerCase()) ||
                     trip.duration
                         .toLowerCase()
-                        .includes(searchQuery.toLowerCase())
+                        .includes(searchQuery.toLowerCase()),
             );
         }
 
@@ -67,20 +67,21 @@ export default function TripsPage() {
         // Island filter
         if (filters.islands.length > 0) {
             trips = trips.filter((trip) =>
-                filters.islands.includes(trip.islandName)
+                filters.islands.includes(trip.islandName),
             );
         }
 
         // Price filter
         trips = trips.filter(
             (trip) =>
-                trip.price >= filters.minPrice && trip.price <= filters.maxPrice
+                trip.price >= filters.minPrice &&
+                trip.price <= filters.maxPrice,
         );
 
         // Duration filter from FilterPanel
         if (filters.durations.length > 0) {
             trips = trips.filter((trip) =>
-                filters.durations.includes(trip.durationCode)
+                filters.durations.includes(trip.durationCode),
             );
         }
 
@@ -170,7 +171,7 @@ export default function TripsPage() {
                             <div>
                                 <p className='text-gray-700 font-semibold'>
                                     Menampilkan{' '}
-                                    <span className='text-blue-600'>
+                                    <span className='text-teal-900'>
                                         {sortedTrips.length}
                                     </span>{' '}
                                     paket wisata

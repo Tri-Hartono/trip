@@ -1,15 +1,46 @@
 @import 'tailwindcss';
 
 :root {
+    /* Brand Colors */
+    --primary: #0d9488; /* Teal 600 - Richer, more premium */
+    --primary-foreground: #ffffff;
+    --secondary: #f0fdfa; /* Teal 50 - Very subtle tint */
+    --secondary-foreground: #0f766e; /* Teal 700 */
+    --accent: #fcd34d; /* Amber 300 - Softer accent */
+    --accent-foreground: #451a03;
+
+    /* Semantic Colors */
     --background: #ffffff;
-    --foreground: #171717;
+    --foreground: #334155; /* Slate 700 - Softer than black */
+    --card: #ffffff;
+    --card-foreground: #334155;
+    --muted: #f8fafc; /* Slate 50 - Very neutral */
+    --muted-foreground: #64748b; /* Slate 500 */
+    --border: #f1f5f9; /* Slate 100 - Very subtle border */
+
+    /* Typography */
+    --font-heading: var(--font-poppins);
+    --font-body: var(--font-inter);
 }
 
 @theme inline {
+    --color-primary: var(--primary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+
     --color-background: var(--background);
     --color-foreground: var(--foreground);
-    --font-sans: var(--font-geist-sans);
-    --font-mono: var(--font-geist-mono);
+    --color-card: var(--card);
+    --color-card-foreground: var(--card-foreground);
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-border: var(--border);
+
+    --font-sans: var(--font-body);
+    --font-heading: var(--font-heading);
 }
 
 /* @media (prefers-color-scheme: dark) {

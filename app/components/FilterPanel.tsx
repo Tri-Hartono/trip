@@ -37,7 +37,7 @@ export default function FilterPanel({
 
     const handlePriceChange = (
         e: React.ChangeEvent<HTMLInputElement>,
-        index: number
+        index: number,
     ) => {
         const newRange = [...priceRange];
         newRange[index] = Number(e.target.value);
@@ -102,7 +102,7 @@ export default function FilterPanel({
                     priceRange[1] < maxPrice) && (
                     <button
                         onClick={handleReset}
-                        className='text-sm text-blue-600 hover:text-blue-700 font-semibold'
+                        className='text-sm text-teal-900 hover:text-blue-700 font-semibold'
                     >
                         Reset Semua
                     </button>
@@ -122,7 +122,7 @@ export default function FilterPanel({
                                 type='checkbox'
                                 checked={selectedIslands.includes(island)}
                                 onChange={() => handleIslandChange(island)}
-                                className='w-4 h-4 text-blue-600 rounded cursor-pointer'
+                                className='w-4 h-4 text-teal-900 rounded cursor-pointer'
                             />
                             <span className='ml-3 text-sm text-gray-700 group-hover:text-gray-900'>
                                 {island}
@@ -144,12 +144,12 @@ export default function FilterPanel({
                             <input
                                 type='checkbox'
                                 checked={selectedDurations.includes(
-                                    option.value
+                                    option.value,
                                 )}
                                 onChange={() =>
                                     handleDurationChange(option.value)
                                 }
-                                className='w-4 h-4 text-blue-600 rounded cursor-pointer'
+                                className='w-4 h-4 text-teal-900 rounded cursor-pointer'
                             />
                             <span className='ml-3 text-sm text-gray-700 group-hover:text-gray-900'>
                                 {option.label}
@@ -176,7 +176,7 @@ export default function FilterPanel({
                             max={maxPrice}
                             value={priceRange[0]}
                             onChange={(e) => handlePriceChange(e, 0)}
-                            className='w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600'
+                            className='w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-teal-900'
                         />
                     </div>
 
@@ -191,7 +191,7 @@ export default function FilterPanel({
                             max={maxPrice}
                             value={priceRange[1]}
                             onChange={(e) => handlePriceChange(e, 1)}
-                            className='w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600'
+                            className='w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-teal-900'
                         />
                     </div>
                 </div>

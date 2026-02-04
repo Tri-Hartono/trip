@@ -25,7 +25,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
             setResolvedParams(resolved);
             const trip = getPackageBySlugAndId(
                 resolved.slug,
-                resolved.packageId
+                resolved.packageId,
             );
             if (trip) {
                 document.title = `${trip.islandName} ${trip.duration} - Seribu Island Tours`;
@@ -45,7 +45,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
 
     const trip = getPackageBySlugAndId(
         resolvedParams.slug,
-        resolvedParams.packageId
+        resolvedParams.packageId,
     );
 
     if (!trip) {
@@ -71,8 +71,8 @@ export default function TripDetailPage({ params }: DetailPageProps) {
         `Halo, saya tertarik dengan paket ${trip.duration} ke ${
             trip.islandName
         } dengan harga Rp ${trip.price.toLocaleString(
-            'id-ID'
-        )}. Apakah masih tersedia?`
+            'id-ID',
+        )}. Apakah masih tersedia?`,
     );
 
     return (
@@ -155,7 +155,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                         key={idx}
                                         className='flex items-center gap-3 py-2'
                                     >
-                                        <span className='text-blue-600 text-xl'>
+                                        <span className='text-teal-900 text-xl'>
                                             ✓
                                         </span>
                                         <p className='text-gray-700'>
@@ -187,7 +187,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                                         {facility}
                                                     </p>
                                                 </div>
-                                            )
+                                            ),
                                         )}
                                     </div>
                                 </section>
@@ -231,10 +231,10 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                                 checked={selectedMeal === meal}
                                                 onChange={(e) =>
                                                     setSelectedMeal(
-                                                        e.target.value
+                                                        e.target.value,
                                                     )
                                                 }
-                                                className='w-4 h-4 text-blue-600 cursor-pointer'
+                                                className='w-4 h-4 text-teal-900 cursor-pointer'
                                             />
                                             <span className='ml-3 text-gray-700 font-semibold'>
                                                 {meal}
@@ -255,9 +255,9 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                     {trip.schedule.map((day, dayIdx) => (
                                         <div
                                             key={dayIdx}
-                                            className='border-l-4 border-blue-600 pl-6'
+                                            className='border-l-4 border-teal-900 pl-6'
                                         >
-                                            <h3 className='text-xl font-bold text-blue-600 mb-4'>
+                                            <h3 className='text-xl font-bold text-teal-900 mb-4'>
                                                 Hari {day.day}
                                             </h3>
                                             <div className='space-y-3'>
@@ -269,7 +269,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                                         >
                                                             <div className='flex items-start gap-4'>
                                                                 <div className='flex-shrink-0'>
-                                                                    <p className='text-sm font-bold text-blue-600 bg-blue-100 px-3 py-1 rounded'>
+                                                                    <p className='text-sm font-bold text-teal-900 bg-blue-100 px-3 py-1 rounded'>
                                                                         {
                                                                             activity.time
                                                                         }
@@ -290,7 +290,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    )
+                                                    ),
                                                 )}
                                             </div>
                                         </div>
@@ -323,7 +323,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                                         />
                                                     </div>
                                                 </div>
-                                            )
+                                            ),
                                         )}
                                     </div>
                                 </section>
@@ -350,7 +350,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                                 </span>{' '}
                                                 {addon.capacity}
                                             </p>
-                                            <p className='text-lg font-bold text-purple-600'>
+                                            <p className='text-lg font-bold text-teal-900'>
                                                 {addon.price}
                                             </p>
                                         </div>
@@ -368,7 +368,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                 <p className='text-gray-600 text-sm mb-2'>
                                     Harga Per Orang
                                 </p>
-                                <p className='text-4xl font-bold text-blue-600'>
+                                <p className='text-4xl font-bold text-teal-900'>
                                     Rp {trip.price.toLocaleString('id-ID')}
                                 </p>
                             </div>
@@ -409,13 +409,13 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                     href={`https://wa.me/6285121379822?text=${whatsappMessage}`}
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                    className='block w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-4 rounded-lg text-center transition-all transform hover:scale-105 shadow-lg'
+                                    className='block w-full bg-teal-900 hover:bg-teal-800 text-white font-bold py-4 rounded-lg text-center transition-all transform hover:scale-105 shadow-lg'
                                 >
                                     💬 Booking via WhatsApp
                                 </a>
                                 <Link
                                     href='/contact'
-                                    className='block w-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-bold py-4 rounded-lg text-center transition-all transform hover:scale-105 shadow-lg'
+                                    className='block w-full bg-teal-900 hover:bg-teal-800 text-white font-bold py-4 rounded-lg text-center transition-all transform hover:scale-105 shadow-lg'
                                 >
                                     📋 Formulir Booking
                                 </Link>
@@ -441,7 +441,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                     </p>
                     <Link
                         href='/trips'
-                        className='inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors'
+                        className='inline-block bg-teal-900 hover:bg-teal-800 text-white font-bold py-3 px-8 rounded-lg transition-colors'
                     >
                         Lihat Semua Paket
                     </Link>

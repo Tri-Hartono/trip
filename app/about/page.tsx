@@ -61,7 +61,7 @@ export default function AboutPage() {
             <section className='bg-linear-to-r from-blue-50 via-cyan-50 to-emerald-50 py-20'>
                 <div className='max-w-6xl mx-auto px-4'>
                     <div className='text-center mb-16'>
-                        <span className='inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-bold mb-4'>
+                        <span className='inline-block px-4 py-2 bg-blue-100 text-teal-900 rounded-full text-sm font-bold mb-4'>
                             Keunggulan Kami
                         </span>
                         <h2 className='text-4xl md:text-5xl font-black text-gray-900 mb-6'>
@@ -267,7 +267,7 @@ export default function AboutPage() {
                         </Link>
                         <Link
                             href='/contact'
-                            className='inline-block border-2 border-blue-600 text-blue-600 font-bold py-4 px-8 rounded-lg hover:bg-blue-50 transition-all'
+                            className='inline-block border-2 border-blue-600 text-teal-900 font-bold py-4 px-8 rounded-lg hover:bg-blue-50 transition-all'
                         >
                             Hubungi Kami
                         </Link>

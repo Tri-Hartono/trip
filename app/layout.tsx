@@ -1,18 +1,21 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Inter, Poppins } from 'next/font/google';
 import './globals.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppFloat from './components/WhatsAppFloat';
 
-const geistSans = Geist({
-    variable: '--font-geist-sans',
+const inter = Inter({
+    variable: '--font-inter',
     subsets: ['latin'],
+    display: 'swap',
 });
 
-const geistMono = Geist_Mono({
-    variable: '--font-geist-mono',
+const poppins = Poppins({
+    weight: ['400', '500', '600', '700'],
+    variable: '--font-poppins',
     subsets: ['latin'],
+    display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -30,7 +33,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='id'>
-            <body className={` antialiased bg-white`}>
+            <body
+                className={`${inter.variable} ${poppins.variable} antialiased bg-background text-foreground font-sans`}
+            >
                 <Navbar />
                 {children}
                 <Footer />

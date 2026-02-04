@@ -15,7 +15,7 @@ export interface SearchBarProps {
 
 export default function SearchBar({
     onSearch,
-    placeholder = 'Cari pulau, paket, atau durasi...',
+    placeholder = 'Cari destinasi impianmu...',
 }: SearchBarProps) {
     const [query, setQuery] = useState('');
     const [duration, setDuration] = useState('');
@@ -26,50 +26,60 @@ export default function SearchBar({
 
     return (
         <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
-            className='w-full max-w-5xl mx-auto bg-white rounded-3xl shadow-2xl p-8 -mt-20 relative z-10 border border-blue-50'
+            className='w-full max-w-4xl mx-auto -mt-10 relative z-10 px-4'
         >
-            <div className='flex flex-col md:flex-row gap-4'>
+            <div className='bg-white rounded-2xl shadow-xl shadow-teal-900/5 border border-teal-100/50 p-4 flex flex-col md:flex-row gap-3 items-center'>
                 {/* Search Input */}
-                <motion.div
-                    initial={{ opacity: 0, x: -30 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.1, duration: 0.5 }}
-                    className='flex-1 relative'
-                >
-                    <FontAwesomeIcon
-                        icon={faMagnifyingGlass}
-                        className='w-5 h-5 text-gray-400 absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none'
-                    />
+                <div className='flex-1 w-full relative group'>
+                    <div className='absolute inset-y-0 left-4 flex items-center pointer-events-none'>
+                        <FontAwesomeIcon
+                            icon={faMagnifyingGlass}
+                            className='w-5 h-5 text-slate-400 group-focus-within:text-primary transition-colors'
+                        />
+                    </div>
                     <input
                         type='text'
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
                         placeholder={placeholder}
-                        className='w-full pl-12 pr-4 py-4 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-lg placeholder-gray-400'
+                        className='w-full pl-12 pr-4 py-3 bg-slate-50 border border-transparent focus:border-primary/20 rounded-xl focus:bg-white focus:ring-2 focus:ring-primary/20 transition-all font-medium text-slate-700 placeholder-slate-400'
                     />
-                </motion.div>
+                </div>
+
+                {/* Vertical Divider (Desktop) */}
+                <div className='hidden md:block w-px h-10 bg-slate-100'></div>
 
                 {/* Duration Filter */}
-                <motion.div
-                    initial={{ opacity: 0, x: -30 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}
-                    className='md:w-56'
-                >
+                <div className='w-full md:w-64 relative'>
                     <select
                         value={duration}
                         onChange={(e) => setDuration(e.target.value)}
-                        className='w-full px-4 py-4 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all appearance-none bg-white cursor-pointer text-lg font-medium'
+                        className='w-full px-4 py-3 bg-slate-50 border border-transparent focus:border-primary/20 rounded-xl focus:bg-white focus:ring-2 focus:ring-primary/20 transition-all appearance-none cursor-pointer font-medium text-slate-700'
                     >
-                        <option value=''>⏱️ Semua Durasi</option>
-                        <option value='1day'>1 Day Trip</option>
-                        <option value='2d1n'>2 Days 1 Night</option>
-                        <option value='3d2n'>3 Days 2 Nights</option>
+                        <option value=''>Durasi (Semua)</option>
+                        <option value='1day'>1 Hari</option>
+                        <option value='2d1n'>2 Hari 1 Malam</option>
+                        <option value='3d2n'>3 Hari 2 Malam</option>
                     </select>
-                </motion.div>
+                    <div className='absolute inset-y-0 right-4 flex items-center pointer-events-none text-gray-400'>
+                        <svg
+                            className='w-4 h-4'
+                            fill='none'
+                            stroke='currentColor'
+                            viewBox='0 0 24 24'
+                        >
+                            <path
+                                strokeLinecap='round'
+                                strokeLinejoin='round'
+                                strokeWidth='2'
+                                d='M19 9l-7 7-7-7'
+                            ></path>
+                        </svg>
+                    </div>
+                </div>
 
                 {/* Reset Button */}
                 {(query || duration) && (
@@ -77,20 +87,19 @@ export default function SearchBar({
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 0.8 }}
-                        transition={{ duration: 0.3 }}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => {
                             setQuery('');
                             setDuration('');
                         }}
-                        className='md:w-auto px-8 py-4 bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold rounded-xl transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2'
+                        className='p-3 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-xl transition-all'
+                        title='Reset Filters'
                     >
                         <FontAwesomeIcon
                             icon={faRotateLeft}
                             className='w-5 h-5'
                         />
-                        <span>Reset</span>
                     </motion.button>
                 )}
             </div>
