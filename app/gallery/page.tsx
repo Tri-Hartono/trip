@@ -3,93 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-// Dummy gallery data
-const galleryData = [
-    {
-        id: 1,
-        title: 'Pulau Pramuka Paradise',
-        island: 'Pulau Pramuka',
-        category: 'Island Hopping',
-        image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBCt06IvpllTO64U1Jco5CYYgFPl2JYABD9Pq-F1WWKlog8AExC2euPXfQGBagUTjblxz_B1n1bG-mCFJhm2nIEqo6UGAu6AjD0e7h-QxLBuP29bFdilLXM89WuDr9PqfYMRldmGnGfY4gEdbkN85UjJYhX4_zsL820NUFyjrC08rcsJTAQDlNkndOxAUB8iew1VZOBV5PgeQgeosxoNd9QqoMpN1A7e6FgEE_mcVBwtjCvt6iQkCwlHOojxl3kDySS_zPlKuVXJg',
-    },
-    {
-        id: 2,
-        title: 'Snorkeling di Pramuka',
-        island: 'Pulau Pramuka',
-        category: 'Snorkeling',
-        image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDP2KoZe_oDCVMB8BCETMIk514xmklXccMyxs50mDXltXZqSfWRPT9tPXw7OwSU_Z-AmYhVKT1DUDvxmtArAx64VO54_gtX6d6ygZzqB4zHapZFjRfU4zLavpmdEww9Kz6wV__TLZ7cMwDhGt2BmLlJbRYBF4GKk7PC97VjO3GUtB9SWbtfwBysrLO461EgKOV3PuKyaeeh8QyosElq__D4oaCTzFXQSHtZ-nLhWEmg_l-1MATRvr_8xbeA9a16EQk-rqXWSZgr0A',
-    },
-    {
-        id: 3,
-        title: 'Aerial View Harapan',
-        island: 'Pulau Harapan',
-        category: 'Drone Shots',
-        image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAW55NbSCWUWmbz5pog9xa2daU5rZqaL7SWL2XwsksEaQriG65xl-UwfDYnxHPcQCT3_9Lm9DDpIYZ4Y_9hB-5fnGgMYPEHf50VehF8Wvic1ljbjkZxzudSXRrhp-Kq1z8NdFo4nNz_xfp-R2VvkDKMM745wkSeBxG5ec-mxNgtK2HBJ09ysaT3ImhmKJisfTSoWUw7bImUJgZ0XTv0e5A_ieDWFqyAyocx1YuxOs4O8iloU-K7YsO8OFDDFMCt6BiwAhi_VUTbTg',
-    },
-    {
-        id: 4,
-        title: 'Sunset di Tidung',
-        island: 'Pulau Tidung',
-        category: 'Drone Shots',
-        image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDzI39CBLhdPyiWtP3uEmMASPir1ij6N0tEiqcGzR0BbBriSAsmpmspkSDaqp-JkwWEEYqsklHG6LIrFCkp4Ekq2j_bWNC238CulrxUFIhdrU2WR6uuPpdri9wb-XQFP4EXsmVzu-CMus_N-ArsiX5bBNcmHdCjAn92-RlkoUtsUdsK0h5AdKpvVEKbw_poYunVszi31fPtmqFXcFMawLWIgisNfmO8Z4va6mUuFijwCoUtjZU0t5ZiDTbBlx6y3mNZxOKn4WAX5g',
-    },
-    {
-        id: 5,
-        title: 'Cottage Pulau Pramuka',
-        island: 'Pulau Pramuka',
-        category: 'Accommodations',
-        image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ',
-    },
-    {
-        id: 6,
-        title: 'Island Hopping Harapan',
-        island: 'Pulau Harapan',
-        category: 'Island Hopping',
-        image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80',
-    },
-    {
-        id: 7,
-        title: 'Coral Garden Pramuka',
-        island: 'Pulau Pramuka',
-        category: 'Snorkeling',
-        image: 'https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=800&q=80',
-    },
-    {
-        id: 8,
-        title: 'Penginapan Harapan',
-        island: 'Pulau Harapan',
-        category: 'Accommodations',
-        image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80',
-    },
-    {
-        id: 9,
-        title: 'Jembatan Cinta Tidung',
-        island: 'Pulau Tidung',
-        category: 'Island Hopping',
-        image: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&q=80',
-    },
-    {
-        id: 10,
-        title: 'Underwater Tidung',
-        island: 'Pulau Tidung',
-        category: 'Snorkeling',
-        image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80',
-    },
-    {
-        id: 11,
-        title: 'Drone View Pramuka',
-        island: 'Pulau Pramuka',
-        category: 'Drone Shots',
-        image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80',
-    },
-    {
-        id: 12,
-        title: 'Villa Harapan',
-        island: 'Pulau Harapan',
-        category: 'Accommodations',
-        image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80',
-    },
-];
+import galleryData from '@/data/gallery.json';
 
 const categories = [
     'All Photos',
@@ -154,8 +68,7 @@ export default function page() {
             <div
                 className='text-white py-40 relative overflow-hidden bg-cover bg-center'
                 style={{
-                    backgroundImage:
-                        'url(https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ)',
+                    backgroundImage: 'url(/images/pramuka_1.webp)',
                 }}
             >
                 <div className='absolute inset-0 opacity-10'>
@@ -183,13 +96,13 @@ export default function page() {
             </div>
 
             <div className='relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden'>
-                <main className='flex-1 w-full max-w-[1280px] mx-auto px-6 py-20'>
+                <main className='flex-1 w-full max-w-7xl mx-auto px-6 py-20'>
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                         viewport={{ once: true }}
-                        className='flex flex-col items-center text-center max-w-[800px] mx-auto mb-12'
+                        className='flex flex-col items-center text-center max-w-200 mx-auto mb-12'
                     >
                         <div className='flex items-center gap-2 mb-3'>
                             <span className='h-px w-8 bg-primary/50'></span>
@@ -255,14 +168,14 @@ export default function page() {
                                         transition: { duration: 0.3 },
                                     }}
                                     onClick={() => openModal(item)}
-                                    className='group relative overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-800 cursor-pointer aspect-[4/3]'
+                                    className='group relative overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-800 cursor-pointer aspect-4/3'
                                 >
                                     <img
                                         alt={item.title}
                                         className='w-full h-full object-cover transition-transform duration-700 group-hover:scale-110'
                                         src={item.image}
                                     />
-                                    <div className='absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6'>
+                                    <div className='absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6'>
                                         <span className='text-white text-xs font-bold uppercase tracking-wider mb-2 bg-primary px-3 py-1 rounded-full w-fit'>
                                             {item.category}
                                         </span>

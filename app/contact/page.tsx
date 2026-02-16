@@ -23,7 +23,7 @@ export default function ContactPage() {
     const handleChange = (
         e: React.ChangeEvent<
             HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-        >
+        >,
     ) => {
         const { name, value } = e.target;
         setFormData((prev) => ({
@@ -53,7 +53,7 @@ Terima kasih!
     `.trim();
 
         const whatsappUrl = `https://wa.me/6285121379822?text=${encodeURIComponent(
-            message
+            message,
         )}`;
         window.open(whatsappUrl, '_blank');
 
@@ -242,7 +242,7 @@ Terima kasih!
                                 href='https://wa.me/6285121379822'
                                 target='_blank'
                                 rel='noopener noreferrer'
-                                className='block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
+                                className='block w-full bg-green-700 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
                             >
                                 💬 WhatsApp Chat
                             </motion.a>
@@ -250,7 +250,7 @@ Terima kasih!
                                 whileHover={{ scale: 1.02 }}
                                 whileTap={{ scale: 0.98 }}
                                 href='tel:+6281234567890'
-                                className='block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
+                                className='block w-full bg-green-700 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
                             >
                                 📞 Call Us
                             </motion.a>
@@ -446,7 +446,7 @@ Terima kasih!
                                 type='submit'
                                 whileHover={{ scale: 1.02 }}
                                 whileTap={{ scale: 0.98 }}
-                                className='w-full bg-linear-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white font-bold py-4 rounded-lg transition-all text-lg'
+                                className='w-full bg-linear-to-r from-green-700 to-green-600 hover:from-green-800 hover:to-green-600 text-white font-bold py-4 rounded-lg transition-all text-lg'
                             >
                                 📨 Kirim Booking ke WhatsApp
                             </motion.button>

@@ -44,8 +44,10 @@ export default function Home() {
                 duration: cheapestPackage.duration,
                 durationCode: cheapestPackage.durationCode,
                 price: cheapestPackage.price,
+                minPeople: cheapestPackage.minPeople,
                 image: island.image,
                 description: island.description,
+                status: island.status,
             };
         });
 
@@ -180,7 +182,11 @@ export default function Home() {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10'>
                     {featuredTrips.map((trip) => (
-                        <TripCard key={trip.id} {...trip} />
+                        <TripCard
+                            key={trip.id}
+                            {...trip}
+                            status={trip.status}
+                        />
                     ))}
                 </div>
 

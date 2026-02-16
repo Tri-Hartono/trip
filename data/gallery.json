@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Keindahan Pesisir Pramuka",
+        "island": "Pulau Pramuka",
+        "category": "Island Hopping",
+        "image": "/images/pramuka_1.webp"
+    },
+    {
+        "id": 2,
+        "title": "Snorkeling Crystal Clear",
+        "island": "Pulau Pramuka",
+        "category": "Snorkeling",
+        "image": "/images/pramuka_2.webp"
+    },
+    {
+        "id": 3,
+        "title": "Pemandangan Udara Pramuka",
+        "island": "Pulau Pramuka",
+        "category": "Drone Shots",
+        "image": "/images/pramuka_3.webp"
+    },
+
+    {
+        "id": 5,
+        "title": "Dermaga Pulau Pramuka",
+        "island": "Pulau Pramuka",
+        "category": "Island Hopping",
+        "image": "/images/pramuka_5.webp"
+    },
+    {
+        "id": 6,
+        "title": "Biota Laut yang Terjaga",
+        "island": "Pulau Pramuka",
+        "category": "Snorkeling",
+        "image": "/images/pramuka_6.webp"
+    },
+    {
+        "id": 7,
+        "title": "Sunset di Ujung Dermaga",
+        "island": "Pulau Pramuka",
+        "category": "Drone Shots",
+        "image": "/images/pramuka_1.webp"
+    },
+    {
+        "id": 8,
+        "title": "Eksplorasi Hutan Mangrove",
+        "island": "Pulau Pramuka",
+        "category": "Island Hopping",
+        "image": "/images/pramuka_2.webp"
+    },
+    {
+        "id": 9,
+        "title": "Spot Ikan Warna-warni",
+        "island": "Pulau Pramuka",
+        "category": "Snorkeling",
+        "image": "/images/pramuka_3.webp"
+    },
+    {
+        "id": 10,
+        "title": "Suasana Malam di Pulau",
+        "island": "Pulau Pramuka",
+        "category": "Accommodations",
+        "image": "/images/pramuka_5.webp"
+    },
+
+    {
+        "id": 12,
+        "title": "Terumbu Karang Sehat",
+        "island": "Pulau Pramuka",
+        "category": "Snorkeling",
+        "image": "/images/pramuka_6.webp"
+    }
+]

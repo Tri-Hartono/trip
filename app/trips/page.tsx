@@ -222,8 +222,10 @@ export default function TripsPage() {
                                         duration={trip.duration}
                                         durationCode={trip.durationCode}
                                         price={trip.price}
+                                        minPeople={trip.minPeople}
                                         image={trip.islandImage}
                                         description={trip.description}
+                                        status={trip.islandStatus}
                                     />
                                 ))}
                             </div>

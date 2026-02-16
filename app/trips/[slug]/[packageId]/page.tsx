@@ -78,7 +78,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
     return (
         <>
             {/* Hero Section with Image */}
-            <div className='relative h-96 md:h-[500px] w-full'>
+            <div className='relative h-96 md:h-125 w-full'>
                 <Image
                     src={trip.islandImage || '/images/default-island.jpg'}
                     alt={trip.islandName}
@@ -86,7 +86,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                     className='object-cover'
                     priority
                 />
-                <div className='absolute inset-0 bg-gradient-to-b from-black/30 to-black/70'></div>
+                <div className='absolute inset-0 bg-linear-to-b from-black/30 to-black/70'></div>
 
                 {/* Breadcrumb */}
                 <div className='absolute top-6 left-6 text-white'>
@@ -106,6 +106,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                     <p className='text-lg text-gray-200'>
                         {trip.duration} • Mulai dari Rp{' '}
                         {trip.price.toLocaleString('id-ID')}
+                        {trip.minPeople && ` • Min. ${trip.minPeople} Orang`}
                     </p>
                 </div>
             </div>
@@ -202,7 +203,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                 {trip.destinations.map((destination, idx) => (
                                     <div
                                         key={idx}
-                                        className='p-4 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg border border-blue-200'
+                                        className='p-4 bg-linear-to-r from-blue-50 to-cyan-50 rounded-lg border border-blue-200'
                                     >
                                         <p className='text-gray-800 font-semibold'>
                                             {destination}
@@ -268,14 +269,14 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                                             className='bg-blue-50 p-4 rounded-lg border border-blue-200'
                                                         >
                                                             <div className='flex items-start gap-4'>
-                                                                <div className='flex-shrink-0'>
+                                                                <div className='shrink-0'>
                                                                     <p className='text-sm font-bold text-teal-900 bg-blue-100 px-3 py-1 rounded'>
                                                                         {
                                                                             activity.time
                                                                         }
                                                                     </p>
                                                                 </div>
-                                                                <div className='flex-grow'>
+                                                                <div className='grow'>
                                                                     <p className='font-semibold text-gray-800'>
                                                                         {
                                                                             activity.activity
@@ -302,29 +303,45 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                         {/* Gallery */}
                         {trip.galleryImages &&
                             trip.galleryImages.length > 0 && (
-                                <section className='mb-12'>
-                                    <h2 className='text-2xl font-bold text-gray-800 mb-6'>
-                                        Galeri Foto
-                                    </h2>
-                                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
-                                        {trip.galleryImages.map(
-                                            (image, idx) => (
+                                <section className='mb-16'>
+                                    <div className='flex items-end justify-between mb-8'>
+                                        <div>
+                                            <h2 className='text-3xl font-heading font-bold text-slate-900 mb-2'>
+                                                Galeri Foto
+                                            </h2>
+                                            <p className='text-slate-500'>
+                                                Keindahan {trip.islandName}{' '}
+                                                dalam lensa
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div className='grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-3 md:gap-4 h-125 md:h-125'>
+                                        {trip.galleryImages
+                                            .slice(0, 6)
+                                            .map((image, idx) => (
                                                 <div
                                                     key={idx}
-                                                    className='group overflow-hidden rounded-lg shadow-lg cursor-pointer'
+                                                    className={`group relative overflow-hidden rounded-2xl shadow-sm cursor-pointer ${
+                                                        idx === 0
+                                                            ? 'col-span-2 row-span-2'
+                                                            : ''
+                                                    } ${
+                                                        idx === 5
+                                                            ? 'md:col-span-2'
+                                                            : ''
+                                                    }`}
                                                 >
-                                                    <div className='relative h-48 overflow-hidden bg-gray-200'>
-                                                        <img
-                                                            src={image}
-                                                            alt={`Gallery ${
-                                                                idx + 1
-                                                            }`}
-                                                            className='w-full h-full object-cover group-hover:scale-110 transition-transform duration-300'
-                                                        />
-                                                    </div>
+                                                    <Image
+                                                        src={image}
+                                                        alt={`Gallery ${idx + 1}`}
+                                                        fill
+                                                        className='object-cover group-hover:scale-110 transition-transform duration-700'
+                                                        sizes='(max-width: 768px) 100vw, 50vw'
+                                                    />
+                                                    <div className='absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300' />
                                                 </div>
-                                            ),
-                                        )}
+                                            ))}
                                     </div>
                                 </section>
                             )}
@@ -339,7 +356,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                     {trip.addons.map((addon, idx) => (
                                         <div
                                             key={idx}
-                                            className='p-6 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg border border-purple-200'
+                                            className='p-6 bg-linear-to-br from-purple-50 to-pink-50 rounded-lg border border-purple-200'
                                         >
                                             <h3 className='text-lg font-bold text-gray-800 mb-2'>
                                                 {addon.name}
@@ -391,6 +408,16 @@ export default function TripDetailPage({ params }: DetailPageProps) {
                                         {trip.islandName}
                                     </p>
                                 </div>
+                                {trip.minPeople && (
+                                    <div>
+                                        <p className='text-gray-600 text-sm'>
+                                            Kapasitas Minimum
+                                        </p>
+                                        <p className='text-gray-800 font-semibold'>
+                                            {trip.minPeople} Orang
+                                        </p>
+                                    </div>
+                                )}
                                 {selectedMeal && (
                                     <div>
                                         <p className='text-gray-600 text-sm'>
@@ -431,7 +458,7 @@ export default function TripDetailPage({ params }: DetailPageProps) {
             </div>
 
             {/* Related Trips Section */}
-            <section className='bg-gradient-to-r from-blue-50 to-cyan-50 py-16 mt-12'>
+            <section className='bg-linear-to-r from-blue-50 to-cyan-50 py-16 mt-12'>
                 <div className='max-w-6xl mx-auto px-4'>
                     <h2 className='text-3xl font-bold text-gray-800 mb-2'>
                         Paket Lainnya

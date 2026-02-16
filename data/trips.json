@@ -1,1374 +1,1382 @@
 [
-  {
-    "id": 1,
-    "name": "Pulau Pramuka",
-    "slug": "pulau-pramuka",
-    "description": "Island dengan pantai pasir putih dan aktivitas snorkeling terbaik",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-    "packages": [
-      {
-        "id": "pramuka-2d1n",
-        "duration": "2 Days 1 Nights",
-        "durationCode": "2d1n",
-        "durationInDays": 2,
-        "price": 450000,
-        "description": "Pulau Pramuka adalah destinasi wisata bahari yang cocok untuk kamu yang ingin liburan santai, edukatif, sekaligus dekat dengan alam. Terletak di pusat Kepulauan Seribu, pulau ini dikenal dengan lingkungan yang tertata rapi, suasana tenang, dan laut yang masih jernih. Berbeda dari pulau wisata yang ramai hiburan, Pulau Pramuka menawarkan pengalaman liburan yang lebih seimbang. Kamu bisa menikmati pantai berpasir putih, berenang di perairan dangkal yang aman, hingga snorkeling dengan pemandangan terumbu karang dan ikan warna-warni yang masih terjaga. Pulau ini juga menjadi pusat konservasi penyu sisik. Peserta open trip bisa melihat langsung proses penangkaran penyu, belajar tentang pelestarian laut, dan ikut melepas tukik ke laut (tergantung ketersediaan). Aktivitas ini membuat liburan terasa lebih bermakna, bukan sekadar jalan-jalan.Di sore hari, suasana Pulau Pramuka semakin nyaman untuk bersepeda keliling pulau, menikmati sunset, atau bersantai di dermaga sambil melihat aktivitas warga lokal. Fasilitas umum sudah lengkap, mulai dari homestay yang nyaman, warung makan, hingga mushola dan klinik. Open trip Pulau Pramuka sangat cocok untuk solo traveler, pasangan, maupun rombongan yang ingin liburan singkat tanpa ribet, dengan jarak tempuh yang relatif dekat dari Jakarta namun tetap memberi nuansa liburan pulau yang autentik.",
-        "facilities": [
-          "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
-          "Homestay AC Selama 1 Malam",
-          "Makan 3x ( Siang, Malam dan Pagi )",
-          "Alat Snorkling Lengkap Per Peserta",
-          "Kapal Jelajah Pulau Untuk Snorkling",
-          "Jelajah Pulau Gusung Petrick",
-          "Asuransi Perjalanan",
-          "Biaya Masuk ke Penangkaran Kuda Laut",
-          "Bonus BBQ ( Ikan )",
-          "Free Foto Underwater sepuasnyah",
-          "Free Kaos Jelana Explore (Bisa Pilih Size)"
-        ],
-        "destinations": [
-          "Pantai pasir putih ekslusif",
-          "Spot snorkeling premium",
-          "Pulau burung",
-          "Hutan mangrove adventure",
-          "Sunset cruise malam pertama",
-          "Island hopping ke pulau lain",
-          "Water sports activities"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:00 - 08:00",
-                "activity": "Titik kumpul",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 11:00",
-                "activity": "Perjalanan menuju Pulau Pramuka",
-                "location": "Kapal tradisional"
-              },
-              {
-                "time": "11:00 - 13:00",
-                "activity": "ISHOMA dan persiapan snorkeling",
-                "location": "Homestay"
-              },
-              {
-                "time": "13:00 - 13:30",
-                "activity": "Menuju Pulau Air",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "13:30 - 16:30",
-                "activity": "Island hopping dan snorkeling",
-                "location": "Pulau Pramuka & sekitarnya"
-              },
-              {
-                "time": "16:30 - 17:00",
-                "activity": "Kembali ke Pulau Pramuka",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "17:00 - 18:00",
-                "activity": "Persiapan makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "18:00 - 19:30",
-                "activity": "Makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "19:30 - 23:00",
-                "activity": "Free time",
-                "location": "Resort area"
-              },
-              {
-                "time": "23:00 - 06:00",
-                "activity": "Istirahat",
-                "location": "Kamar tidur"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "06:00 - 07:30",
-                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
-                "location": "Homestay"
-              },
-              {
-                "time": "07:30 - 08:00",
-                "activity": "Perjalanan menuju penangkaran penyu",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "08:00 - 09:00",
-                "activity": "Edukasi dan foto-foto",
-                "location": "Penangkaran penyu"
-              },
-              {
-                "time": "09:00 - 09:30",
-                "activity": "Kembali ke homestay",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "09:30 - 10:30",
-                "activity": "Persiapan pulang",
-                "location": "Homestay"
-              },
-              {
-                "time": "10:30 - 11:00",
-                "activity": "Menuju dermaga",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "11:00 - 14:00",
-                "activity": "Perjalanan kembali ke Jakarta",
-                "location": "Kapal"
-              }
-            ]
-          }
-        ],
-        "addons": [
-          {
-            "name": "Banana Boat",
-            "capacity": "6 orang",
-            "price": "20.000 - 25.000 per orang"
-          },
-          {
-            "name": "Jet Ski",
-            "capacity": "2 orang per jet ski",
-            "price": "120.000 per orang"
-          }
-        ],
-        "snorkingSpots": [
-          {
-            "island": "Pulau Dolphin",
-            "time": "13:00 - 13:30"
-          },
-          {
-            "island": "Spot snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tips Guide sukarela",
-          "Peron pelabuhan",
-          "Hal yang tidak disebutkan diatas"
-        ],
-        "meals": [],
-        "highlights": []
-      },
-      {
-        "id": "pramuka-3d2n",
-        "duration": "3 Days 2 Nights",
-        "durationCode": "3d2n",
-        "durationInDays": 3,
-        "price": 600000,
-        "description": "Pulau Pramuka adalah destinasi wisata bahari yang cocok untuk kamu yang ingin liburan santai, edukatif, sekaligus dekat dengan alam. Terletak di pusat Kepulauan Seribu, pulau ini dikenal dengan lingkungan yang tertata rapi, suasana tenang, dan laut yang masih jernih. Berbeda dari pulau wisata yang ramai hiburan, Pulau Pramuka menawarkan pengalaman liburan yang lebih seimbang. Kamu bisa menikmati pantai berpasir putih, berenang di perairan dangkal yang aman, hingga snorkeling dengan pemandangan terumbu karang dan ikan warna-warni yang masih terjaga. Pulau ini juga menjadi pusat konservasi penyu sisik. Peserta open trip bisa melihat langsung proses penangkaran penyu, belajar tentang pelestarian laut, dan ikut melepas tukik ke laut (tergantung ketersediaan). Aktivitas ini membuat liburan terasa lebih bermakna, bukan sekadar jalan-jalan. Di sore hari, suasana Pulau Pramuka semakin nyaman untuk bersepeda keliling pulau, menikmati sunset, atau bersantai di dermaga sambil melihat aktivitas warga lokal. Fasilitas umum sudah lengkap, mulai dari homestay yang nyaman, warung makan, hingga mushola dan klinik. Open trip Pulau Pramuka sangat cocok untuk solo traveler, pasangan, maupun rombongan yang ingin liburan singkat tanpa ribet, dengan jarak tempuh yang relatif dekat dari Jakarta namun tetap memberi nuansa liburan pulau yang autentik.",
-        "facilities": [
-          "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
-          "Homestay AC Selama 1 Malam",
-          "Makan 3x ( Siang, Malam dan Pagi )",
-          "Alat Snorkling Lengkap Per Peserta",
-          "Kapal Jelajah Pulau Untuk Snorkling",
-          "Jelajah Pulau Gusung Petrick",
-          "Asuransi Perjalanan",
-          "Biaya Masuk ke Penangkaran Kuda Laut",
-          "Bonus BBQ ( Ikan )",
-          "Free Foto Underwater sepuasnyah",
-          "Free Kaos Jelana Explore (Bisa Pilih Size)"
-        ],
-        "destinations": [
-          "Pantai pasir putih ekslusif",
-          "Spot snorkeling premium",
-          "Pulau burung",
-          "Hutan mangrove adventure",
-          "Sunset cruise malam pertama",
-          "Island hopping ke pulau lain",
-          "Water sports activities"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:00 - 08:00",
-                "activity": "Titik kumpul",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 11:00",
-                "activity": "Perjalanan menuju Pulau Pramuka",
-                "location": "Kapal tradisional"
-              },
-              {
-                "time": "11:00 - 13:00",
-                "activity": "ISHOMA dan persiapan snorkeling",
-                "location": "Homestay"
-              },
-              {
-                "time": "13:00 - 13:30",
-                "activity": "Menuju Pulau Air",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "13:30 - 16:30",
-                "activity": "Island hopping dan snorkeling",
-                "location": "Pulau Pramuka & sekitarnya"
-              },
-              {
-                "time": "16:30 - 17:00",
-                "activity": "Kembali ke Pulau Pramuka",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "17:00 - 18:00",
-                "activity": "Persiapan makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "18:00 - 19:30",
-                "activity": "Makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "19:30 - 23:00",
-                "activity": "Free time",
-                "location": "Resort area"
-              },
-              {
-                "time": "23:00 - 06:00",
-                "activity": "Istirahat",
-                "location": "Kamar tidur"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "06:00 - 07:30",
-                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
-                "location": "Homestay"
-              },
-              {
-                "time": "07:30 - 08:00",
-                "activity": "Perjalanan menuju penangkaran penyu",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "08:00 - 09:00",
-                "activity": "Edukasi dan foto-foto",
-                "location": "Penangkaran penyu"
-              },
-              {
-                "time": "09:00 - 09:30",
-                "activity": "Kembali ke homestay",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "09:30 - 10:30",
-                "activity": "Persiapan pulang",
-                "location": "Homestay"
-              },
-              {
-                "time": "10:30 - 11:00",
-                "activity": "Menuju dermaga",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "11:00 - 14:00",
-                "activity": "Perjalanan kembali ke Jakarta",
-                "location": "Kapal"
-              }
-            ]
-          }
-        ],
-        "addons": [
-          {
-            "name": "Banana Boat",
-            "capacity": "6 orang",
-            "price": "20.000 - 25.000 per orang"
-          },
-          {
-            "name": "Jet Ski",
-            "capacity": "2 orang per jet ski",
-            "price": "120.000 per orang"
-          }
-        ],
-        "snorkingSpots": [
-          {
-            "island": "Pulau Dolphin",
-            "time": "13:00 - 13:30"
-          },
-          {
-            "island": "Spot snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tips Guide sukarela",
-          "Peron pelabuhan",
-          "Hal yang tidak disebutkan diatas"
-        ],
-        "meals": [],
-        "highlights": []
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Pulau Kelapa",
-    "slug": "pulau-kelapa",
-    "description": "Destinasi populer dengan fasilitas lengkap dan pemandangan indah",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-    "packages": [
-      {
-        "id": "pulaukelapa-2d1n",
-        "duration": "2 Days 1 Night",
-        "durationCode": "2d1n",
-        "durationInDays": 2,
-        "price": 450000,
-        "description": "Pulau Kelapa adalah pilihan tepat bagi kamu yang ingin merasakan suasana pulau yang hidup namun tetap nyaman untuk berlibur. Pulau ini memiliki karakter khas sebagai pulau hunian dengan sentuhan wisata bahari yang kuat, sehingga pengunjung bisa menikmati keindahan laut sekaligus melihat kehidupan masyarakat pesisir secara langsung. Perairan di sekitar Pulau Kelapa dikenal jernih dan tenang, cocok untuk snorkeling dan berenang. Terumbu karang dan ikan-ikan kecil mudah ditemui, menjadikan aktivitas laut terasa seru meski untuk pemula. Beberapa spot di sekitar pulau juga ideal untuk island hopping ke pulau-pulau kecil di sekitarnya. Pulau Kelapa memiliki garis pantai yang cukup panjang dengan pemandangan laut lepas yang menenangkan. Pagi hari sangat pas untuk menikmati angin laut sambil berjalan santai, sedangkan sore hari menghadirkan suasana hangat dengan langit senja yang indah. Malam harinya, suasana pulau terasa lebih lokal dan akrab, cocok untuk quality time tanpa hiruk-pikuk kota. Fasilitas di Pulau Kelapa tergolong lengkap. Tersedia berbagai pilihan homestay, warung makan dengan menu seafood segar, hingga area publik yang nyaman untuk berkumpul. Akses antar pulau juga mudah karena Pulau Kelapa terhubung dengan Pulau Kelapa Dua melalui jembatan, sehingga area eksplorasi menjadi lebih luas. Open trip Pulau Kelapa cocok untuk kamu yang mencari liburan santai, tidak terlalu ramai, namun tetap memiliki banyak aktivitas. Baik untuk solo traveler  pasangan, maupun rombongan kecil yang ingin menikmati sisi lain Kepulauan Seribu dengan nuansa lokal yang lebih terasa.",
-        "facilities": [
-          "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
-          "Homestay AC Selama 1 Malam",
-          "Makan 3x ( Siang, Malam dan Pagi )",
-          "Alat Snorkling Lengkap Per Peserta",
-          "Kapal Jelajah Pulau Untuk Snorkling",
-          "Jelajah Pulau Gusung Petrick",
-          "Asuransi Perjalanan",
-          "Biaya Masuk ke Penangkaran Kuda Laut",
-          "Bonus BBQ ( Ikan )",
-          "Free Foto Underwater sepuasnyah",
-          "Free Kaos Jelana Explore (Bisa Pilih Size)"
-        ],
-        "destinations": [
-          "Pantai pasir putih ekslusif",
-          "Spot snorkeling premium",
-          "Pulau burung",
-          "Hutan mangrove adventure",
-          "Sunset cruise malam pertama",
-          "Island hopping ke pulau lain",
-          "Water sports activities"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:00 - 08:00",
-                "activity": "Titik kumpul",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 11:00",
-                "activity": "Perjalanan menuju Pulau Pramuka",
-                "location": "Kapal tradisional"
-              },
-              {
-                "time": "11:00 - 13:00",
-                "activity": "ISHOMA dan persiapan snorkeling",
-                "location": "Homestay"
-              },
-              {
-                "time": "13:00 - 13:30",
-                "activity": "Menuju Pulau Air",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "13:30 - 16:30",
-                "activity": "Island hopping dan snorkeling",
-                "location": "Pulau Pramuka & sekitarnya"
-              },
-              {
-                "time": "16:30 - 17:00",
-                "activity": "Kembali ke Pulau Pramuka",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "17:00 - 18:00",
-                "activity": "Persiapan makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "18:00 - 19:30",
-                "activity": "Makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "19:30 - 23:00",
-                "activity": "Free time",
-                "location": "Resort area"
-              },
-              {
-                "time": "23:00 - 06:00",
-                "activity": "Istirahat",
-                "location": "Kamar tidur"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "06:00 - 07:30",
-                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
-                "location": "Homestay"
-              },
-              {
-                "time": "07:30 - 08:00",
-                "activity": "Perjalanan menuju penangkaran penyu",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "08:00 - 09:00",
-                "activity": "Edukasi dan foto-foto",
-                "location": "Penangkaran penyu"
-              },
-              {
-                "time": "09:00 - 09:30",
-                "activity": "Kembali ke homestay",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "09:30 - 10:30",
-                "activity": "Persiapan pulang",
-                "location": "Homestay"
-              },
-              {
-                "time": "10:30 - 11:00",
-                "activity": "Menuju dermaga",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "11:00 - 14:00",
-                "activity": "Perjalanan kembali ke Jakarta",
-                "location": "Kapal"
-              }
-            ]
-          }
-        ],
-        "addons": [
-          {
-            "name": "Banana Boat",
-            "capacity": "6 orang",
-            "price": "20.000 - 25.000 per orang"
-          },
-          {
-            "name": "Jet Ski",
-            "capacity": "2 orang per jet ski",
-            "price": "120.000 per orang"
-          }
-        ],
-        "snorkingSpots": [
-          {
-            "island": "Pulau Dolphin",
-            "time": "13:00 - 13:30"
-          },
-          {
-            "island": "Spot snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tips Guide sukarela",
-          "Peron pelabuhan",
-          "Hal yang tidak disebutkan diatas"
-        ],
-        "meals": [],
-        "highlights": []
-      },
-      {
-        "id": "pulaukelapa-3d2n",
-        "duration": "3 Days 2 Nights",
-        "durationCode": "3d2n",
-        "durationInDays": 3,
-        "price": 600000,
-        "description": "Pulau Kelapa adalah pilihan tepat bagi kamu yang ingin merasakan suasana pulau yang hidup namun tetap nyaman untuk berlibur. Pulau ini memiliki karakter khas sebagai pulau hunian dengan sentuhan wisata bahari yang kuat, sehingga pengunjung bisa menikmati keindahan laut sekaligus melihat kehidupan masyarakat pesisir secara langsung.Perairan di sekitar Pulau Kelapa dikenal jernih dan tenang, cocok untuk snorkeling dan berenang. Terumbu karang dan ikan-ikan kecil mudah ditemui, menjadikan aktivitas laut terasa seru meski untuk pemula. Beberapa spot di sekitar pulau juga ideal untuk island hopping ke pulau-pulau kecil di sekitarnya. Pulau Kelapa memiliki garis pantai yang cukup panjang dengan pemandangan laut lepas yang menenangkan. Pagi hari sangat pas untuk menikmati angin laut sambil berjalan santai, sedangkan sore hari menghadirkan suasana hangat dengan langit senja yang indah. Malam harinya, suasana pulau terasa lebih lokal dan akrab, cocok untuk quality time tanpa hiruk-pikuk kota. Fasilitas di Pulau Kelapa tergolong lengkap. Tersedia berbagai pilihan homestay, warung makan dengan menu seafood segar, hingga area publik yang nyaman untuk berkumpul. Akses antar pulau juga mudah karena Pulau Kelapa terhubung dengan Pulau Kelapa Dua melalui jembatan, sehingga area eksplorasi menjadi lebih luas. Open trip Pulau Kelapa cocok untuk kamu yang mencari liburan santai tidak terlalu ramai, namun tetap memiliki banyak aktivitas. Baik untuk solo traveler pasangan, maupun rombongan kecil yang ingin menikmati sisi lain Kepulauan Seribu dengan nuansa lokal yang lebih terasa.",
-        "facilities": [
-          "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
-          "Homestay AC Selama 1 Malam",
-          "Makan 3x ( Siang, Malam dan Pagi )",
-          "Alat Snorkling Lengkap Per Peserta",
-          "Kapal Jelajah Pulau Untuk Snorkling",
-          "Jelajah Pulau Gusung Petrick",
-          "Asuransi Perjalanan",
-          "Biaya Masuk ke Penangkaran Kuda Laut",
-          "Bonus BBQ ( Ikan )",
-          "Free Foto Underwater sepuasnyah",
-          "Free Kaos Jelana Explore (Bisa Pilih Size)"
-        ],
-        "destinations": [
-          "Pantai pasir putih ekslusif",
-          "Spot snorkeling premium",
-          "Pulau burung",
-          "Hutan mangrove adventure",
-          "Sunset cruise malam pertama",
-          "Island hopping ke pulau lain",
-          "Water sports activities"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:00 - 08:00",
-                "activity": "Titik kumpul",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 11:00",
-                "activity": "Perjalanan menuju Pulau Pramuka",
-                "location": "Kapal tradisional"
-              },
-              {
-                "time": "11:00 - 13:00",
-                "activity": "ISHOMA dan persiapan snorkeling",
-                "location": "Homestay"
-              },
-              {
-                "time": "13:00 - 13:30",
-                "activity": "Menuju Pulau Air",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "13:30 - 16:30",
-                "activity": "Island hopping dan snorkeling",
-                "location": "Pulau Pramuka & sekitarnya"
-              },
-              {
-                "time": "16:30 - 17:00",
-                "activity": "Kembali ke Pulau Pramuka",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "17:00 - 18:00",
-                "activity": "Persiapan makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "18:00 - 19:30",
-                "activity": "Makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "19:30 - 23:00",
-                "activity": "Free time",
-                "location": "Resort area"
-              },
-              {
-                "time": "23:00 - 06:00",
-                "activity": "Istirahat",
-                "location": "Kamar tidur"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "06:00 - 07:30",
-                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
-                "location": "Homestay"
-              },
-              {
-                "time": "07:30 - 08:00",
-                "activity": "Perjalanan menuju penangkaran penyu",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "08:00 - 09:00",
-                "activity": "Edukasi dan foto-foto",
-                "location": "Penangkaran penyu"
-              },
-              {
-                "time": "09:00 - 09:30",
-                "activity": "Kembali ke homestay",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "09:30 - 10:30",
-                "activity": "Persiapan pulang",
-                "location": "Homestay"
-              },
-              {
-                "time": "10:30 - 11:00",
-                "activity": "Menuju dermaga",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "11:00 - 14:00",
-                "activity": "Perjalanan kembali ke Jakarta",
-                "location": "Kapal"
-              }
-            ]
-          }
-        ],
-        "addons": [
-          {
-            "name": "Banana Boat",
-            "capacity": "6 orang",
-            "price": "20.000 - 25.000 per orang"
-          },
-          {
-            "name": "Jet Ski",
-            "capacity": "2 orang per jet ski",
-            "price": "120.000 per orang"
-          }
-        ],
-        "snorkingSpots": [
-          {
-            "island": "Pulau Dolphin",
-            "time": "13:00 - 13:30"
-          },
-          {
-            "island": "Spot snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tips Guide sukarela",
-          "Peron pelabuhan",
-          "Hal yang tidak disebutkan diatas"
-        ],
-        "meals": [],
-        "highlights": []
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Pulau Harapan",
-    "slug": "pulau-harapan",
-    "description": "Pulau dengan koleksi karang terlengkap dan kehidupan laut yang kaya",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-    "packages": [
-      {
-        "id": "pulauharapan-2d1n",
-        "duration": "2 Days 1 Night",
-        "durationCode": "2d1n",
-        "durationInDays": 2,
-        "price": 550000,
-        "description": "Pulau Harapan dikenal sebagai salah satu pintu gerbang menuju gugusan pulau-pulau cantik di Kepulauan Seribu bagian utara. Pulau ini menawarkan suasana liburan yang tenang, bersih, dan ramah bagi wisatawan yang ingin menikmati keindahan laut tanpa kesan berlebihan. Daya tarik utama Pulau Harapan terletak pada perairannya yang jernih dan akses mudah menuju banyak pulau kecil di sekitarnya. Aktivitas snorkeling menjadi favorit karena visibilitas air yang baik serta biota laut yang masih terjaga. Dari pulau ini, peserta open trip juga bisa melakukan island hopping ke beberapa pulau tak berpenghuni dengan pantai berpasir putih dan laut biru yang menenangkan. Lingkungan Pulau Harapan tertata rapi dengan jalur pejalan kaki yang nyaman. Pulau ini cocok untuk liburan santai, berjalan menyusuri pesisir, atau menikmati suasana sore sambil menyaksikan matahari terbenam. Malam hari terasa lebih tenang, menghadirkan suasana istirahat yang ideal setelah seharian beraktivitas di laut. Fasilitas wisata di Pulau Harapan cukup lengkap dan terawat. Tersedia homestay yang nyaman, area kuliner dengan pilihan seafood segar, serta sarana umum yang memadai untuk wisatawan. Warga lokal yang ramah membuat pengalaman menginap terasa hangat dan menyenangkan. Open trip Pulau Harapan sangat cocok untuk kamu yang ingin liburan bahari yang fokus pada eksplorasi laut dan pulau-pulau kecil, dengan konsep perjalanan praktis namun tetap berkesan. Pilihan tepat untuk solo traveler, pasangan, maupun rombongan yang ingin menikmati Kepulauan Seribu dengan suasana alami dan tenang.",
-        "facilities": [
-          "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
-          "Homestay AC Selama 1 Malam",
-          "Makan 3x ( Siang, Malam dan Pagi )",
-          "Alat Snorkling Lengkap Per Peserta",
-          "Kapal Jelajah Pulau Untuk Snorkling",
-          "Jelajah Pulau Gusung Petrick",
-          "Asuransi Perjalanan",
-          "Biaya Masuk ke Penangkaran Kuda Laut",
-          "Bonus BBQ ( Ikan )",
-          "Free Foto Underwater sepuasnyah",
-          "Free Kaos Jelana Explore (Bisa Pilih Size)"
-        ],
-        "destinations": [
-          "Pantai pasir putih ekslusif",
-          "Spot snorkeling premium",
-          "Pulau burung",
-          "Hutan mangrove adventure",
-          "Sunset cruise malam pertama",
-          "Island hopping ke pulau lain",
-          "Water sports activities"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:00 - 08:00",
-                "activity": "Titik kumpul",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 11:00",
-                "activity": "Perjalanan menuju Pulau Pramuka",
-                "location": "Kapal tradisional"
-              },
-              {
-                "time": "11:00 - 13:00",
-                "activity": "ISHOMA dan persiapan snorkeling",
-                "location": "Homestay"
-              },
-              {
-                "time": "13:00 - 13:30",
-                "activity": "Menuju Pulau Air",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "13:30 - 16:30",
-                "activity": "Island hopping dan snorkeling",
-                "location": "Pulau Pramuka & sekitarnya"
-              },
-              {
-                "time": "16:30 - 17:00",
-                "activity": "Kembali ke Pulau Pramuka",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "17:00 - 18:00",
-                "activity": "Persiapan makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "18:00 - 19:30",
-                "activity": "Makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "19:30 - 23:00",
-                "activity": "Free time",
-                "location": "Resort area"
-              },
-              {
-                "time": "23:00 - 06:00",
-                "activity": "Istirahat",
-                "location": "Kamar tidur"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "06:00 - 07:30",
-                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
-                "location": "Homestay"
-              },
-              {
-                "time": "07:30 - 08:00",
-                "activity": "Perjalanan menuju penangkaran penyu",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "08:00 - 09:00",
-                "activity": "Edukasi dan foto-foto",
-                "location": "Penangkaran penyu"
-              },
-              {
-                "time": "09:00 - 09:30",
-                "activity": "Kembali ke homestay",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "09:30 - 10:30",
-                "activity": "Persiapan pulang",
-                "location": "Homestay"
-              },
-              {
-                "time": "10:30 - 11:00",
-                "activity": "Menuju dermaga",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "11:00 - 14:00",
-                "activity": "Perjalanan kembali ke Jakarta",
-                "location": "Kapal"
-              }
-            ]
-          }
-        ],
-        "addons": [
-          {
-            "name": "Banana Boat",
-            "capacity": "6 orang",
-            "price": "20.000 - 25.000 per orang"
-          },
-          {
-            "name": "Jet Ski",
-            "capacity": "2 orang per jet ski",
-            "price": "120.000 per orang"
-          }
-        ],
-        "snorkingSpots": [
-          {
-            "island": "Pulau Dolphin",
-            "time": "13:00 - 13:30"
-          },
-          {
-            "island": "Spot snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tips Guide sukarela",
-          "Peron pelabuhan",
-          "Hal yang tidak disebutkan diatas"
-        ],
-        "meals": [],
-        "highlights": []
-      },
-      {
-        "id": "pulauharapan-3d2n",
-        "duration": "3 Days 2 Nights",
-        "durationCode": "3d2n",
-        "durationInDays": 3,
-        "price": 600000,
-        "description": "Pulau Harapan dikenal sebagai salah satu pintu gerbang menuju gugusan pulau-pulau cantik di Kepulauan Seribu bagian utara. Pulau ini menawarkan suasana liburan yang tenang, bersih, dan ramah bagi wisatawan yang ingin menikmati keindahan laut tanpa kesan berlebihan. Daya tarik utama Pulau Harapan terletak pada perairannya yang jernih dan akses mudah menuju banyak pulau kecil di sekitarnya. Aktivitas snorkeling menjadi favorit karena visibilitas air yang baik serta biota laut yang masih terjaga. Dari pulau ini, peserta open trip juga bisa melakukan island hopping ke beberapa pulau tak berpenghuni dengan pantai berpasir putih dan laut biru yang menenangkan. Lingkungan Pulau Harapan tertata rapi dengan jalur pejalan kaki yang nyaman. Pulau ini cocok untuk liburan santai, berjalan menyusuri pesisir, atau menikmati suasana sore sambil menyaksikan matahari terbenam. Malam hari terasa lebih tenang, menghadirkan suasana istirahat yang ideal setelah seharian beraktivitas di laut.Fasilitas wisata di Pulau Harapan cukup lengkap dan terawat. Tersedia homestay yang nyaman, area kuliner dengan pilihan seafood segar, serta sarana umum yang memadai untuk wisatawan. Warga lokal yang ramah membuat pengalaman menginap terasa hangat dan menyenangkan. Open trip Pulau Harapan sangat cocok untuk kamu yang ingin liburan bahari yang fokus pada eksplorasi laut dan pulau-pulau kecil, dengan konsep perjalanan praktis namun tetap berkesan. Pilihan tepat untuk solo traveler, pasangan, maupun rombongan yang ingin menikmati Kepulauan Seribu dengan suasana alami dan tenang.",
-        "facilities": [
-          "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
-          "Homestay AC Selama 1 Malam",
-          "Makan 3x ( Siang, Malam dan Pagi )",
-          "Alat Snorkling Lengkap Per Peserta",
-          "Kapal Jelajah Pulau Untuk Snorkling",
-          "Jelajah Pulau Gusung Petrick",
-          "Asuransi Perjalanan",
-          "Biaya Masuk ke Penangkaran Kuda Laut",
-          "Bonus BBQ ( Ikan )",
-          "Free Foto Underwater sepuasnyah",
-          "Free Kaos Jelana Explore (Bisa Pilih Size)"
-        ],
-        "destinations": [
-          "Pantai pasir putih ekslusif",
-          "Spot snorkeling premium",
-          "Pulau burung",
-          "Hutan mangrove adventure",
-          "Sunset cruise malam pertama",
-          "Island hopping ke pulau lain",
-          "Water sports activities"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:00 - 08:00",
-                "activity": "Titik kumpul",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 11:00",
-                "activity": "Perjalanan menuju Pulau Pramuka",
-                "location": "Kapal tradisional"
-              },
-              {
-                "time": "11:00 - 13:00",
-                "activity": "ISHOMA dan persiapan snorkeling",
-                "location": "Homestay"
-              },
-              {
-                "time": "13:00 - 13:30",
-                "activity": "Menuju Pulau Air",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "13:30 - 16:30",
-                "activity": "Island hopping dan snorkeling",
-                "location": "Pulau Pramuka & sekitarnya"
-              },
-              {
-                "time": "16:30 - 17:00",
-                "activity": "Kembali ke Pulau Pramuka",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "17:00 - 18:00",
-                "activity": "Persiapan makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "18:00 - 19:30",
-                "activity": "Makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "19:30 - 23:00",
-                "activity": "Free time",
-                "location": "Resort area"
-              },
-              {
-                "time": "23:00 - 06:00",
-                "activity": "Istirahat",
-                "location": "Kamar tidur"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "06:00 - 07:30",
-                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
-                "location": "Homestay"
-              },
-              {
-                "time": "07:30 - 08:00",
-                "activity": "Perjalanan menuju penangkaran penyu",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "08:00 - 09:00",
-                "activity": "Edukasi dan foto-foto",
-                "location": "Penangkaran penyu"
-              },
-              {
-                "time": "09:00 - 09:30",
-                "activity": "Kembali ke homestay",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "09:30 - 10:30",
-                "activity": "Persiapan pulang",
-                "location": "Homestay"
-              },
-              {
-                "time": "10:30 - 11:00",
-                "activity": "Menuju dermaga",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "11:00 - 14:00",
-                "activity": "Perjalanan kembali ke Jakarta",
-                "location": "Kapal"
-              }
-            ]
-          }
-        ],
-        "addons": [
-          {
-            "name": "Banana Boat",
-            "capacity": "6 orang",
-            "price": "20.000 - 25.000 per orang"
-          },
-          {
-            "name": "Jet Ski",
-            "capacity": "2 orang per jet ski",
-            "price": "120.000 per orang"
-          }
-        ],
-        "snorkingSpots": [
-          {
-            "island": "Pulau Dolphin",
-            "time": "13:00 - 13:30"
-          },
-          {
-            "island": "Spot snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tips Guide sukarela",
-          "Peron pelabuhan",
-          "Hal yang tidak disebutkan diatas"
-        ],
-        "meals": [],
-        "highlights": []
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Pulau Tidung",
-    "slug": "pulau-tidung",
-    "description": "Pulau tradisional dengan kehidupan nelayan lokal yang autentik",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-    "packages": [
-      {
-        "id": "pulautidung-2d1n",
-        "duration": "2 Days 1 Night",
-        "durationCode": "2d1n",
-        "durationInDays": 2,
-        "price": 500000,
-        "description": "Pulau Tidung adalah salah satu destinasi favorit di Kepulauan Seribu yang menawarkan perpaduan antara wisata laut, pantai, dan aktivitas santai yang seru. Pulau ini terbagi menjadi dua area, Tidung Besar dan Tidung Kecil, yang dihubungkan oleh jembatan ikonik dengan pemandangan laut biru jernih di kanan kiri. Daya tarik utama Pulau Tidung terletak pada suasananya yang hidup namun tetap nyaman untuk liburan. Air lautnya relatif tenang, cocok untuk berenang, snorkeling, dan bermain air tanpa perlu keahlian khusus. Terumbu karang dan ikan laut dapat dinikmati di beberapa spot sekitar pulau, menjadikan aktivitas bawah laut tetap menyenangkan bagi pemula. Pulau Tidung juga dikenal sebagai pulau yang ramah untuk eksplorasi darat. Peserta open trip bisa bersepeda mengelilingi pulau, menikmati pantai pasir putih, hingga bersantai di tepi laut sambil menikmati angin sepoi-sepoi. Sore hari menjadi momen favorit untuk menikmati sunset dengan suasana yang hangat dan fotogenik.Fasilitas di Pulau Tidung sangat lengkap untuk ukuran pulau wisata. Mulai dari homestay yang beragam, warung makan, penyewaan sepeda, hingga area publik yang tertata. Kehidupan masyarakat lokal yang ramah membuat suasana liburan terasa lebih dekat dan menyenangkan. Open trip Pulau Tidung cocok untuk kamu yang ingin liburan singkat, praktis, dan penuh aktivitas tanpa harus menempuh perjalanan jauh dari Jakarta. Baik untuk solo traveler, pasangan, maupun rombongan, Pulau Tidung selalu menawarkan pengalaman liburan yang seru dan berkesan.",
-        "facilities": [
-          "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
-          "Homestay AC Selama 1 Malam",
-          "Makan 3x ( Siang, Malam dan Pagi )",
-          "Alat Snorkling Lengkap Per Peserta",
-          "Kapal Jelajah Pulau Untuk Snorkling",
-          "Jelajah Pulau Gusung Petrick",
-          "Asuransi Perjalanan",
-          "Biaya Masuk ke Penangkaran Kuda Laut",
-          "Bonus BBQ ( Ikan )",
-          "Free Foto Underwater sepuasnyah",
-          "Free Kaos Jelana Explore (Bisa Pilih Size)"
-        ],
-        "destinations": [
-          "Pantai pasir putih ekslusif",
-          "Spot snorkeling premium",
-          "Pulau burung",
-          "Hutan mangrove adventure",
-          "Sunset cruise malam pertama",
-          "Island hopping ke pulau lain",
-          "Water sports activities"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:00 - 08:00",
-                "activity": "Titik kumpul",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 11:00",
-                "activity": "Perjalanan menuju Pulau Pramuka",
-                "location": "Kapal tradisional"
-              },
-              {
-                "time": "11:00 - 13:00",
-                "activity": "ISHOMA dan persiapan snorkeling",
-                "location": "Homestay"
-              },
-              {
-                "time": "13:00 - 13:30",
-                "activity": "Menuju Pulau Air",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "13:30 - 16:30",
-                "activity": "Island hopping dan snorkeling",
-                "location": "Pulau Pramuka & sekitarnya"
-              },
-              {
-                "time": "16:30 - 17:00",
-                "activity": "Kembali ke Pulau Pramuka",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "17:00 - 18:00",
-                "activity": "Persiapan makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "18:00 - 19:30",
-                "activity": "Makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "19:30 - 23:00",
-                "activity": "Free time",
-                "location": "Resort area"
-              },
-              {
-                "time": "23:00 - 06:00",
-                "activity": "Istirahat",
-                "location": "Kamar tidur"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "06:00 - 07:30",
-                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
-                "location": "Homestay"
-              },
-              {
-                "time": "07:30 - 08:00",
-                "activity": "Perjalanan menuju penangkaran penyu",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "08:00 - 09:00",
-                "activity": "Edukasi dan foto-foto",
-                "location": "Penangkaran penyu"
-              },
-              {
-                "time": "09:00 - 09:30",
-                "activity": "Kembali ke homestay",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "09:30 - 10:30",
-                "activity": "Persiapan pulang",
-                "location": "Homestay"
-              },
-              {
-                "time": "10:30 - 11:00",
-                "activity": "Menuju dermaga",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "11:00 - 14:00",
-                "activity": "Perjalanan kembali ke Jakarta",
-                "location": "Kapal"
-              }
-            ]
-          }
-        ],
-        "addons": [
-          {
-            "name": "Banana Boat",
-            "capacity": "6 orang",
-            "price": "20.000 - 25.000 per orang"
-          },
-          {
-            "name": "Jet Ski",
-            "capacity": "2 orang per jet ski",
-            "price": "120.000 per orang"
-          }
-        ],
-        "snorkingSpots": [
-          {
-            "island": "Pulau Dolphin",
-            "time": "13:00 - 13:30"
-          },
-          {
-            "island": "Spot snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tips Guide sukarela",
-          "Peron pelabuhan",
-          "Hal yang tidak disebutkan diatas"
-        ],
-        "meals": [],
-        "highlights": []
-      },
-      {
-        "id": "pulautidung-3d2n",
-        "duration": "3 Days 2 Nights",
-        "durationCode": "3d2n",
-        "durationInDays": 3,
-        "price": 750000,
-        "description": "Pulau Tidung adalah salah satu destinasi favorit di Kepulauan Seribu yang menawarkan perpaduan antara wisata laut, pantai, dan aktivitas santai yang seru. Pulau ini terbagi menjadi dua area, Tidung Besar dan Tidung Kecil, yang dihubungkan oleh jembatan ikonik dengan pemandangan laut biru jernih di kanan kiri. Daya tarik utama Pulau Tidung terletak pada suasananya yang hidup namun tetap nyaman untuk liburan. Air lautnya relatif tenang, cocok untuk berenang, snorkeling, dan bermain air tanpa perlu keahlian khusus. Terumbu karang dan ikan laut dapat dinikmati di beberapa spot sekitar pulau, menjadikan aktivitas bawah laut tetap menyenangkan bagi pemula. Pulau Tidung juga dikenal sebagai pulau yang ramah untuk eksplorasi darat. Peserta open trip bisa bersepeda mengelilingi pulau, menikmati pantai pasir putih, hingga bersantai di tepi laut sambil menikmati angin sepoi-sepoi. Sore hari menjadi momen favorit untuk menikmati sunset dengan suasana yang hangat dan fotogenik. Fasilitas di Pulau Tidung sangat lengkap untuk ukuran pulau wisata. Mulai dari homestay yang beragam, warung makan, penyewaan sepeda, hingga area publik yang tertata. Kehidupan masyarakat lokal yang ramah membuat suasana liburan terasa lebih dekat dan menyenangkan. Open trip Pulau Tidung cocok untuk kamu yang ingin liburan singkat, praktis, dan penuh aktivitas tanpa harus menempuh perjalanan jauh dari Jakarta. Baik untuk solo traveler, pasangan, maupun rombongan, Pulau Tidung selalu menawarkan pengalaman liburan yang seru dan berkesan.",
-        "facilities": [
-          "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
-          "Homestay AC Selama 1 Malam",
-          "Makan 3x ( Siang, Malam dan Pagi )",
-          "Alat Snorkling Lengkap Per Peserta",
-          "Kapal Jelajah Pulau Untuk Snorkling",
-          "Jelajah Pulau Gusung Petrick",
-          "Asuransi Perjalanan",
-          "Biaya Masuk ke Penangkaran Kuda Laut",
-          "Bonus BBQ ( Ikan )",
-          "Free Foto Underwater sepuasnyah",
-          "Free Kaos Jelana Explore (Bisa Pilih Size)"
-        ],
-        "destinations": [
-          "Pantai pasir putih ekslusif",
-          "Spot snorkeling premium",
-          "Pulau burung",
-          "Hutan mangrove adventure",
-          "Sunset cruise malam pertama",
-          "Island hopping ke pulau lain",
-          "Water sports activities"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:00 - 08:00",
-                "activity": "Titik kumpul",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 11:00",
-                "activity": "Perjalanan menuju Pulau Pramuka",
-                "location": "Kapal tradisional"
-              },
-              {
-                "time": "11:00 - 13:00",
-                "activity": "ISHOMA dan persiapan snorkeling",
-                "location": "Homestay"
-              },
-              {
-                "time": "13:00 - 13:30",
-                "activity": "Menuju Pulau Air",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "13:30 - 16:30",
-                "activity": "Island hopping dan snorkeling",
-                "location": "Pulau Pramuka & sekitarnya"
-              },
-              {
-                "time": "16:30 - 17:00",
-                "activity": "Kembali ke Pulau Pramuka",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "17:00 - 18:00",
-                "activity": "Persiapan makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "18:00 - 19:30",
-                "activity": "Makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "19:30 - 23:00",
-                "activity": "Free time",
-                "location": "Resort area"
-              },
-              {
-                "time": "23:00 - 06:00",
-                "activity": "Istirahat",
-                "location": "Kamar tidur"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "06:00 - 07:30",
-                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
-                "location": "Homestay"
-              },
-              {
-                "time": "07:30 - 08:00",
-                "activity": "Perjalanan menuju penangkaran penyu",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "08:00 - 09:00",
-                "activity": "Edukasi dan foto-foto",
-                "location": "Penangkaran penyu"
-              },
-              {
-                "time": "09:00 - 09:30",
-                "activity": "Kembali ke homestay",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "09:30 - 10:30",
-                "activity": "Persiapan pulang",
-                "location": "Homestay"
-              },
-              {
-                "time": "10:30 - 11:00",
-                "activity": "Menuju dermaga",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "11:00 - 14:00",
-                "activity": "Perjalanan kembali ke Jakarta",
-                "location": "Kapal"
-              }
-            ]
-          }
-        ],
-        "addons": [
-          {
-            "name": "Banana Boat",
-            "capacity": "6 orang",
-            "price": "20.000 - 25.000 per orang"
-          },
-          {
-            "name": "Jet Ski",
-            "capacity": "2 orang per jet ski",
-            "price": "120.000 per orang"
-          }
-        ],
-        "snorkingSpots": [
-          {
-            "island": "Pulau Dolphin",
-            "time": "13:00 - 13:30"
-          },
-          {
-            "island": "Spot snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tips Guide sukarela",
-          "Peron pelabuhan",
-          "Hal yang tidak disebutkan diatas"
-        ],
-        "meals": [],
-        "highlights": []
-      }
-    ]
-  }
+    {
+        "id": 1,
+        "name": "Pulau Pramuka",
+        "slug": "pulau-pramuka",
+        "status": "available",
+        "description": "Island dengan pantai pasir putih dan aktivitas snorkeling terbaik",
+        "image": "/images/pramuka_1.webp",
+        "packages": [
+            {
+                "id": "pramuka-2d1n",
+                "duration": "2 Days 1 Nights",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 450000,
+                "minPeople": 10,
+                "description": "Pulau Pramuka adalah destinasi wisata bahari yang cocok untuk kamu yang ingin liburan santai, edukatif, sekaligus dekat dengan alam. Terletak di pusat Kepulauan Seribu, pulau ini dikenal dengan lingkungan yang tertata rapi, suasana tenang, dan laut yang masih jernih. Berbeda dari pulau wisata yang ramai hiburan, Pulau Pramuka menawarkan pengalaman liburan yang lebih seimbang. Kamu bisa menikmati pantai berpasir putih, berenang di perairan dangkal yang aman, hingga snorkeling dengan pemandangan terumbu karang dan ikan warna-warni yang masih terjaga. Pulau ini juga menjadi pusat konservasi penyu sisik. Peserta open trip bisa melihat langsung proses penangkaran penyu, belajar tentang pelestarian laut, dan ikut melepas tukik ke laut (tergantung ketersediaan). Aktivitas ini membuat liburan terasa lebih bermakna, bukan sekadar jalan-jalan.Di sore hari, suasana Pulau Pramuka semakin nyaman untuk bersepeda keliling pulau, menikmati sunset, atau bersantai di dermaga sambil melihat aktivitas warga lokal. Fasilitas umum sudah lengkap, mulai dari homestay yang nyaman, warung makan, hingga mushola dan klinik. Open trip Pulau Pramuka sangat cocok untuk solo traveler, pasangan, maupun rombongan yang ingin liburan singkat tanpa ribet, dengan jarak tempuh yang relatif dekat dari Jakarta namun tetap memberi nuansa liburan pulau yang autentik.",
+                "facilities": [
+                    "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
+                    "Homestay AC Selama 1 Malam",
+                    "Makan 3x ( Siang, Malam dan Pagi )",
+                    "Alat Snorkling Lengkap Per Peserta",
+                    "Kapal Jelajah Pulau Untuk Snorkling",
+                    "Jelajah Pulau Gusung Petrick",
+                    "Asuransi Perjalanan",
+                    "Biaya Masuk ke Penangkaran Kuda Laut",
+                    "Bonus BBQ ( Ikan )",
+                    "Free Foto Underwater sepuasnyah",
+                    "Free Kaos Jelana Explore (Bisa Pilih Size)"
+                ],
+                "destinations": [
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
+                    "Pulau burung",
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "20.000 - 25.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "/images/pramuka_1.webp",
+                    "/images/pramuka_2.webp",
+                    "/images/pramuka_3.webp",
+                    "/images/pramuka_4.webp",
+                    "/images/pramuka_5.webp",
+                    "/images/pramuka_6.webp"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tips Guide sukarela",
+                    "Peron pelabuhan",
+                    "Hal yang tidak disebutkan diatas"
+                ],
+                "meals": [],
+                "highlights": []
+            },
+            {
+                "id": "pramuka-3d2n",
+                "duration": "3 Days 2 Nights",
+                "durationCode": "3d2n",
+                "durationInDays": 3,
+                "price": 600000,
+                "minPeople": 10,
+                "description": "Pulau Pramuka adalah destinasi wisata bahari yang cocok untuk kamu yang ingin liburan santai, edukatif, sekaligus dekat dengan alam. Terletak di pusat Kepulauan Seribu, pulau ini dikenal dengan lingkungan yang tertata rapi, suasana tenang, dan laut yang masih jernih. Berbeda dari pulau wisata yang ramai hiburan, Pulau Pramuka menawarkan pengalaman liburan yang lebih seimbang. Kamu bisa menikmati pantai berpasir putih, berenang di perairan dangkal yang aman, hingga snorkeling dengan pemandangan terumbu karang dan ikan warna-warni yang masih terjaga. Pulau ini juga menjadi pusat konservasi penyu sisik. Peserta open trip bisa melihat langsung proses penangkaran penyu, belajar tentang pelestarian laut, dan ikut melepas tukik ke laut (tergantung ketersediaan). Aktivitas ini membuat liburan terasa lebih bermakna, bukan sekadar jalan-jalan. Di sore hari, suasana Pulau Pramuka semakin nyaman untuk bersepeda keliling pulau, menikmati sunset, atau bersantai di dermaga sambil melihat aktivitas warga lokal. Fasilitas umum sudah lengkap, mulai dari homestay yang nyaman, warung makan, hingga mushola dan klinik. Open trip Pulau Pramuka sangat cocok untuk solo traveler, pasangan, maupun rombongan yang ingin liburan singkat tanpa ribet, dengan jarak tempuh yang relatif dekat dari Jakarta namun tetap memberi nuansa liburan pulau yang autentik.",
+                "facilities": [
+                    "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
+                    "Homestay AC Selama 1 Malam",
+                    "Makan 3x ( Siang, Malam dan Pagi )",
+                    "Alat Snorkling Lengkap Per Peserta",
+                    "Kapal Jelajah Pulau Untuk Snorkling",
+                    "Jelajah Pulau Gusung Petrick",
+                    "Asuransi Perjalanan",
+                    "Biaya Masuk ke Penangkaran Kuda Laut",
+                    "Bonus BBQ ( Ikan )",
+                    "Free Foto Underwater sepuasnyah",
+                    "Free Kaos Jelana Explore (Bisa Pilih Size)"
+                ],
+                "destinations": [
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
+                    "Pulau burung",
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "20.000 - 25.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "/images/pramuka_1.webp",
+                    "/images/pramuka_2.webp",
+                    "/images/pramuka_3.webp",
+                    "/images/pramuka_4.webp",
+                    "/images/pramuka_5.webp",
+                    "/images/pramuka_6.webp"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tips Guide sukarela",
+                    "Peron pelabuhan",
+                    "Hal yang tidak disebutkan diatas"
+                ],
+                "meals": [],
+                "highlights": []
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Pulau Kelapa",
+        "slug": "pulau-kelapa",
+        "status": "coming-soon",
+        "description": "Destinasi populer dengan fasilitas lengkap dan pemandangan indah",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+        "packages": [
+            {
+                "id": "pulaukelapa-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 450000,
+                "minPeople": 10,
+                "description": "Pulau Kelapa adalah pilihan tepat bagi kamu yang ingin merasakan suasana pulau yang hidup namun tetap nyaman untuk berlibur. Pulau ini memiliki karakter khas sebagai pulau hunian dengan sentuhan wisata bahari yang kuat, sehingga pengunjung bisa menikmati keindahan laut sekaligus melihat kehidupan masyarakat pesisir secara langsung. Perairan di sekitar Pulau Kelapa dikenal jernih dan tenang, cocok untuk snorkeling dan berenang. Terumbu karang dan ikan-ikan kecil mudah ditemui, menjadikan aktivitas laut terasa seru meski untuk pemula. Beberapa spot di sekitar pulau juga ideal untuk island hopping ke pulau-pulau kecil di sekitarnya. Pulau Kelapa memiliki garis pantai yang cukup panjang dengan pemandangan laut lepas yang menenangkan. Pagi hari sangat pas untuk menikmati angin laut sambil berjalan santai, sedangkan sore hari menghadirkan suasana hangat dengan langit senja yang indah. Malam harinya, suasana pulau terasa lebih lokal dan akrab, cocok untuk quality time tanpa hiruk-pikuk kota. Fasilitas di Pulau Kelapa tergolong lengkap. Tersedia berbagai pilihan homestay, warung makan dengan menu seafood segar, hingga area publik yang nyaman untuk berkumpul. Akses antar pulau juga mudah karena Pulau Kelapa terhubung dengan Pulau Kelapa Dua melalui jembatan, sehingga area eksplorasi menjadi lebih luas. Open trip Pulau Kelapa cocok untuk kamu yang mencari liburan santai, tidak terlalu ramai, namun tetap memiliki banyak aktivitas. Baik untuk solo traveler  pasangan, maupun rombongan kecil yang ingin menikmati sisi lain Kepulauan Seribu dengan nuansa lokal yang lebih terasa.",
+                "facilities": [
+                    "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
+                    "Homestay AC Selama 1 Malam",
+                    "Makan 3x ( Siang, Malam dan Pagi )",
+                    "Alat Snorkling Lengkap Per Peserta",
+                    "Kapal Jelajah Pulau Untuk Snorkling",
+                    "Jelajah Pulau Gusung Petrick",
+                    "Asuransi Perjalanan",
+                    "Biaya Masuk ke Penangkaran Kuda Laut",
+                    "Bonus BBQ ( Ikan )",
+                    "Free Foto Underwater sepuasnyah",
+                    "Free Kaos Jelana Explore (Bisa Pilih Size)"
+                ],
+                "destinations": [
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
+                    "Pulau burung",
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "20.000 - 25.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tips Guide sukarela",
+                    "Peron pelabuhan",
+                    "Hal yang tidak disebutkan diatas"
+                ],
+                "meals": [],
+                "highlights": []
+            },
+            {
+                "id": "pulaukelapa-3d2n",
+                "duration": "3 Days 2 Nights",
+                "durationCode": "3d2n",
+                "durationInDays": 3,
+                "price": 600000,
+                "minPeople": 10,
+                "description": "Pulau Kelapa adalah pilihan tepat bagi kamu yang ingin merasakan suasana pulau yang hidup namun tetap nyaman untuk berlibur. Pulau ini memiliki karakter khas sebagai pulau hunian dengan sentuhan wisata bahari yang kuat, sehingga pengunjung bisa menikmati keindahan laut sekaligus melihat kehidupan masyarakat pesisir secara langsung.Perairan di sekitar Pulau Kelapa dikenal jernih dan tenang, cocok untuk snorkeling dan berenang. Terumbu karang dan ikan-ikan kecil mudah ditemui, menjadikan aktivitas laut terasa seru meski untuk pemula. Beberapa spot di sekitar pulau juga ideal untuk island hopping ke pulau-pulau kecil di sekitarnya. Pulau Kelapa memiliki garis pantai yang cukup panjang dengan pemandangan laut lepas yang menenangkan. Pagi hari sangat pas untuk menikmati angin laut sambil berjalan santai, sedangkan sore hari menghadirkan suasana hangat dengan langit senja yang indah. Malam harinya, suasana pulau terasa lebih lokal dan akrab, cocok untuk quality time tanpa hiruk-pikuk kota. Fasilitas di Pulau Kelapa tergolong lengkap. Tersedia berbagai pilihan homestay, warung makan dengan menu seafood segar, hingga area publik yang nyaman untuk berkumpul. Akses antar pulau juga mudah karena Pulau Kelapa terhubung dengan Pulau Kelapa Dua melalui jembatan, sehingga area eksplorasi menjadi lebih luas. Open trip Pulau Kelapa cocok untuk kamu yang mencari liburan santai tidak terlalu ramai, namun tetap memiliki banyak aktivitas. Baik untuk solo traveler pasangan, maupun rombongan kecil yang ingin menikmati sisi lain Kepulauan Seribu dengan nuansa lokal yang lebih terasa.",
+                "facilities": [
+                    "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
+                    "Homestay AC Selama 1 Malam",
+                    "Makan 3x ( Siang, Malam dan Pagi )",
+                    "Alat Snorkling Lengkap Per Peserta",
+                    "Kapal Jelajah Pulau Untuk Snorkling",
+                    "Jelajah Pulau Gusung Petrick",
+                    "Asuransi Perjalanan",
+                    "Biaya Masuk ke Penangkaran Kuda Laut",
+                    "Bonus BBQ ( Ikan )",
+                    "Free Foto Underwater sepuasnyah",
+                    "Free Kaos Jelana Explore (Bisa Pilih Size)"
+                ],
+                "destinations": [
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
+                    "Pulau burung",
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "20.000 - 25.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tips Guide sukarela",
+                    "Peron pelabuhan",
+                    "Hal yang tidak disebutkan diatas"
+                ],
+                "meals": [],
+                "highlights": []
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Pulau Harapan",
+        "slug": "pulau-harapan",
+        "status": "coming-soon",
+        "description": "Pulau dengan koleksi karang terlengkap dan kehidupan laut yang kaya",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+        "packages": [
+            {
+                "id": "pulauharapan-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 550000,
+                "minPeople": 10,
+                "description": "Pulau Harapan dikenal sebagai salah satu pintu gerbang menuju gugusan pulau-pulau cantik di Kepulauan Seribu bagian utara. Pulau ini menawarkan suasana liburan yang tenang, bersih, dan ramah bagi wisatawan yang ingin menikmati keindahan laut tanpa kesan berlebihan. Daya tarik utama Pulau Harapan terletak pada perairannya yang jernih dan akses mudah menuju banyak pulau kecil di sekitarnya. Aktivitas snorkeling menjadi favorit karena visibilitas air yang baik serta biota laut yang masih terjaga. Dari pulau ini, peserta open trip juga bisa melakukan island hopping ke beberapa pulau tak berpenghuni dengan pantai berpasir putih dan laut biru yang menenangkan. Lingkungan Pulau Harapan tertata rapi dengan jalur pejalan kaki yang nyaman. Pulau ini cocok untuk liburan santai, berjalan menyusuri pesisir, atau menikmati suasana sore sambil menyaksikan matahari terbenam. Malam hari terasa lebih tenang, menghadirkan suasana istirahat yang ideal setelah seharian beraktivitas di laut. Fasilitas wisata di Pulau Harapan cukup lengkap dan terawat. Tersedia homestay yang nyaman, area kuliner dengan pilihan seafood segar, serta sarana umum yang memadai untuk wisatawan. Warga lokal yang ramah membuat pengalaman menginap terasa hangat dan menyenangkan. Open trip Pulau Harapan sangat cocok untuk kamu yang ingin liburan bahari yang fokus pada eksplorasi laut dan pulau-pulau kecil, dengan konsep perjalanan praktis namun tetap berkesan. Pilihan tepat untuk solo traveler, pasangan, maupun rombongan yang ingin menikmati Kepulauan Seribu dengan suasana alami dan tenang.",
+                "facilities": [
+                    "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
+                    "Homestay AC Selama 1 Malam",
+                    "Makan 3x ( Siang, Malam dan Pagi )",
+                    "Alat Snorkling Lengkap Per Peserta",
+                    "Kapal Jelajah Pulau Untuk Snorkling",
+                    "Jelajah Pulau Gusung Petrick",
+                    "Asuransi Perjalanan",
+                    "Biaya Masuk ke Penangkaran Kuda Laut",
+                    "Bonus BBQ ( Ikan )",
+                    "Free Foto Underwater sepuasnyah",
+                    "Free Kaos Jelana Explore (Bisa Pilih Size)"
+                ],
+                "destinations": [
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
+                    "Pulau burung",
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "20.000 - 25.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tips Guide sukarela",
+                    "Peron pelabuhan",
+                    "Hal yang tidak disebutkan diatas"
+                ],
+                "meals": [],
+                "highlights": []
+            },
+            {
+                "id": "pulauharapan-3d2n",
+                "duration": "3 Days 2 Nights",
+                "durationCode": "3d2n",
+                "durationInDays": 3,
+                "price": 600000,
+                "minPeople": 10,
+                "description": "Pulau Harapan dikenal sebagai salah satu pintu gerbang menuju gugusan pulau-pulau cantik di Kepulauan Seribu bagian utara. Pulau ini menawarkan suasana liburan yang tenang, bersih, dan ramah bagi wisatawan yang ingin menikmati keindahan laut tanpa kesan berlebihan. Daya tarik utama Pulau Harapan terletak pada perairannya yang jernih dan akses mudah menuju banyak pulau kecil di sekitarnya. Aktivitas snorkeling menjadi favorit karena visibilitas air yang baik serta biota laut yang masih terjaga. Dari pulau ini, peserta open trip juga bisa melakukan island hopping ke beberapa pulau tak berpenghuni dengan pantai berpasir putih dan laut biru yang menenangkan. Lingkungan Pulau Harapan tertata rapi dengan jalur pejalan kaki yang nyaman. Pulau ini cocok untuk liburan santai, berjalan menyusuri pesisir, atau menikmati suasana sore sambil menyaksikan matahari terbenam. Malam hari terasa lebih tenang, menghadirkan suasana istirahat yang ideal setelah seharian beraktivitas di laut.Fasilitas wisata di Pulau Harapan cukup lengkap dan terawat. Tersedia homestay yang nyaman, area kuliner dengan pilihan seafood segar, serta sarana umum yang memadai untuk wisatawan. Warga lokal yang ramah membuat pengalaman menginap terasa hangat dan menyenangkan. Open trip Pulau Harapan sangat cocok untuk kamu yang ingin liburan bahari yang fokus pada eksplorasi laut dan pulau-pulau kecil, dengan konsep perjalanan praktis namun tetap berkesan. Pilihan tepat untuk solo traveler, pasangan, maupun rombongan yang ingin menikmati Kepulauan Seribu dengan suasana alami dan tenang.",
+                "facilities": [
+                    "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
+                    "Homestay AC Selama 1 Malam",
+                    "Makan 3x ( Siang, Malam dan Pagi )",
+                    "Alat Snorkling Lengkap Per Peserta",
+                    "Kapal Jelajah Pulau Untuk Snorkling",
+                    "Jelajah Pulau Gusung Petrick",
+                    "Asuransi Perjalanan",
+                    "Biaya Masuk ke Penangkaran Kuda Laut",
+                    "Bonus BBQ ( Ikan )",
+                    "Free Foto Underwater sepuasnyah",
+                    "Free Kaos Jelana Explore (Bisa Pilih Size)"
+                ],
+                "destinations": [
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
+                    "Pulau burung",
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "20.000 - 25.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tips Guide sukarela",
+                    "Peron pelabuhan",
+                    "Hal yang tidak disebutkan diatas"
+                ],
+                "meals": [],
+                "highlights": []
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Pulau Tidung",
+        "slug": "pulau-tidung",
+        "status": "coming-soon",
+        "description": "Pulau tradisional dengan kehidupan nelayan lokal yang autentik",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+        "packages": [
+            {
+                "id": "pulautidung-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 500000,
+                "minPeople": 10,
+                "description": "Pulau Tidung adalah salah satu destinasi favorit di Kepulauan Seribu yang menawarkan perpaduan antara wisata laut, pantai, dan aktivitas santai yang seru. Pulau ini terbagi menjadi dua area, Tidung Besar dan Tidung Kecil, yang dihubungkan oleh jembatan ikonik dengan pemandangan laut biru jernih di kanan kiri. Daya tarik utama Pulau Tidung terletak pada suasananya yang hidup namun tetap nyaman untuk liburan. Air lautnya relatif tenang, cocok untuk berenang, snorkeling, dan bermain air tanpa perlu keahlian khusus. Terumbu karang dan ikan laut dapat dinikmati di beberapa spot sekitar pulau, menjadikan aktivitas bawah laut tetap menyenangkan bagi pemula. Pulau Tidung juga dikenal sebagai pulau yang ramah untuk eksplorasi darat. Peserta open trip bisa bersepeda mengelilingi pulau, menikmati pantai pasir putih, hingga bersantai di tepi laut sambil menikmati angin sepoi-sepoi. Sore hari menjadi momen favorit untuk menikmati sunset dengan suasana yang hangat dan fotogenik.Fasilitas di Pulau Tidung sangat lengkap untuk ukuran pulau wisata. Mulai dari homestay yang beragam, warung makan, penyewaan sepeda, hingga area publik yang tertata. Kehidupan masyarakat lokal yang ramah membuat suasana liburan terasa lebih dekat dan menyenangkan. Open trip Pulau Tidung cocok untuk kamu yang ingin liburan singkat, praktis, dan penuh aktivitas tanpa harus menempuh perjalanan jauh dari Jakarta. Baik untuk solo traveler, pasangan, maupun rombongan, Pulau Tidung selalu menawarkan pengalaman liburan yang seru dan berkesan.",
+                "facilities": [
+                    "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
+                    "Homestay AC Selama 1 Malam",
+                    "Makan 3x ( Siang, Malam dan Pagi )",
+                    "Alat Snorkling Lengkap Per Peserta",
+                    "Kapal Jelajah Pulau Untuk Snorkling",
+                    "Jelajah Pulau Gusung Petrick",
+                    "Asuransi Perjalanan",
+                    "Biaya Masuk ke Penangkaran Kuda Laut",
+                    "Bonus BBQ ( Ikan )",
+                    "Free Foto Underwater sepuasnyah",
+                    "Free Kaos Jelana Explore (Bisa Pilih Size)"
+                ],
+                "destinations": [
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
+                    "Pulau burung",
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "20.000 - 25.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tips Guide sukarela",
+                    "Peron pelabuhan",
+                    "Hal yang tidak disebutkan diatas"
+                ],
+                "meals": [],
+                "highlights": []
+            },
+            {
+                "id": "pulautidung-3d2n",
+                "duration": "3 Days 2 Nights",
+                "durationCode": "3d2n",
+                "durationInDays": 3,
+                "price": 750000,
+                "minPeople": 10,
+                "description": "Pulau Tidung adalah salah satu destinasi favorit di Kepulauan Seribu yang menawarkan perpaduan antara wisata laut, pantai, dan aktivitas santai yang seru. Pulau ini terbagi menjadi dua area, Tidung Besar dan Tidung Kecil, yang dihubungkan oleh jembatan ikonik dengan pemandangan laut biru jernih di kanan kiri. Daya tarik utama Pulau Tidung terletak pada suasananya yang hidup namun tetap nyaman untuk liburan. Air lautnya relatif tenang, cocok untuk berenang, snorkeling, dan bermain air tanpa perlu keahlian khusus. Terumbu karang dan ikan laut dapat dinikmati di beberapa spot sekitar pulau, menjadikan aktivitas bawah laut tetap menyenangkan bagi pemula. Pulau Tidung juga dikenal sebagai pulau yang ramah untuk eksplorasi darat. Peserta open trip bisa bersepeda mengelilingi pulau, menikmati pantai pasir putih, hingga bersantai di tepi laut sambil menikmati angin sepoi-sepoi. Sore hari menjadi momen favorit untuk menikmati sunset dengan suasana yang hangat dan fotogenik. Fasilitas di Pulau Tidung sangat lengkap untuk ukuran pulau wisata. Mulai dari homestay yang beragam, warung makan, penyewaan sepeda, hingga area publik yang tertata. Kehidupan masyarakat lokal yang ramah membuat suasana liburan terasa lebih dekat dan menyenangkan. Open trip Pulau Tidung cocok untuk kamu yang ingin liburan singkat, praktis, dan penuh aktivitas tanpa harus menempuh perjalanan jauh dari Jakarta. Baik untuk solo traveler, pasangan, maupun rombongan, Pulau Tidung selalu menawarkan pengalaman liburan yang seru dan berkesan.",
+                "facilities": [
+                    "Akomodasi Kapal Fery Via Kali Adem Muara Angke PP",
+                    "Homestay AC Selama 1 Malam",
+                    "Makan 3x ( Siang, Malam dan Pagi )",
+                    "Alat Snorkling Lengkap Per Peserta",
+                    "Kapal Jelajah Pulau Untuk Snorkling",
+                    "Jelajah Pulau Gusung Petrick",
+                    "Asuransi Perjalanan",
+                    "Biaya Masuk ke Penangkaran Kuda Laut",
+                    "Bonus BBQ ( Ikan )",
+                    "Free Foto Underwater sepuasnyah",
+                    "Free Kaos Jelana Explore (Bisa Pilih Size)"
+                ],
+                "destinations": [
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
+                    "Pulau burung",
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "20.000 - 25.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ",
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tips Guide sukarela",
+                    "Peron pelabuhan",
+                    "Hal yang tidak disebutkan diatas"
+                ],
+                "meals": [],
+                "highlights": []
+            }
+        ]
+    }
 ]

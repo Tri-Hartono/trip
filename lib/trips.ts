@@ -6,6 +6,7 @@ export interface Island {
     slug: string;
     description: string;
     image: string;
+    status: 'available' | 'coming-soon';
     packages: Package[];
 }
 
@@ -37,6 +38,7 @@ export interface Package {
     durationCode: string;
     durationInDays: number;
     price: number;
+    minPeople: number;
     description: string;
     facilities: string[];
     facilitiesExclude: string[];
@@ -55,6 +57,7 @@ export interface FlattenedTrip extends Package {
     islandSlug: string;
     islandImage: string;
     islandDescription: string;
+    islandStatus: 'available' | 'coming-soon';
 }
 
 // Load all islands data
@@ -71,7 +74,7 @@ export function getIslandBySlug(slug: string): Island | null {
 // Get package by island slug and package ID
 export function getPackageBySlugAndId(
     slug: string,
-    packageId: string
+    packageId: string,
 ): FlattenedTrip | null {
     const island = getIslandBySlug(slug);
     if (!island) return null;
@@ -86,6 +89,7 @@ export function getPackageBySlugAndId(
         islandSlug: island.slug,
         islandImage: island.image,
         islandDescription: island.description,
+        islandStatus: island.status,
     };
 }
 
@@ -103,6 +107,7 @@ export function getFlattenedTrips(): FlattenedTrip[] {
                 islandSlug: island.slug,
                 islandImage: island.image,
                 islandDescription: island.description,
+                islandStatus: island.status,
             });
         });
     });
@@ -130,7 +135,7 @@ export function searchAndFilterTrips(
         minPrice?: number;
         maxPrice?: number;
         durations?: string[];
-    } = {}
+    } = {},
 ): FlattenedTrip[] {
     let trips = getFlattenedTrips();
 
@@ -142,14 +147,14 @@ export function searchAndFilterTrips(
                 trip.islandName.toLowerCase().includes(query) ||
                 trip.description.toLowerCase().includes(query) ||
                 trip.duration.toLowerCase().includes(query) ||
-                trip.highlights.some((h) => h.toLowerCase().includes(query))
+                trip.highlights.some((h) => h.toLowerCase().includes(query)),
         );
     }
 
     // Island filter
     if (filters.islands && filters.islands.length > 0) {
         trips = trips.filter((trip) =>
-            filters.islands!.includes(trip.islandName)
+            filters.islands!.includes(trip.islandName),
         );
     }
 
@@ -164,7 +169,7 @@ export function searchAndFilterTrips(
     // Duration filter
     if (filters.durations && filters.durations.length > 0) {
         trips = trips.filter((trip) =>
-            filters.durations!.includes(trip.durationCode)
+            filters.durations!.includes(trip.durationCode),
         );
     }
 
