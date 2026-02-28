@@ -73,25 +73,70 @@ Terima kasih!
         }, 2000);
     };
 
+    // Paket wisata sesuai trips.json
+    const tripPackageOptions = [
+        {
+            group: '🏝️ Pulau Pramuka',
+            packages: [
+                {
+                    value: 'Pulau Pramuka - 2 Days 1 Night (Rp450.000/orang)',
+                    label: '2 Days 1 Night — Rp 450.000/orang',
+                },
+                {
+                    value: 'Pulau Pramuka - 3 Days 2 Nights (Rp600.000/orang)',
+                    label: '3 Days 2 Nights — Rp 600.000/orang',
+                },
+            ],
+        },
+        {
+            group: '🌴 Pulau Kelapa (Coming Soon)',
+            packages: [
+                {
+                    value: 'Pulau Kelapa - 2 Days 1 Night (Rp450.000/orang)',
+                    label: '2 Days 1 Night — Rp 450.000/orang',
+                },
+                {
+                    value: 'Pulau Kelapa - 3 Days 2 Nights (Rp600.000/orang)',
+                    label: '3 Days 2 Nights — Rp 600.000/orang',
+                },
+            ],
+        },
+        {
+            group: '🌊 Pulau Harapan (Coming Soon)',
+            packages: [
+                {
+                    value: 'Pulau Harapan - 2 Days 1 Night (Rp550.000/orang)',
+                    label: '2 Days 1 Night — Rp 550.000/orang',
+                },
+                {
+                    value: 'Pulau Harapan - 3 Days 2 Nights (Rp600.000/orang)',
+                    label: '3 Days 2 Nights — Rp 600.000/orang',
+                },
+            ],
+        },
+        {
+            group: '🐠 Pulau Tidung (Coming Soon)',
+            packages: [
+                {
+                    value: 'Pulau Tidung - 2 Days 1 Night (Rp500.000/orang)',
+                    label: '2 Days 1 Night — Rp 500.000/orang',
+                },
+                {
+                    value: 'Pulau Tidung - 3 Days 2 Nights (Rp750.000/orang)',
+                    label: '3 Days 2 Nights — Rp 750.000/orang',
+                },
+            ],
+        },
+    ];
+
     return (
         <>
-            {/* Page Header */}
-            {/* <div className='bg-linear-to-r from-blue-600 to-cyan-500 text-white py-12'>
-                <div className='max-w-7xl mx-auto px-4'>
-                    <h1 className='text-5xl font-bold mb-2'>Hubungi Kami</h1>
-                    <p className='text-lg text-blue-100'>
-                        Kami siap membantu Anda melakukan booking dan menjawab
-                        pertanyaan apapun
-                    </p>
-                </div>
-            </div> */}
             {/* Page Header */}
             <div
                 className='text-white py-40 relative overflow-hidden bg-cover bg-center'
                 style={{
                     backgroundImage:
                         'url(https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ)',
-
                     backgroundBlendMode: 'overlay',
                 }}
             >
@@ -242,15 +287,15 @@ Terima kasih!
                                 href='https://wa.me/6285121379822'
                                 target='_blank'
                                 rel='noopener noreferrer'
-                                className='block w-full bg-green-700 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
+                                className='block w-full bg-teal-700 hover:bg-teal-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
                             >
                                 💬 WhatsApp Chat
                             </motion.a>
                             <motion.a
                                 whileHover={{ scale: 1.02 }}
                                 whileTap={{ scale: 0.98 }}
-                                href='tel:+6281234567890'
-                                className='block w-full bg-green-700 hover:bg-green-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
+                                href='tel:+6285121379822'
+                                className='block w-full bg-teal-700 hover:bg-teal-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors'
                             >
                                 📞 Call Us
                             </motion.a>
@@ -345,52 +390,25 @@ Terima kasih!
                                     className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 appearance-none bg-white cursor-pointer'
                                 >
                                     <option value=''>Pilih Paket Wisata</option>
-                                    <option value='Pramuka 1 Day'>
-                                        Pulau Pramuka - 1 Day Trip
-                                    </option>
-                                    <option value='Pramuka 2D1N'>
-                                        Pulau Pramuka - 2D1N
-                                    </option>
-                                    <option value='Pramuka 3D2N'>
-                                        Pulau Pramuka - 3D2N
-                                    </option>
-                                    <option value='Untung Jawa 1 Day'>
-                                        Pulau Untung Jawa - 1 Day Trip
-                                    </option>
-                                    <option value='Untung Jawa 2D1N'>
-                                        Pulau Untung Jawa - 2D1N
-                                    </option>
-                                    <option value='Untung Jawa 3D2N'>
-                                        Pulau Untung Jawa - 3D2N
-                                    </option>
-                                    <option value='Seribu 1 Day'>
-                                        Pulau Seribu - 1 Day Trip
-                                    </option>
-                                    <option value='Seribu 2D1N'>
-                                        Pulau Seribu - 2D1N
-                                    </option>
-                                    <option value='Seribu 3D2N'>
-                                        Pulau Seribu - 3D2N
-                                    </option>
-                                    <option value='Ayer 1 Day'>
-                                        Pulau Ayer - 1 Day Trip
-                                    </option>
-                                    <option value='Ayer 2D1N'>
-                                        Pulau Ayer - 2D1N
-                                    </option>
-                                    <option value='Ayer 3D2N'>
-                                        Pulau Ayer - 3D2N
-                                    </option>
-                                    <option value='Onrust 1 Day'>
-                                        Pulau Onrust - 1 Day Trip
-                                    </option>
-                                    <option value='Onrust 2D1N'>
-                                        Pulau Onrust - 2D1N
-                                    </option>
-                                    <option value='Onrust 3D2N'>
-                                        Pulau Onrust - 3D2N
-                                    </option>
+                                    {tripPackageOptions.map((group) => (
+                                        <optgroup
+                                            key={group.group}
+                                            label={group.group}
+                                        >
+                                            {group.packages.map((pkg) => (
+                                                <option
+                                                    key={pkg.value}
+                                                    value={pkg.value}
+                                                >
+                                                    {pkg.label}
+                                                </option>
+                                            ))}
+                                        </optgroup>
+                                    ))}
                                 </select>
+                                <p className='text-xs text-gray-500 mt-1'>
+                                    * Harga per orang, minimum 10 peserta
+                                </p>
                             </div>
 
                             {/* Number of People */}
@@ -407,7 +425,7 @@ Terima kasih!
                                     max='100'
                                     required
                                     className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
-                                    placeholder='1'
+                                    placeholder='10'
                                 />
                             </div>
 
@@ -446,7 +464,7 @@ Terima kasih!
                                 type='submit'
                                 whileHover={{ scale: 1.02 }}
                                 whileTap={{ scale: 0.98 }}
-                                className='w-full bg-linear-to-r from-green-700 to-green-600 hover:from-green-800 hover:to-green-600 text-white font-bold py-4 rounded-lg transition-all text-lg'
+                                className='w-full bg-linear-to-r from-teal-700 to-teal-600 hover:from-teal-800 hover:to-teal-600 text-white font-bold py-4 rounded-lg transition-all text-lg'
                             >
                                 📨 Kirim Booking ke WhatsApp
                             </motion.button>
