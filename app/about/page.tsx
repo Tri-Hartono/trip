@@ -2,9 +2,16 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Tentang Kami - Seribu Island Tours',
+    title: 'Tentang Kami - Jelana Explore',
     description:
-        'Menciptakan pengalaman wisata tak terlupakan ke Kepulauan Seribu sejak 2010.',
+        'Jelana Explore adalah operator wisata terpercaya ke Kepulauan Seribu. Pengalaman lebih dari 10 tahun melayani ribuan traveler dengan kapal modern, guide profesional, dan harga terbaik.',
+    openGraph: {
+        title: 'Tentang Jelana Explore - Wisata Kepulauan Seribu',
+        description:
+            'Operator wisata terpercaya ke Kepulauan Seribu sejak 2010. Kapal modern, guide profesional, dokumentasi gratis.',
+        url: 'https://jelanaexplore.com/about',
+        images: ['/images/og-image.jpg'],
+    },
 };
 
 export default function AboutPage() {

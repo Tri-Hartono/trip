@@ -19,11 +19,89 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-    title: 'Seribu Island Tours - Paket Wisata Kepulauan Seribu',
+    metadataBase: new URL('https://jelanaexplore.com'),
+    title: {
+        default: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
+        template: '%s | Jelana Explore',
+    },
     description:
-        'Jelajahi keindahan Kepulauan Seribu dengan paket wisata terbaik. Snorkeling, island hopping, dan pengalaman tak terlupakan menanti Anda.',
-    keywords:
-        'Kepulauan Seribu, tour, wisata, snorkeling, island hopping, Jakarta',
+        'Nikmati liburan tak terlupakan di Kepulauan Seribu dengan Jelana Explore. Paket wisata snorkeling, island hopping, dan penginapan terbaik.',
+    keywords: [
+        'Kepulauan Seribu',
+        'Tour Kepulauan Seribu',
+        'Wisata Jakarta',
+        'Snorkeling',
+        'Island Hopping',
+        'Paket Wisata Murah',
+        'Jelana Explore',
+        'Pulau Pramuka',
+        'Pulau Seribu',
+        'Wisata Bahari Jakarta',
+    ],
+    authors: [{ name: 'Jelana Explore', url: 'https://jelanaexplore.com' }],
+    creator: 'Jelana Explore',
+    publisher: 'Jelana Explore',
+
+    // ─── Open Graph (WhatsApp, Facebook, LinkedIn, Telegram) ───────────────
+    openGraph: {
+        type: 'website',
+        locale: 'id_ID',
+        alternateLocale: ['en_US'],
+        url: 'https://jelanaexplore.com',
+        title: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
+        description:
+            'Jelajahi keindahan Kepulauan Seribu dengan paket wisata premium. Aman, nyaman, dan tak terlupakan.',
+        siteName: 'Jelana Explore',
+        images: [
+            {
+                // Ukuran 1200x630 ideal untuk WhatsApp, Facebook, LinkedIn
+                url: '/images/og-image.jpg',
+                secureUrl: 'https://jelanaexplore.com/images/og-image.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
+                type: 'image/jpeg',
+            },
+        ],
+    },
+
+    // ─── Twitter / X Card ──────────────────────────────────────────────────
+    twitter: {
+        card: 'summary_large_image',
+        site: '@jelanaexplore', // handle Twitter akun brand
+        creator: '@jelanaexplore', // handle Twitter penulis konten
+        title: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
+        description:
+            'Jelajahi keindahan Kepulauan Seribu dengan paket wisata premium. Snorkeling, island hopping, dan lebih banyak lagi!',
+        images: {
+            url: 'https://jelanaexplore.com/images/og-image.jpg',
+            alt: 'Jelana Explore - Wisata Kepulauan Seribu',
+        },
+    },
+
+    // ─── Robots & Indexing ─────────────────────────────────────────────────
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
+    },
+
+    // ─── Canonical & Verification ─────────────────────────────────────────
+    alternates: {
+        canonical: 'https://jelanaexplore.com',
+        languages: {
+            'id-ID': 'https://jelanaexplore.com',
+        },
+    },
+
+    // ─── App Info (untuk rich preview di beberapa platform) ────────────────
+    applicationName: 'Jelana Explore',
+    category: 'travel',
 };
 
 export default function RootLayout({
