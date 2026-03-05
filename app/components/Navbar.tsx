@@ -37,130 +37,142 @@ export default function Navbar() {
         return pathname.startsWith(href);
     };
 
+    // Prevent body scroll when mobile menu is open
+    useEffect(() => {
+        if (isMobileMenuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+        return () => {
+            document.body.style.overflow = '';
+        };
+    }, [isMobileMenuOpen]);
+
     return (
-        <nav
-            className={`fixed w-full top-0 z-50 transition-all duration-300 ${navBg}`}
-        >
-            <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-                <div className='flex justify-between items-center h-20'>
-                    {/* Logo */}
-                    <Link
-                        href='/'
-                        className='flex items-center space-x-2 group'
-                    >
-                        {/* Placeholder for actual logo usage, ensuring it works on both backgrounds if it's an image. 
-                             Assuming logo.webp is versatile. If not, might need filter invert. 
-                             For now, keeping as is. 
-                         */}
-                        <Image
-                            src='/logo.webp'
-                            alt='Jelana Explore Logo'
-                            width={60}
-                            height={60}
-                            className='group-hover:scale-105 transition-transform'
-                        />
-                        <div
-                            className={`font-heading font-bold text-xl tracking-tight transition-colors ${navTextColor}`}
+        <>
+            <nav
+                className={`fixed w-full top-0 z-50 transition-all duration-300 ${navBg}`}
+            >
+                <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+                    <div className='flex justify-between items-center h-20'>
+                        {/* Logo */}
+                        <Link
+                            href='/'
+                            className='flex items-center space-x-2 group'
                         >
-                            Jelana Explore
-                        </div>
-                    </Link>
-
-                    {/* Desktop Navigation Links */}
-                    <div className='hidden md:flex items-center space-x-8'>
-                        {[
-                            { name: 'Beranda', href: '/' },
-                            { name: 'Trip', href: '/trips' },
-                            { name: 'Galeri', href: '/gallery' },
-                            { name: 'Kontak', href: '/contact' },
-                        ].map((item, idx) => (
-                            <Link
-                                key={item.name}
-                                href={item.href}
-                                className={`font-medium text-sm transition-all duration-300 relative ${
-                                    isActive(item.href)
-                                        ? 'text-primary font-bold'
-                                        : `${navTextColor} hover:text-primary`
-                                }`}
+                            <Image
+                                src='/logo.webp'
+                                alt='Jelana Explore Logo'
+                                width={60}
+                                height={60}
+                                className='group-hover:scale-105 transition-transform'
+                            />
+                            <div
+                                className={`font-heading font-bold text-xl tracking-tight transition-colors ${navTextColor}`}
                             >
-                                {item.name}
-                                {isActive(item.href) && (
-                                    <motion.div
-                                        layoutId='desktop-navbar-underline'
-                                        className='absolute -bottom-1 left-0 right-0 h-0.5 bg-primary rounded-full'
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        transition={{ duration: 0.3 }}
-                                    />
-                                )}
-                            </Link>
-                        ))}
+                                Jelana Explore
+                            </div>
+                        </Link>
 
-                        {/* Social Media Icons */}
-                        <div
-                            className={`flex items-center space-x-4 ml-6 border-l pl-6 ${isScrolled ? 'border-gray-200' : 'border-white/20'}`}
+                        {/* Desktop Navigation Links */}
+                        <div className='hidden md:flex items-center space-x-8'>
+                            {[
+                                { name: 'Beranda', href: '/' },
+                                { name: 'Trip', href: '/trips' },
+                                { name: 'Galeri', href: '/gallery' },
+                                { name: 'Kontak', href: '/contact' },
+                            ].map((item) => (
+                                <Link
+                                    key={item.name}
+                                    href={item.href}
+                                    className={`font-medium text-sm transition-all duration-300 relative ${
+                                        isActive(item.href)
+                                            ? 'text-primary font-bold'
+                                            : `${navTextColor} hover:text-primary`
+                                    }`}
+                                >
+                                    {item.name}
+                                    {isActive(item.href) && (
+                                        <motion.div
+                                            layoutId='desktop-navbar-underline'
+                                            className='absolute -bottom-1 left-0 right-0 h-0.5 bg-primary rounded-full'
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            transition={{ duration: 0.3 }}
+                                        />
+                                    )}
+                                </Link>
+                            ))}
+
+                            {/* Social Media Icons */}
+                            <div
+                                className={`flex items-center space-x-4 ml-6 border-l pl-6 ${isScrolled ? 'border-gray-200' : 'border-white/20'}`}
+                            >
+                                <SocialIcon
+                                    icon={faInstagram}
+                                    href='https://instagram.com/jelanaexplore'
+                                    colorClass='hover:text-pink-500'
+                                    textColor={navTextColor}
+                                />
+                                <SocialIcon
+                                    icon={faFacebook}
+                                    href='https://facebook.com/jelanaexplore'
+                                    colorClass='hover:text-teal-900'
+                                    textColor={navTextColor}
+                                />
+                                <SocialIcon
+                                    icon={faWhatsapp}
+                                    href='https://wa.me/6285121379822'
+                                    colorClass='hover:text-green-500'
+                                    textColor={navTextColor}
+                                />
+                            </div>
+                        </div>
+
+                        {/* Mobile Menu Button */}
+                        <button
+                            className={`md:hidden relative z-60 flex items-center justify-center w-10 h-10 ${isMobileMenuOpen ? 'text-gray-900' : navTextColor}`}
+                            onClick={() =>
+                                setIsMobileMenuOpen(!isMobileMenuOpen)
+                            }
+                            aria-label='Toggle menu'
                         >
-                            <SocialIcon
-                                icon={faInstagram}
-                                href='https://instagram.com/jelanaexplore'
-                                colorClass='hover:text-pink-500'
-                                textColor={navTextColor}
-                            />
-                            <SocialIcon
-                                icon={faFacebook}
-                                href='https://facebook.com/jelanaexplore'
-                                colorClass='hover:text-teal-900'
-                                textColor={navTextColor}
-                            />
-                            <SocialIcon
-                                icon={faWhatsapp}
-                                href='https://wa.me/6285121379822'
-                                colorClass='hover:text-green-500'
-                                textColor={navTextColor}
-                            />
-                        </div>
+                            <div className='space-y-1.5 w-6'>
+                                <span
+                                    className={`block w-full h-0.5 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-gray-900' : 'bg-white'} ${
+                                        isMobileMenuOpen
+                                            ? 'rotate-45 translate-y-2'
+                                            : ''
+                                    }`}
+                                />
+                                <span
+                                    className={`block w-full h-0.5 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-gray-900' : 'bg-white'} ${
+                                        isMobileMenuOpen ? 'opacity-0' : ''
+                                    }`}
+                                />
+                                <span
+                                    className={`block w-full h-0.5 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-gray-900' : 'bg-white'} ${
+                                        isMobileMenuOpen
+                                            ? '-rotate-45 -translate-y-2'
+                                            : ''
+                                    }`}
+                                />
+                            </div>
+                        </button>
                     </div>
-
-                    {/* Mobile Menu Button */}
-                    <button
-                        className={`md:hidden flex items-center justify-center w-10 h-10 ${navTextColor}`}
-                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                        aria-label='Toggle menu'
-                    >
-                        <div className='space-y-1.5 w-6'>
-                            <span
-                                className={`block w-full h-0.5 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-gray-900' : 'bg-white'} ${
-                                    isMobileMenuOpen
-                                        ? 'rotate-45 translate-y-2'
-                                        : ''
-                                }`}
-                            />
-                            <span
-                                className={`block w-full h-0.5 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-gray-900' : 'bg-white'} ${
-                                    isMobileMenuOpen ? 'opacity-0' : ''
-                                }`}
-                            />
-                            <span
-                                className={`block w-full h-0.5 transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'bg-gray-900' : 'bg-white'} ${
-                                    isMobileMenuOpen
-                                        ? '-rotate-45 -translate-y-2'
-                                        : ''
-                                }`}
-                            />
-                        </div>
-                    </button>
                 </div>
-            </div>
+            </nav>
 
-            {/* Mobile Menu */}
+            {/* Mobile Menu — OUTSIDE <nav> to avoid backdrop-filter containing block bug on Safari/iOS */}
             <AnimatePresence>
                 {isMobileMenuOpen && (
                     <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: '100vh' }}
-                        exit={{ opacity: 0, height: 0 }}
+                        initial={{ opacity: 0, x: '100%' }}
+                        animate={{ opacity: 1, x: 0 }}
+                        exit={{ opacity: 0, x: '100%' }}
                         transition={{ duration: 0.3, ease: 'easeInOut' }}
-                        className='md:hidden fixed inset-0 top-0 bg-white z-40 pt-24 px-6 overflow-hidden'
+                        className='fixed inset-0 bg-white z-40 pt-24 px-6 overflow-y-auto md:hidden'
                     >
                         <div className='flex flex-col space-y-6'>
                             {[
@@ -220,7 +232,7 @@ export default function Navbar() {
                     </motion.div>
                 )}
             </AnimatePresence>
-        </nav>
+        </>
     );
 }
 
