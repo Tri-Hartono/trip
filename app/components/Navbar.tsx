@@ -49,11 +49,11 @@ export default function Navbar() {
                         className='flex items-center space-x-2 group'
                     >
                         {/* Placeholder for actual logo usage, ensuring it works on both backgrounds if it's an image. 
-                             Assuming logo.png is versatile. If not, might need filter invert. 
+                             Assuming logo.webp is versatile. If not, might need filter invert. 
                              For now, keeping as is. 
                          */}
                         <Image
-                            src='/logo.png'
+                            src='/logo.webp'
                             alt='Jelana Explore Logo'
                             width={60}
                             height={60}
