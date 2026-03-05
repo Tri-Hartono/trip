@@ -19,7 +19,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://jelanaexplore.com'),
+    metadataBase: new URL('https://www.jelanaexplore.com'),
     title: {
         default: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
         template: '%s | Jelana Explore',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
         type: 'website',
         locale: 'id_ID',
         alternateLocale: ['en_US'],
-        url: 'https://jelanaexplore.com',
+        url: 'https://www.jelanaexplore.com',
         title: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
         description:
             'Jelajahi keindahan Kepulauan Seribu dengan paket wisata premium. Aman, nyaman, dan tak terlupakan.',
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
         images: [
             {
                 // Ukuran 1200x630 ideal untuk WhatsApp, Facebook, LinkedIn
-                url: '/images/og-image.jpg',
-                secureUrl: 'https://jelanaexplore.com/images/og-image.jpg',
+                url: 'https://www.jelanaexplore.com/images/og-image.jpg',
+                secureUrl: 'https://www.jelanaexplore.com/images/og-image.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
         description:
             'Jelajahi keindahan Kepulauan Seribu dengan paket wisata premium. Snorkeling, island hopping, dan lebih banyak lagi!',
         images: {
-            url: 'https://jelanaexplore.com/images/og-image.jpg',
+            url: 'https://www.jelanaexplore.com/images/og-image.jpg',
             alt: 'Jelana Explore - Wisata Kepulauan Seribu',
         },
     },
@@ -93,9 +93,9 @@ export const metadata: Metadata = {
 
     // ─── Canonical & Verification ─────────────────────────────────────────
     alternates: {
-        canonical: 'https://jelanaexplore.com',
+        canonical: 'https://www.jelanaexplore.com',
         languages: {
-            'id-ID': 'https://jelanaexplore.com',
+            'id-ID': 'https://www.jelanaexplore.com',
         },
     },
 
