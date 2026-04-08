@@ -2,15 +2,25 @@ import { Metadata } from 'next';
 import ContactClient from './ContactClient';
 
 export const metadata: Metadata = {
-    title: 'Hubungi Kami - Booking Wisata Kepulauan Seribu',
+    title: 'Hubungi Jelana Explore - Booking Wisata Kepulauan Seribu',
     description:
-        'Hubungi Jelana Explore untuk booking paket wisata Kepulauan Seribu. WhatsApp tersedia 06:00-18:00 WIB, respon dalam 30 menit.',
+        'Punya pertanyaan atau ingin booking? Hubungi tim Jelana Explore untuk paket wisata Kepulauan Seribu terbaik. Layanan cepat via WhatsApp atau Email.',
+    alternates: {
+        canonical: 'https://www.jelanaexplore.com/contact',
+    },
     openGraph: {
         title: 'Hubungi Jelana Explore - Booking Wisata Kepulauan Seribu',
         description:
-            'Hubungi kami untuk booking paket wisata Kepulauan Seribu. Chat WhatsApp atau isi form booking online.',
-        url: 'https://jelanaexplore.com/contact',
-        images: ['/images/og-image.jpg'],
+            'Tim kami siap membantu Anda merencanakan liburan di Kepulauan Seribu. Klik untuk chat WhatsApp atau hubungi kami sekarang.',
+        url: 'https://www.jelanaexplore.com/contact',
+        images: [
+            {
+                url: '/images/og-image.webp',
+                width: 1200,
+                height: 630,
+                alt: 'Hubungi Jelana Explore',
+            },
+        ],
     },
 };
 

@@ -2,15 +2,25 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Tentang Kami - Jelana Explore',
+    title: 'Tentang Jelana Explore - Ahli Wisata Kepulauan Seribu Sejak 2010',
     description:
-        'Jelana Explore adalah operator wisata terpercaya ke Kepulauan Seribu. Pengalaman lebih dari 10 tahun melayani ribuan traveler dengan kapal modern, guide profesional, dan harga terbaik.',
+        'Pelajari lebih lanjut tentang Jelana Explore, operator wisata terpercaya di Kepulauan Seribu. Kami berkomitmen memberikan pengalaman liburan terbaik dengan layanan profesional.',
+    alternates: {
+        canonical: 'https://www.jelanaexplore.com/about',
+    },
     openGraph: {
-        title: 'Tentang Jelana Explore - Wisata Kepulauan Seribu',
+        title: 'Tentang Jelana Explore - Wisata Kepulauan Seribu Terpercaya',
         description:
-            'Operator wisata terpercaya ke Kepulauan Seribu sejak 2010. Kapal modern, guide profesional, dokumentasi gratis.',
-        url: 'https://jelanaexplore.com/about',
-        images: ['/images/og-image.jpg'],
+            'Dedikasi kami untuk keindahan Kepulauan Seribu. Pengalaman lebih dari 10 tahun melayani ribuan traveler dengan sepenuh hati.',
+        url: 'https://www.jelanaexplore.com/about',
+        images: [
+            {
+                url: '/images/og-image.webp',
+                width: 1200,
+                height: 630,
+                alt: 'Tentang Jelana Explore',
+            },
+        ],
     },
 };
 

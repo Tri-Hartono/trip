@@ -2,15 +2,25 @@ import { Metadata } from 'next';
 import TripsClient from './TripsClient';
 
 export const metadata: Metadata = {
-    title: 'Paket Wisata Kepulauan Seribu',
+    title: 'Daftar Paket Wisata Kepulauan Seribu Terlengkap & Termurah',
     description:
-        'Temukan semua paket wisata ke Kepulauan Seribu. Pilihan lengkap dari paket 2 hari 1 malam hingga 3 hari 2 malam dengan harga terbaik.',
+        'Cari dan temukan paket wisata Kepulauan Seribu impian Anda. Paket 2H1M & 3H2M ke Pulau Pramuka, Tidung, Pari, dan lainnya dengan fasilitas snorkeling lengkap.',
+    alternates: {
+        canonical: 'https://www.jelanaexplore.com/trips',
+    },
     openGraph: {
         title: 'Paket Wisata Kepulauan Seribu - Jelana Explore',
         description:
-            'Temukan semua paket wisata ke Kepulauan Seribu. Snorkeling, island hopping, dan penginapan terbaik.',
-        url: 'https://jelanaexplore.com/trips',
-        images: ['/images/og-image.jpg'],
+            'Koleksi paket wisata Kepulauan Seribu terbaik untuk liburan Anda. Snorkeling, island hopping, dan penginapan berkualitas.',
+        url: 'https://www.jelanaexplore.com/trips',
+        images: [
+            {
+                url: '/images/og-image.webp',
+                width: 1200,
+                height: 630,
+                alt: 'Daftar Paket Wisata Jelana Explore',
+            },
+        ],
     },
 };
 

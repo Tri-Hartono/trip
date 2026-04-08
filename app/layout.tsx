@@ -21,62 +21,51 @@ const poppins = Poppins({
 export const metadata: Metadata = {
     metadataBase: new URL('https://www.jelanaexplore.com'),
     title: {
-        default: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
+        default: 'Jelana Explore - Spesialis Paket Wisata Kepulauan Seribu Terbaik',
         template: '%s | Jelana Explore',
     },
     description:
-        'Nikmati liburan tak terlupakan di Kepulauan Seribu dengan Jelana Explore. Paket wisata snorkeling, island hopping, dan penginapan terbaik.',
+        'Penyedia paket wisata Kepulauan Seribu terpercaya. Nikmati open trip Pulau Pramuka, Tidung, Harapan, Pari, dan Kelapa dengan harga termurah dan fasilitas lengkap.',
     keywords: [
         'Kepulauan Seribu',
-        'Tour Kepulauan Seribu',
-        'Wisata Jakarta',
-        'Snorkeling',
-        'Island Hopping',
-        'Paket Wisata Murah',
+        'Paket Wisata Pulau Seribu',
+        'Open Trip Kepulauan Seribu',
+        'Tour Pulau Seribu Murah',
+        'Snorkeling Jakarta',
+        'Island Hopping Jakarta',
+        'Wisata Bahari Indonesia',
         'Jelana Explore',
-        'Pulau Pramuka',
-        'Pulau Seribu',
-        'Wisata Bahari Jakarta',
     ],
-    authors: [{ name: 'Jelana Explore', url: 'https://jelanaexplore.com' }],
+    authors: [{ name: 'Jelana Explore', url: 'https://www.jelanaexplore.com' }],
     creator: 'Jelana Explore',
     publisher: 'Jelana Explore',
 
-    // ─── Open Graph (WhatsApp, Facebook, LinkedIn, Telegram) ───────────────
+    // ─── Open Graph (WhatsApp, Facebook, LinkedIn) ─────────────────────
     openGraph: {
         type: 'website',
         locale: 'id_ID',
-        alternateLocale: ['en_US'],
         url: 'https://www.jelanaexplore.com',
-        title: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
+        title: 'Jelana Explore - Paket Wisata Kepulauan Seribu Terlengkap',
         description:
-            'Jelajahi keindahan Kepulauan Seribu dengan paket wisata premium. Aman, nyaman, dan tak terlupakan.',
+            'Jelajahi keindahan Kepulauan Seribu bersama Jelana Explore. Paket snorkeling, hopping island, dan homestay premium dengan harga bersahabat.',
         siteName: 'Jelana Explore',
         images: [
             {
-                // Ukuran 1200x630 ideal untuk WhatsApp, Facebook, LinkedIn
-                url: 'https://www.jelanaexplore.com/images/og-image.jpg',
-                secureUrl: 'https://www.jelanaexplore.com/images/og-image.jpg',
+                url: '/images/og-image.webp',
                 width: 1200,
                 height: 630,
-                alt: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
-                type: 'image/jpeg',
+                alt: 'Jelana Explore - Wisata Kepulauan Seribu',
             },
         ],
     },
 
-    // ─── Twitter / X Card ──────────────────────────────────────────────────
+    // ─── Twitter Card ──────────────────────────────────────────────────
     twitter: {
         card: 'summary_large_image',
-        site: '@jelanaexplore', // handle Twitter akun brand
-        creator: '@jelanaexplore', // handle Twitter penulis konten
         title: 'Jelana Explore - Paket Wisata Kepulauan Seribu',
         description:
-            'Jelajahi keindahan Kepulauan Seribu dengan paket wisata premium. Snorkeling, island hopping, dan lebih banyak lagi!',
-        images: {
-            url: 'https://www.jelanaexplore.com/images/og-image.jpg',
-            alt: 'Jelana Explore - Wisata Kepulauan Seribu',
-        },
+            'Liburan seru di Kepulauan Seribu! Paket open trip lengkap, murah, dan terpercaya.',
+        images: ['/images/og-image.webp'],
     },
 
     // ─── Robots & Indexing ─────────────────────────────────────────────────
@@ -91,15 +80,11 @@ export const metadata: Metadata = {
         },
     },
 
-    // ─── Canonical & Verification ─────────────────────────────────────────
+    // ─── Verification & Canonical ─────────────────────────────────────────
     alternates: {
         canonical: 'https://www.jelanaexplore.com',
-        languages: {
-            'id-ID': 'https://www.jelanaexplore.com',
-        },
     },
 
-    // ─── App Info (untuk rich preview di beberapa platform) ────────────────
     applicationName: 'Jelana Explore',
     category: 'travel',
 };

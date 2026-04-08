@@ -20,55 +20,74 @@
         "category": "Drone Shots",
         "image": "/images/pramuka_3.webp"
     },
-
     {
-        "id": 5,
-        "title": "Dermaga Pulau Pramuka",
+        "id": 4,
+        "title": "Dermaga Utama Pulau Pramuka",
         "island": "Pulau Pramuka",
         "category": "Island Hopping",
+        "image": "/images/pramuka_4.webp"
+    },
+    {
+        "id": 5,
+        "title": "Biota Laut yang Terjaga",
+        "island": "Pulau Pramuka",
+        "category": "Snorkeling",
         "image": "/images/pramuka_5.webp"
     },
     {
         "id": 6,
-        "title": "Biota Laut yang Terjaga",
+        "title": "Terumbu Karang Sehat",
         "island": "Pulau Pramuka",
         "category": "Snorkeling",
         "image": "/images/pramuka_6.webp"
     },
     {
         "id": 7,
-        "title": "Sunset di Ujung Dermaga",
-        "island": "Pulau Pramuka",
-        "category": "Drone Shots",
-        "image": "/images/pramuka_1.webp"
+        "title": "Pesona Pulau Harapan",
+        "island": "Pulau Harapan",
+        "category": "Island Hopping",
+        "image": "/images/harapan.webp"
     },
     {
         "id": 8,
-        "title": "Eksplorasi Hutan Mangrove",
-        "island": "Pulau Pramuka",
-        "category": "Island Hopping",
-        "image": "/images/pramuka_2.webp"
+        "title": "Bawah Laut Harapan",
+        "island": "Pulau Harapan",
+        "category": "Snorkeling",
+        "image": "/images/harapan-2.webp"
     },
     {
         "id": 9,
-        "title": "Spot Ikan Warna-warni",
-        "island": "Pulau Pramuka",
-        "category": "Snorkeling",
-        "image": "/images/pramuka_3.webp"
+        "title": "Suasana Tenang Pulau Kelapa",
+        "island": "Pulau Kelapa",
+        "category": "Island Hopping",
+        "image": "/images/kelapa.webp"
     },
     {
         "id": 10,
-        "title": "Suasana Malam di Pulau",
-        "island": "Pulau Pramuka",
-        "category": "Accommodations",
-        "image": "/images/pramuka_5.webp"
+        "title": "Eksplorasi Pulau Kelapa",
+        "island": "Pulau Kelapa",
+        "category": "Island Hopping",
+        "image": "/images/kelapa-2.webp"
     },
-
+    {
+        "id": 11,
+        "title": "Jembatan Cinta Tidung",
+        "island": "Pulau Tidung",
+        "category": "Island Hopping",
+        "image": "/images/tidung.webp"
+    },
     {
         "id": 12,
-        "title": "Terumbu Karang Sehat",
-        "island": "Pulau Pramuka",
-        "category": "Snorkeling",
-        "image": "/images/pramuka_6.webp"
+        "title": "Pantai Pasir Perawan",
+        "island": "Pulau Pari",
+        "category": "Island Hopping",
+        "image": "/images/pari.webp"
+    },
+    {
+        "id": 13,
+        "title": "Ketenangan Pulau Payung",
+        "island": "Pulau Payung",
+        "category": "Island Hopping",
+        "image": "/images/payung.webp"
     }
 ]

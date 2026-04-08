@@ -128,8 +128,8 @@ export default function GalleryClient() {
                                     }
                                     className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${
                                         selectedCategory === category
-                                            ? 'bg-primary text-white dark:text-[#111618] shadow-lg shadow-primary/25'
-                                            : 'bg-white dark:bg-[#1e2a30] text-[#617f89] dark:text-gray-300 border border-[#e5e7eb] dark:border-[#333] hover:border-primary hover:text-primary'
+                                            ? 'bg-primary text-white shadow-lg shadow-primary/25'
+                                            : 'bg-secondary dark:bg-primary/10 text-primary/70 dark:text-primary-foreground/70 border border-primary/10 dark:border-primary/20 hover:bg-primary/10 hover:border-primary/30'
                                     }`}
                                 >
                                     {category}
