@@ -1,93 +1,198 @@
 [
     {
         "id": 1,
-        "title": "Keindahan Pesisir Pramuka",
+        "title": "Pesisir Pulau Pramuka",
         "island": "Pulau Pramuka",
-        "category": "Island Hopping",
-        "image": "/images/pramuka_1.webp"
+        "category": "Pulau Pramuka",
+        "image": "/images/pramuka/pramuka-1.webp"
     },
     {
         "id": 2,
-        "title": "Snorkeling Crystal Clear",
+        "title": "Snorkeling di Perairan Jernih",
         "island": "Pulau Pramuka",
-        "category": "Snorkeling",
-        "image": "/images/pramuka_2.webp"
+        "category": "Pulau Pramuka",
+        "image": "/images/pramuka/pramuka-2.webp"
     },
     {
         "id": 3,
-        "title": "Pemandangan Udara Pramuka",
+        "title": "Aerial View Pulau Pramuka",
         "island": "Pulau Pramuka",
-        "category": "Drone Shots",
-        "image": "/images/pramuka_3.webp"
+        "category": "Pulau Pramuka",
+        "image": "/images/pramuka/pramuka-3.webp"
     },
     {
         "id": 4,
-        "title": "Dermaga Utama Pulau Pramuka",
+        "title": "Dermaga Pulau Pramuka",
         "island": "Pulau Pramuka",
-        "category": "Island Hopping",
-        "image": "/images/pramuka_4.webp"
+        "category": "Pulau Pramuka",
+        "image": "/images/pramuka/pramuka-4.webp"
     },
     {
         "id": 5,
-        "title": "Biota Laut yang Terjaga",
+        "title": "Terumbu Karang Berwarna",
         "island": "Pulau Pramuka",
-        "category": "Snorkeling",
-        "image": "/images/pramuka_5.webp"
+        "category": "Pulau Pramuka",
+        "image": "/images/pramuka/pramuka-5.webp"
     },
     {
         "id": 6,
-        "title": "Terumbu Karang Sehat",
+        "title": "Eksplorasi Bawah Laut",
         "island": "Pulau Pramuka",
-        "category": "Snorkeling",
-        "image": "/images/pramuka_6.webp"
+        "category": "Pulau Pramuka",
+        "image": "/images/pramuka/pramuka-6.webp"
     },
     {
         "id": 7,
-        "title": "Pesona Pulau Harapan",
-        "island": "Pulau Harapan",
-        "category": "Island Hopping",
-        "image": "/images/harapan.webp"
+        "title": "Pasir Putih Pramuka",
+        "island": "Pulau Pramuka",
+        "category": "Pulau Pramuka",
+        "image": "/images/pramuka/pramuka-7.webp"
     },
     {
         "id": 8,
-        "title": "Bawah Laut Harapan",
+        "title": "Gerbang Pulau Harapan",
         "island": "Pulau Harapan",
-        "category": "Snorkeling",
-        "image": "/images/harapan-2.webp"
+        "category": "Pulau Harapan",
+        "image": "/images/harapan/harapan.webp"
     },
     {
         "id": 9,
-        "title": "Suasana Tenang Pulau Kelapa",
-        "island": "Pulau Kelapa",
-        "category": "Island Hopping",
-        "image": "/images/kelapa.webp"
+        "title": "Jelajah Pulau Harapan",
+        "island": "Pulau Harapan",
+        "category": "Pulau Harapan",
+        "image": "/images/harapan/harapan-1.webp"
     },
     {
         "id": 10,
-        "title": "Eksplorasi Pulau Kelapa",
-        "island": "Pulau Kelapa",
-        "category": "Island Hopping",
-        "image": "/images/kelapa-2.webp"
+        "title": "Spot Snorkeling Harapan",
+        "island": "Pulau Harapan",
+        "category": "Pulau Harapan",
+        "image": "/images/harapan/harapan-2.webp"
     },
     {
         "id": 11,
-        "title": "Jembatan Cinta Tidung",
-        "island": "Pulau Tidung",
-        "category": "Island Hopping",
-        "image": "/images/tidung.webp"
+        "title": "Sisi Lain Pulau Harapan",
+        "island": "Pulau Harapan",
+        "category": "Pulau Harapan",
+        "image": "/images/harapan/harapan-3.webp"
     },
     {
         "id": 12,
         "title": "Pantai Pasir Perawan",
         "island": "Pulau Pari",
-        "category": "Island Hopping",
-        "image": "/images/pari.webp"
+        "category": "Pulau Pari",
+        "image": "/images/pari/pari.webp"
     },
     {
         "id": 13,
-        "title": "Ketenangan Pulau Payung",
+        "title": "Ketenangan Pulau Pari",
+        "island": "Pulau Pari",
+        "category": "Pulau Pari",
+        "image": "/images/pari/pari-1.webp"
+    },
+    {
+        "id": 14,
+        "title": "Biota Laut Pulau Pari",
+        "island": "Pulau Pari",
+        "category": "Pulau Pari",
+        "image": "/images/pari/pari-2.webp"
+    },
+    {
+        "id": 15,
+        "title": "Dermaga Wisata Pari",
+        "island": "Pulau Pari",
+        "category": "Pulau Pari",
+        "image": "/images/pari/pari-3.webp"
+    },
+    {
+        "id": 16,
+        "title": "Snorkeling Spot Pari",
+        "island": "Pulau Pari",
+        "category": "Pulau Pari",
+        "image": "/images/pari/pari-4.webp"
+    },
+    {
+        "id": 17,
+        "title": "Resort Payung View",
         "island": "Pulau Payung",
-        "category": "Island Hopping",
-        "image": "/images/payung.webp"
+        "category": "Pulau Payung",
+        "image": "/images/resort-payung/resort-payung.webp"
+    },
+    {
+        "id": 18,
+        "title": "Suasana Resort Payung",
+        "island": "Pulau Payung",
+        "category": "Pulau Payung",
+        "image": "/images/resort-payung/resort-payung-1.webp"
+    },
+    {
+        "id": 19,
+        "title": "Interior Villa Payung",
+        "island": "Pulau Payung",
+        "category": "Pulau Payung",
+        "image": "/images/resort-payung/resort-payung-2.webp"
+    },
+    {
+        "id": 20,
+        "title": "Eksplorasi Pulau Payung",
+        "island": "Pulau Payung",
+        "category": "Pulau Payung",
+        "image": "/images/resort-payung/resort-payung-3.webp"
+    },
+    {
+        "id": 21,
+        "title": "Bawah Laut Payung",
+        "island": "Pulau Payung",
+        "category": "Pulau Payung",
+        "image": "/images/resort-payung/resort-payung-4.webp"
+    },
+    {
+        "id": 22,
+        "title": "Sisi Pantai Payung",
+        "island": "Pulau Payung",
+        "category": "Pulau Payung",
+        "image": "/images/resort-payung/resort-payung-5.webp"
+    },
+    {
+        "id": 23,
+        "title": "Snorkeling Time",
+        "island": "Pulau Payung",
+        "category": "Pulau Payung",
+        "image": "/images/resort-payung/resort-payung-6.webp"
+    },
+    {
+        "id": 24,
+        "title": "Villa Kayu Iconic",
+        "island": "Pulau Payung",
+        "category": "Pulau Payung",
+        "image": "/images/resort-payung/payung.webp"
+    },
+    {
+        "id": 25,
+        "title": "Icon Jembatan Cinta",
+        "island": "Pulau Tidung",
+        "category": "Pulau Tidung",
+        "image": "/images/tidung/tidung.webp"
+    },
+    {
+        "id": 26,
+        "title": "Jelajah Pulau Tidung",
+        "island": "Pulau Tidung",
+        "category": "Pulau Tidung",
+        "image": "/images/tidung/tidung-2.webp"
+    },
+    {
+        "id": 27,
+        "title": "Kecantikan Pulau Kelapa 1",
+        "island": "Pulau Kelapa",
+        "category": "Pulau Kelapa",
+        "image": "/images/kelapa/kelapa-1.webp"
+    },
+    {
+        "id": 28,
+        "title": "Kecantikan Pulau Kelapa 2",
+        "island": "Pulau Kelapa",
+        "category": "Pulau Kelapa",
+        "image": "/images/kelapa/kelapa-2.webp"
     }
 ]

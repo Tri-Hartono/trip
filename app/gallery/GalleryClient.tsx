@@ -4,28 +4,62 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import galleryData from '@/data/gallery.json';
 
-const categories = [
+// Types for gallery data
+interface GalleryItem {
+    id: number;
+    title: string;
+    island: string;
+    category: string;
+    image: string;
+}
+
+const typedGalleryData = galleryData as GalleryItem[];
+
+// Standard sort of categories to keep common ones first
+const categoryOrder = [
     'All Photos',
-    'Snorkeling',
-    'Island Hopping',
-    'Drone Shots',
-    'Accommodations',
+    'Pulau Pramuka',
+    'Pulau Harapan',
+    'Pulau Pari',
+    'Pulau Tidung',
+    'Pulau Kelapa',
 ];
+
+
+
 
 export default function GalleryClient() {
     const [selectedCategory, setSelectedCategory] =
         useState<string>('All Photos');
-    const [selectedImage, setSelectedImage] = useState<
-        (typeof galleryData)[0] | null
-    >(null);
+    const [selectedImage, setSelectedImage] = useState<GalleryItem | null>(
+        null,
+    );
     const [currentIndex, setCurrentIndex] = useState(0);
+
+    // Dynamic categories from data
+    const dynamicCategories = [
+        'All Photos',
+        ...Array.from(
+            new Set(typedGalleryData.map((item) => item.category)),
+        ).sort((a, b) => {
+            const idxA = categoryOrder.indexOf(a);
+            const idxB = categoryOrder.indexOf(b);
+            if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+            if (idxA !== -1) return -1;
+            if (idxB !== -1) return 1;
+            return a.localeCompare(b);
+        }),
+    ];
 
     const filteredGallery =
         selectedCategory === 'All Photos'
-            ? galleryData
-            : galleryData.filter((item) => item.category === selectedCategory);
+            ? typedGalleryData
+            : typedGalleryData.filter(
+                  (item) => item.category === selectedCategory,
+              );
 
-    const openModal = (item: (typeof galleryData)[0]) => {
+
+    const openModal = (item: GalleryItem) => {
         setSelectedImage(item);
         setCurrentIndex(filteredGallery.findIndex((img) => img.id === item.id));
     };
@@ -118,7 +152,7 @@ export default function GalleryClient() {
                         className='flex justify-center mb-12'
                     >
                         <div className='flex flex-wrap justify-center gap-3'>
-                            {categories.map((category) => (
+                            {dynamicCategories.map((category) => (
                                 <motion.button
                                     key={category}
                                     whileHover={{ scale: 1.05 }}
@@ -129,13 +163,14 @@ export default function GalleryClient() {
                                     className={`px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${
                                         selectedCategory === category
                                             ? 'bg-primary text-white shadow-lg shadow-primary/25'
-                                            : 'bg-secondary dark:bg-primary/10 text-primary/70 dark:text-primary-foreground/70 border border-primary/10 dark:border-primary/20 hover:bg-primary/10 hover:border-primary/30'
+                                            : 'bg-gray-100 text-gray-600 border border-gray-200 hover:bg-gray-200 hover:text-primary'
                                     }`}
                                 >
                                     {category}
                                 </motion.button>
                             ))}
                         </div>
+
                     </motion.div>
 
                     <motion.div
@@ -159,7 +194,7 @@ export default function GalleryClient() {
                                         transition: { duration: 0.3 },
                                     }}
                                     onClick={() => openModal(item)}
-                                    className='group relative overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-800 cursor-pointer aspect-4/3'
+                                    className='group relative overflow-hidden rounded-2xl bg-transparent cursor-pointer aspect-4/3'
                                 >
                                     <img
                                         alt={item.title}

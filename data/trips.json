@@ -1,635 +1,649 @@
 [
-  {
-    "id": 1,
-    "name": "Pulau Pramuka",
-    "slug": "pulau-pramuka",
-    "status": "available",
-    "description": "Island dengan pantai pasir putih dan aktivitas snorkeling terbaik",
-    "image": "/images/pramuka_1.webp",
-    "packages": [
-      {
-        "id": "pramuka-2d1n",
-        "duration": "2 Days 1 Nights",
-        "durationCode": "2d1n",
-        "durationInDays": 2,
-        "price": 600000,
-        "minPeople": 10,
-        "description": "Pulau Pramuka adalah destinasi wisata bahari yang cocok untuk kamu yang ingin liburan santai, edukatif, sekaligus dekat dengan alam. Terletak di pusat Kepulauan Seribu, pulau ini dikenal dengan lingkungan yang tertata rapi, suasana tenang, dan laut yang masih jernih. Berbeda dari pulau wisata yang ramai hiburan, Pulau Pramuka menawarkan pengalaman liburan yang lebih seimbang. Kamu bisa menikmati pantai berpasir putih, berenang di perairan dangkal yang aman, hingga snorkeling dengan pemandangan terumbu karang dan ikan warna-warni yang masih terjaga. Pulau ini juga menjadi pusat konservasi penyu sisik. Peserta open trip bisa melihat langsung proses penangkaran penyu, belajar tentang pelestarian laut, dan ikut melepas tukik ke laut (tergantung ketersediaan). Aktivitas ini membuat liburan terasa lebih bermakna, bukan sekadar jalan-jalan.Di sore hari, suasana Pulau Pramuka semakin nyaman untuk bersepeda keliling pulau, menikmati sunset, atau bersantai di dermaga sambil melihat aktivitas warga lokal. Fasilitas umum sudah lengkap, mulai dari homestay yang nyaman, warung makan, hingga mushola dan klinik. Open trip Pulau Pramuka sangat cocok untuk solo traveler, pasangan, maupun rombongan yang ingin liburan singkat tanpa ribet, dengan jarak tempuh yang relatif dekat dari Jakarta namun tetap memberi nuansa liburan pulau yang autentik.",
-        "facilities": [
-          "Akomodasi Kapal Tradisional Via Kali Adem Muara Angke PP",
-          "Homestay AC Selama 1 Malam",
-          "Makan 3x ( Siang, Malam dan Pagi )",
-          "Alat Snorkling Lengkap Per Peserta",
-          "Kapal Jelajah Pulau Untuk Snorkling",
-          "Jelajah Pulau Gusung Petrick",
-          "Asuransi Perjalanan",
-          "Biaya Masuk ke Penangkaran Kuda Laut",
-          "Bonus BBQ ( Ikan )",
-          "Free Foto Underwater sepuasnyah"
-        ],
-        "destinations": [
-          "Pantai pasir putih ekslusif",
-          "Spot snorkeling premium",
-          "Pulau burung",
-          "Hutan mangrove adventure",
-          "Sunset cruise malam pertama",
-          "Island hopping ke pulau lain",
-          "Water sports activities"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:00 - 08:00",
-                "activity": "Titik kumpul",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 11:00",
-                "activity": "Perjalanan menuju Pulau Pramuka",
-                "location": "Kapal tradisional"
-              },
-              {
-                "time": "11:00 - 13:00",
-                "activity": "ISHOMA dan persiapan snorkeling",
-                "location": "Homestay"
-              },
-              {
-                "time": "13:00 - 13:30",
-                "activity": "Menuju Pulau Air",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "13:30 - 16:30",
-                "activity": "Island hopping dan snorkeling",
-                "location": "Pulau Pramuka & sekitarnya"
-              },
-              {
-                "time": "16:30 - 17:00",
-                "activity": "Kembali ke Pulau Pramuka",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "17:00 - 18:00",
-                "activity": "Persiapan makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "18:00 - 19:30",
-                "activity": "Makan malam dan BBQ",
-                "location": "Homestay"
-              },
-              {
-                "time": "19:30 - 23:00",
-                "activity": "Free time",
-                "location": "Resort area"
-              },
-              {
-                "time": "23:00 - 06:00",
-                "activity": "Istirahat",
-                "location": "Kamar tidur"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "06:00 - 07:30",
-                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
-                "location": "Homestay"
-              },
-              {
-                "time": "07:30 - 08:00",
-                "activity": "Perjalanan menuju penangkaran penyu",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "08:00 - 09:00",
-                "activity": "Edukasi dan foto-foto",
-                "location": "Penangkaran penyu"
-              },
-              {
-                "time": "09:00 - 09:30",
-                "activity": "Kembali ke homestay",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "09:30 - 10:30",
-                "activity": "Persiapan pulang",
-                "location": "Homestay"
-              },
-              {
-                "time": "10:30 - 11:00",
-                "activity": "Menuju dermaga",
-                "location": "Perjalanan kapal"
-              },
-              {
-                "time": "11:00 - 14:00",
-                "activity": "Perjalanan kembali ke Jakarta",
-                "location": "Kapal"
-              }
-            ]
-          }
-        ],
-        "addons": [
-          {
-            "name": "Banana Boat",
-            "capacity": "6 orang",
-            "price": "50.000 per orang"
-          },
-          {
-            "name": "Jet Ski",
-            "capacity": "2 orang per jet ski",
-            "price": "120.000 per orang"
-          }
-        ],
-        "snorkingSpots": [
-          {
-            "island": "Pulau Dolphin",
-            "time": "13:00 - 13:30"
-          },
-          {
-            "island": "Spot snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "/images/pramuka_1.webp",
-          "/images/pramuka_2.webp",
-          "/images/pramuka_3.webp",
-          "/images/pramuka_4.webp",
-          "/images/pramuka_5.webp",
-          "/images/pramuka_6.webp"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tips Guide sukarela",
-          "Peron pelabuhan",
-          "Hal yang tidak disebutkan diatas"
-        ],
-        "meals": [],
-        "highlights": []
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Pulau Kelapa",
-    "slug": "pulau-kelapa",
-    "status": "available",
-    "description": "Pulau Kelapa menawarkan keindahan alam yang memukau dengan gugusan pulau-pulau kecil dan taman laut yang masih terjaga.",
-    "image": "/images/kelapa.webp",
-    "packages": [
-      {
-        "id": "pulaukelapa-2d1n",
-        "duration": "2 Days 1 Night",
-        "durationCode": "2d1n",
-        "durationInDays": 2,
-        "price": 625000,
-        "minPeople": 10,
-        "description": "Pulau Kelapa adalah pilihan tepat bagi kamu yang ingin merasakan suasana pulau yang hidup namun tetap nyaman untuk berlibur. Pulau ini memiliki karakter khas sebagai pulau hunian dengan sentuhan wisata bahari yang kuat, sehingga pengunjung bisa menikmati keindahan laut sekaligus melihat kehidupan masyarakat pesisir secara langsung. Perairan di sekitar Pulau Kelapa dikenal jernih dan tenang, cocok untuk snorkeling dan berenang. Terumbu karang dan ikan-ikan kecil mudah ditemui, menjadikan aktivitas laut terasa seru meski untuk pemula. Beberapa spot di sekitar pulau juga ideal untuk island hopping ke pulau-pulau kecil di sekitarnya. Pulau Kelapa memiliki garis pantai yang cukup panjang dengan pemandangan laut lepas yang menenangkan. Pagi hari sangat pas untuk menikmati angin laut sambil berjalan santai, sedangkan sore hari menghadirkan suasana hangat dengan langit senja yang indah. Malam harinya, suasana pulau terasa lebih lokal dan akrab, cocok untuk quality time tanpa hiruk-pikuk kota. Fasilitas di Pulau Kelapa tergolong lengkap. Tersedia berbagai pilihan homestay, warung makan dengan menu seafood segar, hingga area publik yang nyaman untuk berkumpul. Akses antar pulau juga mudah karena Pulau Kelapa terhubung dengan Pulau Kelapa Dua melalui jembatan, sehingga area eksplorasi menjadi lebih luas. Open trip Pulau Kelapa cocok untuk kamu yang mencari liburan santai, tidak terlalu ramai, namun tetap memiliki banyak aktivitas. Baik untuk solo traveler  pasangan, maupun rombongan kecil yang ingin menikmati sisi lain Kepulauan Seribu dengan nuansa lokal yang lebih terasa.",
-        "facilities": [
-          "Tiket penyebrangan PP (Kapal Tradisional)",
-          "Homestay (Penginapan)",
-          "Kapal Snorkeling",
-          "Kapal jelajah Pulau dan kapal snorkeling",
-          "Spot Snorkeling",
-          "Spot Pulau Wisata",
-          "Alat Snorkeling (tidak ada sepatu katak)",
-          "Welcome Drink",
-          "Makan 3x jika",
-          "BBQ",
-          "Dokumentasi Bawah Air",
-          "Tour Guide",
-          "Free Banana Boat",
-          "Free Tiket Tracking Mangrove",
-          "Free Tiket Penangkarang Penyu",
-          "Free Uang Sandar"
-        ],
-        "destinations": [],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "06:00",
-                "activity": "Berkumpul di Pelabuhan Kali Adem",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "06:30 - 07:15",
-                "activity": "Boarding Tiket dan Meeting Point di Pelabuhan Kali Adem",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 10:30",
-                "activity": "Perjalanan Menuju Pulau Kelapa",
-                "location": "Kapal Tradisional"
-              },
-              {
-                "time": "11:00",
-                "activity": "Tiba di Pulau Kelapa (Bisa lebih cepat / lambat dari waktu yang ditentukan",
-                "location": "Pulau Kelapa"
-              },
-              {
-                "time": "11:15 - 11:30",
-                "activity": "Jalan Menuju Homestay / Penginapan dan Welcome Drink",
-                "location": "Pulau Kelapa"
-              },
-              {
-                "time": "11:45 - 12:30",
-                "activity": "Makan Siang, Sholat, Istirahat",
-                "location": "Homestay"
-              },
-              {
-                "time": "12:45 - 13:00",
-                "activity": "Persiapan Jelajah Pulau dan Snorkeling",
-                "location": "Pulau Kelapa"
-              },
-              {
-                "time": "13:00 - 18:00",
-                "activity": "Jelajah Pulau dan Snorkeling (Bisa lebih cepat/lambat menyesuaikan waktu dan cuaca",
-                "location": "Kapal Tradisional"
-              },
-              {
-                "time": "18:00 - 19:45",
-                "activity": "Balik ke Homestay/Penginapan bersih-bersih dan Makan Malam",
-                "location": "Perjalanan Kapal"
-              },
-              {
-                "time": "20:00 - Selesai",
-                "activity": "BBQ (Jika Mau Karokean bisa request atau acara lainnya",
-                "location": "Homestay"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "05:20 - 06:15",
-                "activity": "Sunrise (Jika Mau)",
-                "location": "Homestay"
-              },
-              {
-                "time": "06:30 - 07:15",
-                "activity": "Sarapan",
-                "location": "Homestay"
-              },
-              {
-                "time": "08:15 - 09:30",
-                "activity": "Persiapan dan Menuju Tracking Mangrove dan Penangkaran Penyu",
-                "location": "Pulau Kelapa"
-              },
-              {
-                "time": "09:45 - 10:00",
-                "activity": "Persiapan Balik Ke Jakarta",
-                "location": "Pulau Kelapa"
-              },
-              {
-                "time": "10:00 - 10:45",
-                "activity": "Check Out dan Perjalanan Kembali ke Jakarta",
-                "location": "Pejalanan Kapal"
-              }
-            ]
-          }
-        ],
-        "addons": [],
-        "snorkingSpots": [
-          {
-            "island": "Pulau Dolphin",
-            "time": "13:00 - 13:30"
-          },
-          {
-            "island": "Spot snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "/images/kelapa.webp",
-          "/images/kelapa-2.webp"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tiket Peron Dinas Perhubungan",
-          "Jetski",
-          "Oleh-Oleh Pulau (Kerupuk Ikan dan ikan kering/asin)",
-          "Scuba Diving (request)",
-          "Tips Guide Sukarela"
-        ],
-        "meals": [],
-        "highlights": []
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Pulau Harapan",
-    "slug": "pulau-harapan",
-    "status": "available",
-    "description": "Pulau Harapan menawarkan keindahan alam yang memukau dengan gugusan pulau-pulau kecil dan taman laut yang masih terjaga.",
-    "image": "/images/harapan.webp",
-    "packages": [
-      {
-        "id": "pulauharapan-2d1n",
-        "duration": "2 Days 1 Night",
-        "durationCode": "2d1n",
-        "durationInDays": 2,
-        "price": 625000,
-        "minPeople": 10,
-        "description": "Pulau Harapan dikenal sebagai salah satu pintu gerbang menuju gugusan pulau-pulau cantik di Kepulauan Seribu bagian utara. Pulau ini menawarkan suasana liburan yang tenang, bersih, dan ramah bagi wisatawan yang ingin menikmati keindahan laut tanpa kesan berlebihan. Daya tarik utama Pulau Harapan terletak pada perairannya yang jernih dan akses mudah menuju banyak pulau kecil di sekitarnya.",
-        "facilities": [
-          "Tiket penyebrangan PP (Kapal Tradisional)",
-          "Homestay (Penginapan)",
-          "Kapal Snorkeling",
-          "Kapal jelajah Pulau dan kapal snorkeling",
-          "Spot Snorkeling",
-          "Spot Pulau Wisata",
-          "Alat Snorkeling (tidak ada sepatu katak)",
-          "Welcome Drink",
-          "Makan 3x jika",
-          "BBQ",
-          "Dokumentasi Bawah Air",
-          "Tour Guide",
-          "Free Banana Boat",
-          "Free Tiket Tracking Mangrove",
-          "Free Tiket Penangkarang Penyu",
-          "Free Uang Sandar"
-        ],
-        "destinations": [],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "06:00",
-                "activity": "Berkumpul di Pelabuhan Kali Adem",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "06:30 - 07:15",
-                "activity": "Boarding Tiket dan Meeting Point di Pelabuhan Kali Adem",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00 - 10:30",
-                "activity": "Perjalanan Menuju Pulau Harapan",
-                "location": "Kapal Tradisional"
-              },
-              {
-                "time": "11:00",
-                "activity": "Tiba di Pulau Harapan (Bisa lebih cepat/lambat dari waktu yang ditentukan)",
-                "location": "Pulau Harapan & sekitarnya"
-              },
-              {
-                "time": "11:15 - 11:30",
-                "activity": "Jalan Menuju Homestay/Penginapan dan Welcome Drink",
-                "location": "Homestay"
-              },
-              {
-                "time": "11:45 - 12:30",
-                "activity": "Makan Siang, Sholat, Istirahat",
-                "location": "Homestay"
-              },
-              {
-                "time": "12:45 - 13:00",
-                "activity": "Persiapan Jelajah Pulau dan Snorkeling",
-                "location": "Kapal Tradisional"
-              },
-              {
-                "time": "13:00 - 18:00",
-                "activity": "Jelajah Pulau dan Snorkeling (Bisa lebih cepat/lambat menyesuaikan waktu dan cuaca",
-                "location": "Kapal Tradisional"
-              },
-              {
-                "time": "18:00 - 19:45",
-                "activity": "Balik Ke Homestay/Penginapan bersih-bersih dan Makan Malam",
-                "location": "Kapal Tradisional"
-              },
-              {
-                "time": "20:00 - Selesai",
-                "activity": "BBQ (Jika mau karokean bisa request atau acara lainnya",
-                "location": "Pulau Harapan & sekitarnya"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "05:20 - 06:15",
-                "activity": "Sunrise (Jika Mau)",
-                "location": "Pulau Harapan & sekitarnya"
-              },
-              {
-                "time": "06:30 - 07:15",
-                "activity": "Sarapan",
-                "location": "Homestay"
-              },
-              {
-                "time": "08:15 - 09:30",
-                "activity": "Persiapan dan Menuju Tracking Mangrove dan Penangkaran Penyu",
-                "location": "Pulau Harapan & sekitarnya"
-              },
-              {
-                "time": "09:45 - 10:00",
-                "activity": "Persiapan Balik ke Jakarta",
-                "location": "Pulau Harapan & sekitarnya"
-              },
-              {
-                "time": "10:00 - 10:45",
-                "activity": "Check Out dan Perjalanan Kembali ke Jakarta",
-                "location": "Pulau Harapan & sekitarnya"
-              }
-            ]
-          }
-        ],
-        "addons": [],
-        "snorkingSpots": [
-          {
-            "island": "Spot Snorkeling",
-            "time": "13:30 - 16:30"
-          }
-        ],
-        "galleryImages": [
-          "/images/harapan.webp",
-          "/images/harapan-2.webp"
-        ],
-        "facilitiesExclude": [
-          "Biaya Akomodasi Menuju Muara Angke / Marina",
-          "Tiket Peron Dinas Perhubungan",
-          "Jetski",
-          "Oleh-Oleh Pulau (Kerupuk Ikan dan ikan kering/asin)",
-          "Scuba Diving (request)",
-          "Tips Guide Sukarela"
-        ],
-        "meals": [],
-        "highlights": []
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Trip Resort Payung (Villa Kayu)",
-    "slug": "pulau-payung-(villa-kayu)",
-    "status": "available",
-    "description": "Pulau Payung adalah destinasi wisata 'hidden gem' di Kepulauan Seribu, Jakarta, yang menawarkan suasana tenang, pantai pasir putih, dan perairan jernih, sering dijuluki 'Maldives ala Kepulauan Seribu'.",
-    "image": "/images/payung.webp",
-    "packages": [
-      {
-        "id": "pulaupayung-2d1n",
-        "duration": "2 Days 1 Night",
-        "durationCode": "2d1n",
-        "durationInDays": 2,
-        "price": 2700000,
-        "minPeople": 10,
+    {
+        "id": 1,
+        "name": "Pulau Pramuka",
+        "slug": "pulau-pramuka",
+        "status": "available",
+        "description": "Island dengan pantai pasir putih dan aktivitas snorkeling terbaik",
+        "image": "/images/pramuka_1.webp",
+        "packages": [
+            {
+                "id": "pramuka-2d1n",
+                "duration": "2 Days 1 Nights",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 600000,
+                "minPeople": 10,
+                "description": "Pulau Pramuka adalah destinasi wisata bahari yang cocok untuk kamu yang ingin liburan santai, edukatif, sekaligus dekat dengan alam. Terletak di pusat Kepulauan Seribu, pulau ini dikenal dengan lingkungan yang tertata rapi, suasana tenang, dan laut yang masih jernih. Berbeda dari pulau wisata yang ramai hiburan, Pulau Pramuka menawarkan pengalaman liburan yang lebih seimbang. Kamu bisa menikmati pantai berpasir putih, berenang di perairan dangkal yang aman, hingga snorkeling dengan pemandangan terumbu karang dan ikan warna-warni yang masih terjaga. Pulau ini juga menjadi pusat konservasi penyu sisik. Peserta open trip bisa melihat langsung proses penangkaran penyu, belajar tentang pelestarian laut, dan ikut melepas tukik ke laut (tergantung ketersediaan). Aktivitas ini membuat liburan terasa lebih bermakna, bukan sekadar jalan-jalan.Di sore hari, suasana Pulau Pramuka semakin nyaman untuk bersepeda keliling pulau, menikmati sunset, atau bersantai di dermaga sambil melihat aktivitas warga lokal. Fasilitas umum sudah lengkap, mulai dari homestay yang nyaman, warung makan, hingga mushola dan klinik. Open trip Pulau Pramuka sangat cocok untuk solo traveler, pasangan, maupun rombongan yang ingin liburan singkat tanpa ribet, dengan jarak tempuh yang relatif dekat dari Jakarta namun tetap memberi nuansa liburan pulau yang autentik.",
+                "facilities": [
+                    "Akomodasi Kapal Tradisional Via Kali Adem Muara Angke PP",
+                    "Homestay AC Selama 1 Malam",
+                    "Makan 3x ( Siang, Malam dan Pagi )",
+                    "Alat Snorkling Lengkap Per Peserta",
+                    "Kapal Jelajah Pulau Untuk Snorkling",
+                    "Jelajah Pulau Gusung Petrick",
+                    "Asuransi Perjalanan",
+                    "Biaya Masuk ke Penangkaran Kuda Laut",
+                    "Bonus BBQ ( Ikan )",
+                    "Free Foto Underwater sepuasnyah"
+                ],
+                "destinations": [
+                    "Pantai pasir putih ekslusif",
+                    "Spot snorkeling premium",
+                    "Pulau burung",
+                    "Hutan mangrove adventure",
+                    "Sunset cruise malam pertama",
+                    "Island hopping ke pulau lain",
+                    "Water sports activities"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00 - 08:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 11:00",
+                                "activity": "Perjalanan menuju Pulau Pramuka",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "11:00 - 13:00",
+                                "activity": "ISHOMA dan persiapan snorkeling",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "13:00 - 13:30",
+                                "activity": "Menuju Pulau Air",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "13:30 - 16:30",
+                                "activity": "Island hopping dan snorkeling",
+                                "location": "Pulau Pramuka & sekitarnya"
+                            },
+                            {
+                                "time": "16:30 - 17:00",
+                                "activity": "Kembali ke Pulau Pramuka",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "17:00 - 18:00",
+                                "activity": "Persiapan makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "18:00 - 19:30",
+                                "activity": "Makan malam dan BBQ",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "19:30 - 23:00",
+                                "activity": "Free time",
+                                "location": "Resort area"
+                            },
+                            {
+                                "time": "23:00 - 06:00",
+                                "activity": "Istirahat",
+                                "location": "Kamar tidur"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "06:00 - 07:30",
+                                "activity": "Sarapan pagi dan persiapan ke penangkaran penyu",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "07:30 - 08:00",
+                                "activity": "Perjalanan menuju penangkaran penyu",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "08:00 - 09:00",
+                                "activity": "Edukasi dan foto-foto",
+                                "location": "Penangkaran penyu"
+                            },
+                            {
+                                "time": "09:00 - 09:30",
+                                "activity": "Kembali ke homestay",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "09:30 - 10:30",
+                                "activity": "Persiapan pulang",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "10:30 - 11:00",
+                                "activity": "Menuju dermaga",
+                                "location": "Perjalanan kapal"
+                            },
+                            {
+                                "time": "11:00 - 14:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [
+                    {
+                        "name": "Banana Boat",
+                        "capacity": "6 orang",
+                        "price": "50.000 per orang"
+                    },
+                    {
+                        "name": "Jet Ski",
+                        "capacity": "2 orang per jet ski",
+                        "price": "120.000 per orang"
+                    }
+                ],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "/images/pramuka/pramuka-1.webp",
+                    "/images/pramuka/pramuka-2.webp",
+                    "/images/pramuka/pramuka-3.webp",
+                    "/images/pramuka/pramuka-4.webp",
+                    "/images/pramuka/pramuka-5.webp",
+                    "/images/pramuka/pramuka-6.webp",
+                    "/images/pramuka/pramuka-7.webp"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tips Guide sukarela",
+                    "Peron pelabuhan",
+                    "Hal yang tidak disebutkan diatas"
+                ],
+                "meals": [],
+                "highlights": []
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Pulau Kelapa",
+        "slug": "pulau-kelapa",
+        "status": "available",
+        "description": "Pulau Kelapa menawarkan keindahan alam yang memukau dengan gugusan pulau-pulau kecil dan taman laut yang masih terjaga.",
+        "image": "/images/kelapa/kelapa-1.webp",
+        "packages": [
+            {
+                "id": "pulaukelapa-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 625000,
+                "minPeople": 10,
+                "description": "Pulau Kelapa adalah pilihan tepat bagi kamu yang ingin merasakan suasana pulau yang hidup namun tetap nyaman untuk berlibur. Pulau ini memiliki karakter khas sebagai pulau hunian dengan sentuhan wisata bahari yang kuat, sehingga pengunjung bisa menikmati keindahan laut sekaligus melihat kehidupan masyarakat pesisir secara langsung. Perairan di sekitar Pulau Kelapa dikenal jernih dan tenang, cocok untuk snorkeling dan berenang. Terumbu karang dan ikan-ikan kecil mudah ditemui, menjadikan aktivitas laut terasa seru meski untuk pemula. Beberapa spot di sekitar pulau juga ideal untuk island hopping ke pulau-pulau kecil di sekitarnya. Pulau Kelapa memiliki garis pantai yang cukup panjang dengan pemandangan laut lepas yang menenangkan. Pagi hari sangat pas untuk menikmati angin laut sambil berjalan santai, sedangkan sore hari menghadirkan suasana hangat dengan langit senja yang indah. Malam harinya, suasana pulau terasa lebih lokal dan akrab, cocok untuk quality time tanpa hiruk-pikuk kota. Fasilitas di Pulau Kelapa tergolong lengkap. Tersedia berbagai pilihan homestay, warung makan dengan menu seafood segar, hingga area publik yang nyaman untuk berkumpul. Akses antar pulau juga mudah karena Pulau Kelapa terhubung dengan Pulau Kelapa Dua melalui jembatan, sehingga area eksplorasi menjadi lebih luas. Open trip Pulau Kelapa cocok untuk kamu yang mencari liburan santai, tidak terlalu ramai, namun tetap memiliki banyak aktivitas. Baik untuk solo traveler  pasangan, maupun rombongan kecil yang ingin menikmati sisi lain Kepulauan Seribu dengan nuansa lokal yang lebih terasa.",
+                "facilities": [
+                    "Tiket penyebrangan PP (Kapal Tradisional)",
+                    "Homestay (Penginapan)",
+                    "Kapal Snorkeling",
+                    "Kapal jelajah Pulau dan kapal snorkeling",
+                    "Spot Snorkeling",
+                    "Spot Pulau Wisata",
+                    "Alat Snorkeling (tidak ada sepatu katak)",
+                    "Welcome Drink",
+                    "Makan 3x jika",
+                    "BBQ",
+                    "Dokumentasi Bawah Air",
+                    "Tour Guide",
+                    "Free Banana Boat",
+                    "Free Tiket Tracking Mangrove",
+                    "Free Tiket Penangkarang Penyu",
+                    "Free Uang Sandar"
+                ],
+                "destinations": [],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "06:00",
+                                "activity": "Berkumpul di Pelabuhan Kali Adem",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "06:30 - 07:15",
+                                "activity": "Boarding Tiket dan Meeting Point di Pelabuhan Kali Adem",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 10:30",
+                                "activity": "Perjalanan Menuju Pulau Kelapa",
+                                "location": "Kapal Tradisional"
+                            },
+                            {
+                                "time": "11:00",
+                                "activity": "Tiba di Pulau Kelapa (Bisa lebih cepat / lambat dari waktu yang ditentukan",
+                                "location": "Pulau Kelapa"
+                            },
+                            {
+                                "time": "11:15 - 11:30",
+                                "activity": "Jalan Menuju Homestay / Penginapan dan Welcome Drink",
+                                "location": "Pulau Kelapa"
+                            },
+                            {
+                                "time": "11:45 - 12:30",
+                                "activity": "Makan Siang, Sholat, Istirahat",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "12:45 - 13:00",
+                                "activity": "Persiapan Jelajah Pulau dan Snorkeling",
+                                "location": "Pulau Kelapa"
+                            },
+                            {
+                                "time": "13:00 - 18:00",
+                                "activity": "Jelajah Pulau dan Snorkeling (Bisa lebih cepat/lambat menyesuaikan waktu dan cuaca",
+                                "location": "Kapal Tradisional"
+                            },
+                            {
+                                "time": "18:00 - 19:45",
+                                "activity": "Balik ke Homestay/Penginapan bersih-bersih dan Makan Malam",
+                                "location": "Perjalanan Kapal"
+                            },
+                            {
+                                "time": "20:00 - Selesai",
+                                "activity": "BBQ (Jika Mau Karokean bisa request atau acara lainnya",
+                                "location": "Homestay"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "05:20 - 06:15",
+                                "activity": "Sunrise (Jika Mau)",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "06:30 - 07:15",
+                                "activity": "Sarapan",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "08:15 - 09:30",
+                                "activity": "Persiapan dan Menuju Tracking Mangrove dan Penangkaran Penyu",
+                                "location": "Pulau Kelapa"
+                            },
+                            {
+                                "time": "09:45 - 10:00",
+                                "activity": "Persiapan Balik Ke Jakarta",
+                                "location": "Pulau Kelapa"
+                            },
+                            {
+                                "time": "10:00 - 10:45",
+                                "activity": "Check Out dan Perjalanan Kembali ke Jakarta",
+                                "location": "Pejalanan Kapal"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [],
+                "snorkingSpots": [
+                    {
+                        "island": "Pulau Dolphin",
+                        "time": "13:00 - 13:30"
+                    },
+                    {
+                        "island": "Spot snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "/images/kelapa/kelapa-1.webp",
+                    "/images/kelapa/kelapa-2.webp"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tiket Peron Dinas Perhubungan",
+                    "Jetski",
+                    "Oleh-Oleh Pulau (Kerupuk Ikan dan ikan kering/asin)",
+                    "Scuba Diving (request)",
+                    "Tips Guide Sukarela"
+                ],
+                "meals": [],
+                "highlights": []
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Pulau Harapan",
+        "slug": "pulau-harapan",
+        "status": "available",
+        "description": "Pulau Harapan menawarkan keindahan alam yang memukau dengan gugusan pulau-pulau kecil dan taman laut yang masih terjaga.",
+        "image": "/images/harapan.webp",
+        "packages": [
+            {
+                "id": "pulauharapan-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 625000,
+                "minPeople": 10,
+                "description": "Pulau Harapan dikenal sebagai salah satu pintu gerbang menuju gugusan pulau-pulau cantik di Kepulauan Seribu bagian utara. Pulau ini menawarkan suasana liburan yang tenang, bersih, dan ramah bagi wisatawan yang ingin menikmati keindahan laut tanpa kesan berlebihan. Daya tarik utama Pulau Harapan terletak pada perairannya yang jernih dan akses mudah menuju banyak pulau kecil di sekitarnya.",
+                "facilities": [
+                    "Tiket penyebrangan PP (Kapal Tradisional)",
+                    "Homestay (Penginapan)",
+                    "Kapal Snorkeling",
+                    "Kapal jelajah Pulau dan kapal snorkeling",
+                    "Spot Snorkeling",
+                    "Spot Pulau Wisata",
+                    "Alat Snorkeling (tidak ada sepatu katak)",
+                    "Welcome Drink",
+                    "Makan 3x jika",
+                    "BBQ",
+                    "Dokumentasi Bawah Air",
+                    "Tour Guide",
+                    "Free Banana Boat",
+                    "Free Tiket Tracking Mangrove",
+                    "Free Tiket Penangkarang Penyu",
+                    "Free Uang Sandar"
+                ],
+                "destinations": [],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "06:00",
+                                "activity": "Berkumpul di Pelabuhan Kali Adem",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "06:30 - 07:15",
+                                "activity": "Boarding Tiket dan Meeting Point di Pelabuhan Kali Adem",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00 - 10:30",
+                                "activity": "Perjalanan Menuju Pulau Harapan",
+                                "location": "Kapal Tradisional"
+                            },
+                            {
+                                "time": "11:00",
+                                "activity": "Tiba di Pulau Harapan (Bisa lebih cepat/lambat dari waktu yang ditentukan)",
+                                "location": "Pulau Harapan & sekitarnya"
+                            },
+                            {
+                                "time": "11:15 - 11:30",
+                                "activity": "Jalan Menuju Homestay/Penginapan dan Welcome Drink",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "11:45 - 12:30",
+                                "activity": "Makan Siang, Sholat, Istirahat",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "12:45 - 13:00",
+                                "activity": "Persiapan Jelajah Pulau dan Snorkeling",
+                                "location": "Kapal Tradisional"
+                            },
+                            {
+                                "time": "13:00 - 18:00",
+                                "activity": "Jelajah Pulau dan Snorkeling (Bisa lebih cepat/lambat menyesuaikan waktu dan cuaca",
+                                "location": "Kapal Tradisional"
+                            },
+                            {
+                                "time": "18:00 - 19:45",
+                                "activity": "Balik Ke Homestay/Penginapan bersih-bersih dan Makan Malam",
+                                "location": "Kapal Tradisional"
+                            },
+                            {
+                                "time": "20:00 - Selesai",
+                                "activity": "BBQ (Jika mau karokean bisa request atau acara lainnya",
+                                "location": "Pulau Harapan & sekitarnya"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "05:20 - 06:15",
+                                "activity": "Sunrise (Jika Mau)",
+                                "location": "Pulau Harapan & sekitarnya"
+                            },
+                            {
+                                "time": "06:30 - 07:15",
+                                "activity": "Sarapan",
+                                "location": "Homestay"
+                            },
+                            {
+                                "time": "08:15 - 09:30",
+                                "activity": "Persiapan dan Menuju Tracking Mangrove dan Penangkaran Penyu",
+                                "location": "Pulau Harapan & sekitarnya"
+                            },
+                            {
+                                "time": "09:45 - 10:00",
+                                "activity": "Persiapan Balik ke Jakarta",
+                                "location": "Pulau Harapan & sekitarnya"
+                            },
+                            {
+                                "time": "10:00 - 10:45",
+                                "activity": "Check Out dan Perjalanan Kembali ke Jakarta",
+                                "location": "Pulau Harapan & sekitarnya"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [],
+                "snorkingSpots": [
+                    {
+                        "island": "Spot Snorkeling",
+                        "time": "13:30 - 16:30"
+                    }
+                ],
+                "galleryImages": [
+                    "/images/harapan/harapan.webp",
+                    "/images/harapan/harapan-1.webp",
+                    "/images/harapan/harapan-2.webp",
+                    "/images/harapan/harapan-3.webp"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Akomodasi Menuju Muara Angke / Marina",
+                    "Tiket Peron Dinas Perhubungan",
+                    "Jetski",
+                    "Oleh-Oleh Pulau (Kerupuk Ikan dan ikan kering/asin)",
+                    "Scuba Diving (request)",
+                    "Tips Guide Sukarela"
+                ],
+                "meals": [],
+                "highlights": []
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Trip Resort Payung (Villa Kayu)",
+        "slug": "pulau-payung-(villa-kayu)",
+        "status": "available",
         "description": "Pulau Payung adalah destinasi wisata 'hidden gem' di Kepulauan Seribu, Jakarta, yang menawarkan suasana tenang, pantai pasir putih, dan perairan jernih, sering dijuluki 'Maldives ala Kepulauan Seribu'.",
-        "facilities": [
-          "Tiket Speedboat Marina Ancol PP",
-          "Welcome drink buah kelapa ",
-          "Makan 3x",
-          "Free 1x banana boat",
-          "BBQ",
-          "Free sound utk karaoke",
-          "Tour guide lokal",
-          "Kapal snorkeling",
-          "Full seat alat snorkeling",
-          "Hopping 3 pulau spot",
-          "Kamera Underwater",
-          "Free canoo/kayak",
-          "Free badle board",
-          "Free drone"
-        ],
-        "destinations": [
-          "Pulau Payung",
-          "Spot Snorkeling",
-          "Hopping 3 Pulau"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:30",
-                "activity": "Kumpul di Pelabuhan Kaliadem",
-                "location": "Dermaga Kaliadem"
-              },
-              {
-                "time": "08:00",
-                "activity": "Perjalanan ke Pulau Payung",
-                "location": "Kapal tradisional"
-              },
-              {
-                "time": "09:30",
-                "activity": "Tiba dan Check-in",
-                "location": "Pulau Payung"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              {
-                "time": "07:00",
-                "activity": "Sarapan",
-                "location": "Pulau Payung"
-              },
-              {
-                "time": "13:00",
-                "activity": "Perjalanan kembali ke Jakarta",
-                "location": "Kapal tradisional"
-              }
-            ]
-          }
-        ],
-        "addons": [],
-        "snorkingSpots": [],
-        "galleryImages": [
-          "/images/payung.webp"
-        ],
-        "facilitiesExclude": [
-          "Biaya Menuju Pelabuhan Kaliadem",
-          "Tips Guide (Sukarela)",
-          "Keperluan Pribadi"
-        ],
-        "meals": [],
-        "highlights": []
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Pulau Pari",
-    "slug": "pulau-pari",
-    "status": "available",
-    "description": "Pulau Pari adalah sebuah pulau kecil di Kepulauan Seribu, Indonesia, yang terkenal dengan pantai berpasir putih, air laut jernih, dan suasana yang tenang. Pulau ini sering dijadikan destinasi wisata untuk snorkeling, bersepeda, dan menikmati keindahan alam, terutama di Pantai Pasir Perawan.",
-    "image": "/images/pari.webp",
-    "packages": [
-      {
-        "id": "pulaupari-2d1n",
-        "duration": "2 Days 1 Night",
-        "durationCode": "2d1n",
-        "durationInDays": 2,
-        "price": 480000,
-        "minPeople": 10,
+        "image": "/images/payung.webp",
+        "packages": [
+            {
+                "id": "pulaupayung-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 2700000,
+                "minPeople": 10,
+                "description": "Pulau Payung adalah destinasi wisata 'hidden gem' di Kepulauan Seribu, Jakarta, yang menawarkan suasana tenang, pantai pasir putih, dan perairan jernih, sering dijuluki 'Maldives ala Kepulauan Seribu'.",
+                "facilities": [
+                    "Tiket Speedboat Marina Ancol PP",
+                    "Welcome drink buah kelapa ",
+                    "Makan 3x",
+                    "Free 1x banana boat",
+                    "BBQ",
+                    "Free sound utk karaoke",
+                    "Tour guide lokal",
+                    "Kapal snorkeling",
+                    "Full seat alat snorkeling",
+                    "Hopping 3 pulau spot",
+                    "Kamera Underwater",
+                    "Free canoo/kayak",
+                    "Free badle board",
+                    "Free drone"
+                ],
+                "destinations": [
+                    "Pulau Payung",
+                    "Spot Snorkeling",
+                    "Hopping 3 Pulau"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:30",
+                                "activity": "Kumpul di Pelabuhan Kaliadem",
+                                "location": "Dermaga Kaliadem"
+                            },
+                            {
+                                "time": "08:00",
+                                "activity": "Perjalanan ke Pulau Payung",
+                                "location": "Kapal tradisional"
+                            },
+                            {
+                                "time": "09:30",
+                                "activity": "Tiba dan Check-in",
+                                "location": "Pulau Payung"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "activities": [
+                            {
+                                "time": "07:00",
+                                "activity": "Sarapan",
+                                "location": "Pulau Payung"
+                            },
+                            {
+                                "time": "13:00",
+                                "activity": "Perjalanan kembali ke Jakarta",
+                                "location": "Kapal tradisional"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [],
+                "snorkingSpots": [],
+                "galleryImages": [
+                    "/images/resort-payung/resort-payung.webp",
+                    "/images/resort-payung/resort-payung-1.webp",
+                    "/images/resort-payung/resort-payung-2.webp",
+                    "/images/resort-payung/resort-payung-3.webp",
+                    "/images/resort-payung/resort-payung-4.webp",
+                    "/images/resort-payung/resort-payung-5.webp",
+                    "/images/resort-payung/resort-payung-6.webp",
+                    "/images/resort-payung/payung.webp"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Menuju Pelabuhan Kaliadem",
+                    "Tips Guide (Sukarela)",
+                    "Keperluan Pribadi"
+                ],
+                "meals": [],
+                "highlights": []
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Pulau Pari",
+        "slug": "pulau-pari",
+        "status": "available",
         "description": "Pulau Pari adalah sebuah pulau kecil di Kepulauan Seribu, Indonesia, yang terkenal dengan pantai berpasir putih, air laut jernih, dan suasana yang tenang. Pulau ini sering dijadikan destinasi wisata untuk snorkeling, bersepeda, dan menikmati keindahan alam, terutama di Pantai Pasir Perawan.",
-        "facilities": [
-          "Tiket kapal penyebrangan kali adem pp (kapal tradisional)",
-          "Tiket kapal pp penyebrangan ancol (speedboat)",
-          "Homestay Full AC",
-          "Kapal snorkeling dan jelajah pulau",
-          "Makan 3x (2D1N)",
-          "Alat snorkeling lengkap (Masker, snorkel dan life jaket)",
-          "Kamera underwater",
-          "Tiket masuk pantai perawan",
-          "Sepeda",
-          "Welcome drink",
-          "BBQ",
-          "Tour Guide bersertifkat & berpengalaman",
-          "Jalan-jalan ke pantai LIPI",
-          "Jalan-jalan ke pantai bintang",
-          "Free kaos grup (full seat)",
-          "Free banana boat (full seat)",
-          "Kamera DSLR & fotographer",
-          "Jodoh bila beruntung"
-        ],
-        "destinations": [
-          "Pantai Pasir Perawan",
-          "Pantai Bintang",
-          "Spot Snorkeling"
-        ],
-        "schedule": [
-          {
-            "day": 1,
-            "activities": [
-              {
-                "time": "07:00",
-                "activity": "Titik kumpul",
-                "location": "Pelabuhan Kaliadem"
-              },
-              {
-                "time": "08:00",
-                "activity": "Perjalanan ke Pulau Pari",
-                "location": "Kapal tradisional"
-              }
-            ]
-          }
-        ],
-        "addons": [],
-        "snorkingSpots": [],
-        "galleryImages": [
-          "/images/pari.webp"
-        ],
-        "facilitiesExclude": [
-          "Biaya Menuju Pelabuhan Kaliadem",
-          "Tips Guide (Sukarela)",
-          "Keperluan Pribadi"
-        ],
-        "meals": [],
-        "highlights": []
-      }
-    ]
-  }
+        "image": "/images/pari.webp",
+        "packages": [
+            {
+                "id": "pulaupari-2d1n",
+                "duration": "2 Days 1 Night",
+                "durationCode": "2d1n",
+                "durationInDays": 2,
+                "price": 480000,
+                "minPeople": 10,
+                "description": "Pulau Pari adalah sebuah pulau kecil di Kepulauan Seribu, Indonesia, yang terkenal dengan pantai berpasir putih, air laut jernih, dan suasana yang tenang. Pulau ini sering dijadikan destinasi wisata untuk snorkeling, bersepeda, dan menikmati keindahan alam, terutama di Pantai Pasir Perawan.",
+                "facilities": [
+                    "Tiket kapal penyebrangan kali adem pp (kapal tradisional)",
+                    "Tiket kapal pp penyebrangan ancol (speedboat)",
+                    "Homestay Full AC",
+                    "Kapal snorkeling dan jelajah pulau",
+                    "Makan 3x (2D1N)",
+                    "Alat snorkeling lengkap (Masker, snorkel dan life jaket)",
+                    "Kamera underwater",
+                    "Tiket masuk pantai perawan",
+                    "Sepeda",
+                    "Welcome drink",
+                    "BBQ",
+                    "Tour Guide bersertifkat & berpengalaman",
+                    "Jalan-jalan ke pantai LIPI",
+                    "Jalan-jalan ke pantai bintang",
+                    "Free kaos grup (full seat)",
+                    "Free banana boat (full seat)",
+                    "Kamera DSLR & fotographer",
+                    "Jodoh bila beruntung"
+                ],
+                "destinations": [
+                    "Pantai Pasir Perawan",
+                    "Pantai Bintang",
+                    "Spot Snorkeling"
+                ],
+                "schedule": [
+                    {
+                        "day": 1,
+                        "activities": [
+                            {
+                                "time": "07:00",
+                                "activity": "Titik kumpul",
+                                "location": "Pelabuhan Kaliadem"
+                            },
+                            {
+                                "time": "08:00",
+                                "activity": "Perjalanan ke Pulau Pari",
+                                "location": "Kapal tradisional"
+                            }
+                        ]
+                    }
+                ],
+                "addons": [],
+                "snorkingSpots": [],
+                "galleryImages": [
+                    "/images/pari/pari.webp",
+                    "/images/pari/pari-1.webp",
+                    "/images/pari/pari-2.webp",
+                    "/images/pari/pari-3.webp",
+                    "/images/pari/pari-4.webp"
+                ],
+                "facilitiesExclude": [
+                    "Biaya Menuju Pelabuhan Kaliadem",
+                    "Tips Guide (Sukarela)",
+                    "Keperluan Pribadi"
+                ],
+                "meals": [],
+                "highlights": []
+            }
+        ]
+    }
 ]

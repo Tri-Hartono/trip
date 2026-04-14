@@ -4,6 +4,8 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FlattenedTrip } from '@/lib/trips';
+import ImageCarousel from '@/app/components/ImageCarousel';
+
 
 interface TripDetailClientProps {
     trip: FlattenedTrip;
@@ -22,23 +24,20 @@ export default function TripDetailClient({ trip }: TripDetailClientProps) {
 
     return (
         <>
-            {/* Hero Section with Image */}
+            {/* Hero Section with Carousel */}
             <div className='relative h-96 md:h-125 w-full'>
-                <Image
-                    src={trip.islandImage || '/images/default-island.jpg'}
+                <ImageCarousel 
+                    images={trip.galleryImages && trip.galleryImages.length > 0 ? trip.galleryImages : [trip.islandImage || '/images/default-island.jpg']} 
                     alt={trip.islandName}
-                    fill
-                    className='object-cover'
-                    priority
+                    className="w-full h-full"
                 />
-                <div className='absolute inset-0 bg-linear-to-b from-black/30 to-black/70'></div>
 
-                {/* Title Overlay */}
-                <div className='absolute bottom-0 left-0 right-0 p-8 text-white'>
-                    <h1 className='text-4xl md:text-5xl font-bold mb-2'>
+                {/* Title Overlay (positioned over the carousel) */}
+                <div className='absolute bottom-0 left-0 right-0 p-8 text-white z-10 pointer-events-none'>
+                    <h1 className='text-4xl md:text-5xl font-bold mb-2 drop-shadow-lg'>
                         {trip.islandName}
                     </h1>
-                    <p className='text-lg text-gray-200'>
+                    <p className='text-lg text-gray-200 drop-shadow-md'>
                         {trip.duration} • Mulai dari Rp{' '}
                         {trip.price.toLocaleString('id-ID')}
                         {trip.minPeople && ` • Min. ${trip.minPeople} Orang`}
@@ -238,7 +237,7 @@ export default function TripDetailClient({ trip }: TripDetailClientProps) {
                         {/* Gallery */}
                         {trip.galleryImages &&
                             trip.galleryImages.length > 0 && (
-                                <section className='mb-16'>
+                                <section className='mb-16' id='gallery'>
                                     <div className='flex items-end justify-between mb-8'>
                                         <div>
                                             <h2 className='text-3xl font-heading font-bold text-slate-900 mb-2'>
@@ -251,32 +250,22 @@ export default function TripDetailClient({ trip }: TripDetailClientProps) {
                                         </div>
                                     </div>
 
-                                    <div className='grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-3 md:gap-4 h-125 md:h-125'>
-                                        {trip.galleryImages
-                                            .slice(0, 6)
-                                            .map((image, idx) => (
-                                                <div
-                                                    key={idx}
-                                                    className={`group relative overflow-hidden rounded-2xl shadow-sm cursor-pointer ${
-                                                        idx === 0
-                                                            ? 'col-span-2 row-span-2'
-                                                            : ''
-                                                    } ${
-                                                        idx === 5
-                                                            ? 'md:col-span-2'
-                                                            : ''
-                                                    }`}
-                                                >
-                                                    <Image
-                                                        src={image}
-                                                        alt={`Gallery ${idx + 1}`}
-                                                        fill
-                                                        className='object-cover group-hover:scale-110 transition-transform duration-700'
-                                                        sizes='(max-width: 768px) 100vw, 50vw'
-                                                    />
-                                                    <div className='absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300' />
-                                                </div>
-                                            ))}
+                                    <div className='grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4'>
+                                        {trip.galleryImages.map((image, idx) => (
+                                            <div
+                                                key={idx}
+                                                className="group relative h-48 md:h-64 overflow-hidden rounded-2xl shadow-sm cursor-pointer"
+                                            >
+                                                <Image
+                                                    src={image}
+                                                    alt={`Gallery ${idx + 1}`}
+                                                    fill
+                                                    className='object-cover group-hover:scale-110 transition-transform duration-700'
+                                                    sizes='(max-width: 768px) 50vw, 25vw'
+                                                />
+                                                <div className='absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300' />
+                                            </div>
+                                        ))}
                                     </div>
                                 </section>
                             )}
