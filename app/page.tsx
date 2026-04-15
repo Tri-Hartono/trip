@@ -77,7 +77,7 @@ export default function Home() {
                     className='absolute inset-0 bg-cover bg-center bg-no-repeat'
                     style={{
                         backgroundImage:
-                            'url(https://lh3.googleusercontent.com/aida-public/AB6AXuBphBX5Wb4ygCd6LOm-y82tMJdzQS8Qt3hIZVNWgQSSgaUGqSYzKDk6Sj_n09be4X-CGz6mBP0vOqdu8Id4NiMNQbHgD5QRkbYzp4vh_r7H-mSiPuWb-303W2PC36kCZjcxAKRvOS5EoqvPj4hNsljVatx5rFuuYVDNgKgOWSi47nSK31YRnqcwnmgHYFsBy2nQhPeOvZHPJ9LSoMdMGWgbYra1nrIga-QrA1RG_h7KBYgVNcPG9KDd49Kvi9Wfs5ty--d4E7KTtQ)',
+                            'url(/images/resort-payung/resort-payung.webp)',
                     }}
                 >
                     <div className='absolute inset-0 bg-teal-950/30 mix-blend-multiply' />
