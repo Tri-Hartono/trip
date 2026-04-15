@@ -5,7 +5,7 @@
         "slug": "pulau-pramuka",
         "status": "available",
         "description": "Island dengan pantai pasir putih dan aktivitas snorkeling terbaik",
-        "image": "/images/pramuka_1.webp",
+        "image": "/images/pramuka/pramuka-1.webp",
         "packages": [
             {
                 "id": "pramuka-2d1n",
@@ -331,7 +331,7 @@
         "slug": "pulau-harapan",
         "status": "available",
         "description": "Pulau Harapan menawarkan keindahan alam yang memukau dengan gugusan pulau-pulau kecil dan taman laut yang masih terjaga.",
-        "image": "/images/harapan.webp",
+        "image": "/images/harapan/harapan.webp",
         "packages": [
             {
                 "id": "pulauharapan-2d1n",
@@ -479,7 +479,7 @@
         "slug": "pulau-payung-(villa-kayu)",
         "status": "available",
         "description": "Pulau Payung adalah destinasi wisata 'hidden gem' di Kepulauan Seribu, Jakarta, yang menawarkan suasana tenang, pantai pasir putih, dan perairan jernih, sering dijuluki 'Maldives ala Kepulauan Seribu'.",
-        "image": "/images/payung.webp",
+        "image": "/images/resort-payung/resort-payung.webp",
         "packages": [
             {
                 "id": "pulaupayung-2d1n",
@@ -575,7 +575,7 @@
         "slug": "pulau-pari",
         "status": "available",
         "description": "Pulau Pari adalah sebuah pulau kecil di Kepulauan Seribu, Indonesia, yang terkenal dengan pantai berpasir putih, air laut jernih, dan suasana yang tenang. Pulau ini sering dijadikan destinasi wisata untuk snorkeling, bersepeda, dan menikmati keindahan alam, terutama di Pantai Pasir Perawan.",
-        "image": "/images/pari.webp",
+        "image": "/images/pari/pari.webp",
         "packages": [
             {
                 "id": "pulaupari-2d1n",
