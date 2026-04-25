@@ -13,6 +13,19 @@
                 "durationCode": "2d1n",
                 "durationInDays": 2,
                 "price": 600000,
+                "priceList": [
+                    { "range": "2 Orang", "price": 1160000 },
+                    { "range": "3 Orang", "price": 930000 },
+                    { "range": "4 Orang", "price": 810000 },
+                    { "range": "5 Orang", "price": 760000 },
+                    { "range": "6 Orang", "price": 710000 },
+                    { "range": "7 Orang", "price": 695000 },
+                    { "range": "8 Orang", "price": 660000 },
+                    { "range": "9 Orang", "price": 630000 },
+                    { "range": "10-19 Orang", "price": 600000 },
+                    { "range": "20-30 Orang", "price": 570000 },
+                    { "range": "30-100 Orang", "price": 530000 }
+                ],
                 "minPeople": 10,
                 "description": "Pulau Pramuka adalah destinasi wisata bahari yang cocok untuk kamu yang ingin liburan santai, edukatif, sekaligus dekat dengan alam. Terletak di pusat Kepulauan Seribu, pulau ini dikenal dengan lingkungan yang tertata rapi, suasana tenang, dan laut yang masih jernih. Berbeda dari pulau wisata yang ramai hiburan, Pulau Pramuka menawarkan pengalaman liburan yang lebih seimbang. Kamu bisa menikmati pantai berpasir putih, berenang di perairan dangkal yang aman, hingga snorkeling dengan pemandangan terumbu karang dan ikan warna-warni yang masih terjaga. Pulau ini juga menjadi pusat konservasi penyu sisik. Peserta open trip bisa melihat langsung proses penangkaran penyu, belajar tentang pelestarian laut, dan ikut melepas tukik ke laut (tergantung ketersediaan). Aktivitas ini membuat liburan terasa lebih bermakna, bukan sekadar jalan-jalan.Di sore hari, suasana Pulau Pramuka semakin nyaman untuk bersepeda keliling pulau, menikmati sunset, atau bersantai di dermaga sambil melihat aktivitas warga lokal. Fasilitas umum sudah lengkap, mulai dari homestay yang nyaman, warung makan, hingga mushola dan klinik. Open trip Pulau Pramuka sangat cocok untuk solo traveler, pasangan, maupun rombongan yang ingin liburan singkat tanpa ribet, dengan jarak tempuh yang relatif dekat dari Jakarta namun tetap memberi nuansa liburan pulau yang autentik.",
                 "facilities": [
@@ -22,7 +35,6 @@
                     "Alat Snorkling Lengkap Per Peserta",
                     "Kapal Jelajah Pulau Untuk Snorkling",
                     "Jelajah Pulau Gusung Petrick",
-                    "Asuransi Perjalanan",
                     "Biaya Masuk ke Penangkaran Kuda Laut",
                     "Bonus BBQ ( Ikan )",
                     "Free Foto Underwater sepuasnyah"
@@ -189,6 +201,15 @@
                 "durationCode": "2d1n",
                 "durationInDays": 2,
                 "price": 625000,
+                "priceList": [
+                    { "range": "2 Orang", "price": 1200000 },
+                    { "range": "3 Orang", "price": 1000000 },
+                    { "range": "4 Orang", "price": 850000 },
+                    { "range": "5-6 Orang", "price": 765000 },
+                    { "range": "7-9 Orang", "price": 685000 },
+                    { "range": "10-25 Orang", "price": 625000 },
+                    { "range": "26-100 Orang", "price": 605000 }
+                ],
                 "minPeople": 10,
                 "description": "Pulau Kelapa adalah pilihan tepat bagi kamu yang ingin merasakan suasana pulau yang hidup namun tetap nyaman untuk berlibur. Pulau ini memiliki karakter khas sebagai pulau hunian dengan sentuhan wisata bahari yang kuat, sehingga pengunjung bisa menikmati keindahan laut sekaligus melihat kehidupan masyarakat pesisir secara langsung. Perairan di sekitar Pulau Kelapa dikenal jernih dan tenang, cocok untuk snorkeling dan berenang. Terumbu karang dan ikan-ikan kecil mudah ditemui, menjadikan aktivitas laut terasa seru meski untuk pemula. Beberapa spot di sekitar pulau juga ideal untuk island hopping ke pulau-pulau kecil di sekitarnya. Pulau Kelapa memiliki garis pantai yang cukup panjang dengan pemandangan laut lepas yang menenangkan. Pagi hari sangat pas untuk menikmati angin laut sambil berjalan santai, sedangkan sore hari menghadirkan suasana hangat dengan langit senja yang indah. Malam harinya, suasana pulau terasa lebih lokal dan akrab, cocok untuk quality time tanpa hiruk-pikuk kota. Fasilitas di Pulau Kelapa tergolong lengkap. Tersedia berbagai pilihan homestay, warung makan dengan menu seafood segar, hingga area publik yang nyaman untuk berkumpul. Akses antar pulau juga mudah karena Pulau Kelapa terhubung dengan Pulau Kelapa Dua melalui jembatan, sehingga area eksplorasi menjadi lebih luas. Open trip Pulau Kelapa cocok untuk kamu yang mencari liburan santai, tidak terlalu ramai, namun tetap memiliki banyak aktivitas. Baik untuk solo traveler  pasangan, maupun rombongan kecil yang ingin menikmati sisi lain Kepulauan Seribu dengan nuansa lokal yang lebih terasa.",
                 "facilities": [
@@ -339,6 +360,15 @@
                 "durationCode": "2d1n",
                 "durationInDays": 2,
                 "price": 625000,
+                "priceList": [
+                    { "range": "2 Orang", "price": 1200000 },
+                    { "range": "3 Orang", "price": 1000000 },
+                    { "range": "4 Orang", "price": 850000 },
+                    { "range": "5-6 Orang", "price": 765000 },
+                    { "range": "7-9 Orang", "price": 685000 },
+                    { "range": "10-25 Orang", "price": 625000 },
+                    { "range": "26-100 Orang", "price": 605000 }
+                ],
                 "minPeople": 10,
                 "description": "Pulau Harapan dikenal sebagai salah satu pintu gerbang menuju gugusan pulau-pulau cantik di Kepulauan Seribu bagian utara. Pulau ini menawarkan suasana liburan yang tenang, bersih, dan ramah bagi wisatawan yang ingin menikmati keindahan laut tanpa kesan berlebihan. Daya tarik utama Pulau Harapan terletak pada perairannya yang jernih dan akses mudah menuju banyak pulau kecil di sekitarnya.",
                 "facilities": [
@@ -583,6 +613,18 @@
                 "durationCode": "2d1n",
                 "durationInDays": 2,
                 "price": 480000,
+                "priceList": [
+                    { "range": "2 Orang", "price": 930000 },
+                    { "range": "3 Orang", "price": 870000 },
+                    { "range": "4 Orang", "price": 760000 },
+                    { "range": "5 Orang", "price": 710000 },
+                    { "range": "6 Orang", "price": 670000 },
+                    { "range": "7 Orang", "price": 655000 },
+                    { "range": "8 Orang", "price": 595000 },
+                    { "range": "9 Orang", "price": 530000 },
+                    { "range": "10-24 Orang", "price": 480000 },
+                    { "range": "25-100 Orang", "price": 470000 }
+                ],
                 "minPeople": 10,
                 "description": "Pulau Pari adalah sebuah pulau kecil di Kepulauan Seribu, Indonesia, yang terkenal dengan pantai berpasir putih, air laut jernih, dan suasana yang tenang. Pulau ini sering dijadikan destinasi wisata untuk snorkeling, bersepeda, dan menikmati keindahan alam, terutama di Pantai Pasir Perawan.",
                 "facilities": [

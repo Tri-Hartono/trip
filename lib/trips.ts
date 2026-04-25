@@ -32,12 +32,18 @@ export interface SnorkingSpot {
     time: string;
 }
 
+export interface PriceItem {
+    range: string;
+    price: number;
+}
+
 export interface Package {
     id: string;
     duration: string;
     durationCode: string;
     durationInDays: number;
     price: number;
+    priceList?: PriceItem[];
     minPeople: number;
     description: string;
     facilities: string[];

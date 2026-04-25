@@ -355,7 +355,7 @@ Terima kasih!
                                     ))}
                                 </select>
                                 <p className='text-xs text-gray-500 mt-1'>
-                                    * Harga per orang, minimum 10 peserta
+                                    * Harga per orang, sudah termasuk fasilitas yang tertera.
                                 </p>
                             </div>
 

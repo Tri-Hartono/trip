@@ -40,7 +40,6 @@ export default function TripDetailClient({ trip }: TripDetailClientProps) {
                     <p className='text-lg text-gray-200 drop-shadow-md'>
                         {trip.duration} • Mulai dari Rp{' '}
                         {trip.price.toLocaleString('id-ID')}
-                        {trip.minPeople && ` • Min. ${trip.minPeople} Orang`}
                     </p>
                 </div>
             </div>
@@ -332,16 +331,6 @@ export default function TripDetailClient({ trip }: TripDetailClientProps) {
                                         {trip.islandName}
                                     </p>
                                 </div>
-                                {trip.minPeople && (
-                                    <div>
-                                        <p className='text-gray-600 text-sm'>
-                                            Kapasitas Minimum
-                                        </p>
-                                        <p className='text-gray-800 font-semibold'>
-                                            {trip.minPeople} Orang
-                                        </p>
-                                    </div>
-                                )}
                                 {selectedMeal && (
                                     <div>
                                         <p className='text-gray-600 text-sm'>
@@ -371,6 +360,37 @@ export default function TripDetailClient({ trip }: TripDetailClientProps) {
                                     📋 Formulir Booking
                                 </Link>
                             </div>
+
+                            {/* Price List Card */}
+                            {trip.priceList && trip.priceList.length > 0 && (
+                                <div className='mt-8 pt-8 border-t border-gray-100'>
+                                    <h3 className='text-lg font-bold text-teal-900 mb-4 flex items-center gap-2'>
+                                        <span className='bg-teal-100 p-1.5 rounded-lg'>💰</span> 
+                                        Daftar Harga Detail
+                                    </h3>
+                                    <div className='space-y-2'>
+                                        {trip.priceList.map((item, idx) => (
+                                            <div 
+                                                key={idx} 
+                                                className={`flex justify-between items-center p-3 rounded-xl transition-colors ${
+                                                    idx % 2 === 0 ? 'bg-slate-50' : 'bg-white'
+                                                } hover:bg-teal-50`}
+                                            >
+                                                <span className='text-slate-600 font-medium text-sm'>{item.range}</span>
+                                                <span className='text-teal-900 font-bold text-sm'>
+                                                    Rp {item.price.toLocaleString('id-ID')}
+                                                </span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                    <div className='mt-4 p-3 bg-amber-50 rounded-lg border border-amber-100'>
+                                        <p className='text-[10px] text-amber-800 leading-tight'>
+                                            *Harga di atas adalah <strong>harga per orang</strong>. 
+                                            Semakin banyak peserta dalam satu rombongan, harga akan semakin terjangkau.
+                                        </p>
+                                    </div>
+                                </div>
+                            )}
 
                             {/* Info Text */}
                             <p className='text-xs text-gray-500 text-center mt-6'>
